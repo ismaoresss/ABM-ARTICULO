@@ -19,7 +19,8 @@ namespace TP2_WinForm
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("HOLA MUNDO");
+            //MENSAJE DE PRUEBA
+            // PEDRO QUIROSS
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -28,4 +29,3 @@ namespace TP2_WinForm
         }
     }
 }
-// HOLAAAAAAAAAAAAAAAAAAAAAA
