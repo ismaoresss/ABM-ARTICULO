@@ -16,6 +16,11 @@ namespace TP2_WinForm
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("HOLA MUNDO");
+        }
     }
 }
 // HOLAAAAAAAAAAAAAAAAAAAAAA
