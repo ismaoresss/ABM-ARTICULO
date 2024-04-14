@@ -21,6 +21,11 @@ namespace TP2_WinForm
         {
             MessageBox.Show("HOLA MUNDO");
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 // HOLAAAAAAAAAAAAAAAAAAAAAA
