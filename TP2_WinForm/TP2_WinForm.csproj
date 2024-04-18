@@ -72,6 +72,12 @@
     <Compile Include="VentanaFormulario\BuscarArticulo.Designer.cs">
       <DependentUpon>BuscarArticulo.cs</DependentUpon>
     </Compile>
+    <Compile Include="VentanaFormulario\Eliminar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaFormulario\Eliminar.Designer.cs">
+      <DependentUpon>Eliminar.cs</DependentUpon>
+    </Compile>
     <Compile Include="VentanaFormulario\ListadoArticulos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,12 @@
     </Compile>
     <Compile Include="VentanaFormulario\MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VentanaFormulario\Modificar artículos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaFormulario\Modificar artículos.Designer.cs">
+      <DependentUpon>Modificar artículos.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -102,11 +114,17 @@
     <EmbeddedResource Include="VentanaFormulario\BuscarArticulo.resx">
       <DependentUpon>BuscarArticulo.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VentanaFormulario\Eliminar.resx">
+      <DependentUpon>Eliminar.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="VentanaFormulario\ListadoArticulos.resx">
       <DependentUpon>ListadoArticulos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaFormulario\MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaFormulario\Modificar artículos.resx">
+      <DependentUpon>Modificar artículos.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
