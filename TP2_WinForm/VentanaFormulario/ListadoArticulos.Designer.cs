@@ -32,6 +32,18 @@
             this.lbl_ListadoArticulo = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboMarcas = new System.Windows.Forms.ComboBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.txtnombres = new System.Windows.Forms.TextBox();
             this.lblImagen = new System.Windows.Forms.Label();
             this.lbPrecio = new System.Windows.Forms.Label();
             this.lbCategoria = new System.Windows.Forms.Label();
@@ -39,29 +51,22 @@
             this.lbDescripcion = new System.Windows.Forms.Label();
             this.lbNombre = new System.Windows.Forms.Label();
             this.lbCodigoArticulo = new System.Windows.Forms.Label();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.txtnombres = new System.Windows.Forms.TextBox();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.cboMarcas = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.dgvArticulo = new System.Windows.Forms.DataGridView();
+            this.pbxArticulo = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvArticulo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_ListadoArticulo
             // 
             this.lbl_ListadoArticulo.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ListadoArticulo.ForeColor = System.Drawing.Color.White;
-            this.lbl_ListadoArticulo.Location = new System.Drawing.Point(280, 25);
+            this.lbl_ListadoArticulo.Location = new System.Drawing.Point(420, 38);
+            this.lbl_ListadoArticulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_ListadoArticulo.Name = "lbl_ListadoArticulo";
-            this.lbl_ListadoArticulo.Size = new System.Drawing.Size(376, 38);
+            this.lbl_ListadoArticulo.Size = new System.Drawing.Size(564, 58);
             this.lbl_ListadoArticulo.TabIndex = 0;
             this.lbl_ListadoArticulo.Text = "LISTADO DE ARTICULOS";
             this.lbl_ListadoArticulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -72,8 +77,9 @@
             this.panel1.Controls.Add(this.lbl_ListadoArticulo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(937, 88);
+            this.panel1.Size = new System.Drawing.Size(1406, 135);
             this.panel1.TabIndex = 1;
             // 
             // panel2
@@ -97,177 +103,19 @@
             this.panel2.Controls.Add(this.lbDescripcion);
             this.panel2.Controls.Add(this.lbNombre);
             this.panel2.Controls.Add(this.lbCodigoArticulo);
-            this.panel2.Location = new System.Drawing.Point(35, 94);
+            this.panel2.Location = new System.Drawing.Point(52, 145);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(517, 363);
+            this.panel2.Size = new System.Drawing.Size(776, 417);
             this.panel2.TabIndex = 5;
-            // 
-            // lblImagen
-            // 
-            this.lblImagen.AutoSize = true;
-            this.lblImagen.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblImagen.Location = new System.Drawing.Point(83, 237);
-            this.lblImagen.Name = "lblImagen";
-            this.lblImagen.Size = new System.Drawing.Size(96, 17);
-            this.lblImagen.TabIndex = 36;
-            this.lblImagen.Text = "URL Imagen:";
-            // 
-            // lbPrecio
-            // 
-            this.lbPrecio.AutoSize = true;
-            this.lbPrecio.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPrecio.Location = new System.Drawing.Point(116, 190);
-            this.lbPrecio.Name = "lbPrecio";
-            this.lbPrecio.Size = new System.Drawing.Size(72, 17);
-            this.lbPrecio.TabIndex = 35;
-            this.lbPrecio.Text = "Precio: ";
-            // 
-            // lbCategoria
-            // 
-            this.lbCategoria.AutoSize = true;
-            this.lbCategoria.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCategoria.Location = new System.Drawing.Point(92, 146);
-            this.lbCategoria.Name = "lbCategoria";
-            this.lbCategoria.Size = new System.Drawing.Size(96, 17);
-            this.lbCategoria.TabIndex = 33;
-            this.lbCategoria.Text = "Categoría: ";
-            // 
-            // lbMarca
-            // 
-            this.lbMarca.AutoSize = true;
-            this.lbMarca.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMarca.Location = new System.Drawing.Point(123, 115);
-            this.lbMarca.Name = "lbMarca";
-            this.lbMarca.Size = new System.Drawing.Size(56, 17);
-            this.lbMarca.TabIndex = 31;
-            this.lbMarca.Text = "Marca:";
-            // 
-            // lbDescripcion
-            // 
-            this.lbDescripcion.AutoSize = true;
-            this.lbDescripcion.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDescripcion.Location = new System.Drawing.Point(76, 83);
-            this.lbDescripcion.Name = "lbDescripcion";
-            this.lbDescripcion.Size = new System.Drawing.Size(112, 17);
-            this.lbDescripcion.TabIndex = 29;
-            this.lbDescripcion.Text = "Descripción: ";
-            // 
-            // lbNombre
-            // 
-            this.lbNombre.AutoSize = true;
-            this.lbNombre.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNombre.Location = new System.Drawing.Point(115, 54);
-            this.lbNombre.Name = "lbNombre";
-            this.lbNombre.Size = new System.Drawing.Size(64, 17);
-            this.lbNombre.TabIndex = 27;
-            this.lbNombre.Text = "Nombre:";
-            // 
-            // lbCodigoArticulo
-            // 
-            this.lbCodigoArticulo.AutoSize = true;
-            this.lbCodigoArticulo.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCodigoArticulo.Location = new System.Drawing.Point(20, 24);
-            this.lbCodigoArticulo.Name = "lbCodigoArticulo";
-            this.lbCodigoArticulo.Size = new System.Drawing.Size(168, 17);
-            this.lbCodigoArticulo.TabIndex = 25;
-            this.lbCodigoArticulo.Text = "Codigo de artículo: ";
-            // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.Black;
-            this.panel11.Location = new System.Drawing.Point(194, 40);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(154, 1);
-            this.panel11.TabIndex = 38;
-            // 
-            // txtnombres
-            // 
-            this.txtnombres.BackColor = System.Drawing.Color.Silver;
-            this.txtnombres.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtnombres.ForeColor = System.Drawing.Color.White;
-            this.txtnombres.Location = new System.Drawing.Point(194, 21);
-            this.txtnombres.Name = "txtnombres";
-            this.txtnombres.Size = new System.Drawing.Size(154, 13);
-            this.txtnombres.TabIndex = 37;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Black;
-            this.panel3.Location = new System.Drawing.Point(194, 70);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(224, 1);
-            this.panel3.TabIndex = 40;
-            // 
-            // textBox1
-            // 
-            this.textBox1.BackColor = System.Drawing.Color.Silver;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(194, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(224, 13);
-            this.textBox1.TabIndex = 39;
-            // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.Color.Black;
-            this.panel4.Location = new System.Drawing.Point(194, 99);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(304, 1);
-            this.panel4.TabIndex = 42;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.Silver;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(194, 80);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(304, 13);
-            this.textBox2.TabIndex = 41;
-            // 
-            // cboMarcas
-            // 
-            this.cboMarcas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboMarcas.FormattingEnabled = true;
-            this.cboMarcas.Location = new System.Drawing.Point(194, 146);
-            this.cboMarcas.Name = "cboMarcas";
-            this.cboMarcas.Size = new System.Drawing.Size(166, 21);
-            this.cboMarcas.TabIndex = 45;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(194, 115);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(166, 21);
-            this.comboBox1.TabIndex = 46;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.Color.Black;
-            this.panel5.Location = new System.Drawing.Point(194, 206);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(123, 1);
-            this.panel5.TabIndex = 48;
-            // 
-            // textBox3
-            // 
-            this.textBox3.BackColor = System.Drawing.Color.Silver;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(194, 187);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(123, 13);
-            this.textBox3.TabIndex = 47;
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Black;
-            this.panel6.Location = new System.Drawing.Point(194, 253);
+            this.panel6.Location = new System.Drawing.Point(291, 389);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(304, 1);
+            this.panel6.Size = new System.Drawing.Size(456, 2);
             this.panel6.TabIndex = 50;
             // 
             // textBox4
@@ -275,25 +123,232 @@
             this.textBox4.BackColor = System.Drawing.Color.Silver;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(194, 234);
+            this.textBox4.Location = new System.Drawing.Point(291, 360);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(304, 13);
+            this.textBox4.Size = new System.Drawing.Size(456, 19);
             this.textBox4.TabIndex = 49;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.Black;
+            this.panel5.Location = new System.Drawing.Point(291, 317);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(184, 2);
+            this.panel5.TabIndex = 48;
+            // 
+            // textBox3
+            // 
+            this.textBox3.BackColor = System.Drawing.Color.Silver;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.ForeColor = System.Drawing.Color.White;
+            this.textBox3.Location = new System.Drawing.Point(291, 288);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(184, 19);
+            this.textBox3.TabIndex = 47;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(291, 177);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(247, 28);
+            this.comboBox1.TabIndex = 46;
+            // 
+            // cboMarcas
+            // 
+            this.cboMarcas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboMarcas.FormattingEnabled = true;
+            this.cboMarcas.Location = new System.Drawing.Point(291, 225);
+            this.cboMarcas.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.cboMarcas.Name = "cboMarcas";
+            this.cboMarcas.Size = new System.Drawing.Size(247, 28);
+            this.cboMarcas.TabIndex = 45;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.Black;
+            this.panel4.Location = new System.Drawing.Point(291, 152);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(456, 2);
+            this.panel4.TabIndex = 42;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.Silver;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.Location = new System.Drawing.Point(291, 123);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(456, 19);
+            this.textBox2.TabIndex = 41;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Black;
+            this.panel3.Location = new System.Drawing.Point(291, 108);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(336, 2);
+            this.panel3.TabIndex = 40;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Silver;
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.Location = new System.Drawing.Point(291, 78);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(336, 19);
+            this.textBox1.TabIndex = 39;
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.Black;
+            this.panel11.Location = new System.Drawing.Point(291, 62);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(231, 2);
+            this.panel11.TabIndex = 38;
+            // 
+            // txtnombres
+            // 
+            this.txtnombres.BackColor = System.Drawing.Color.Silver;
+            this.txtnombres.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtnombres.ForeColor = System.Drawing.Color.White;
+            this.txtnombres.Location = new System.Drawing.Point(291, 32);
+            this.txtnombres.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtnombres.Name = "txtnombres";
+            this.txtnombres.Size = new System.Drawing.Size(231, 19);
+            this.txtnombres.TabIndex = 37;
+            // 
+            // lblImagen
+            // 
+            this.lblImagen.AutoSize = true;
+            this.lblImagen.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblImagen.Location = new System.Drawing.Point(124, 365);
+            this.lblImagen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblImagen.Name = "lblImagen";
+            this.lblImagen.Size = new System.Drawing.Size(144, 27);
+            this.lblImagen.TabIndex = 36;
+            this.lblImagen.Text = "URL Imagen:";
+            // 
+            // lbPrecio
+            // 
+            this.lbPrecio.AutoSize = true;
+            this.lbPrecio.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbPrecio.Location = new System.Drawing.Point(174, 292);
+            this.lbPrecio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbPrecio.Name = "lbPrecio";
+            this.lbPrecio.Size = new System.Drawing.Size(108, 27);
+            this.lbPrecio.TabIndex = 35;
+            this.lbPrecio.Text = "Precio: ";
+            // 
+            // lbCategoria
+            // 
+            this.lbCategoria.AutoSize = true;
+            this.lbCategoria.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCategoria.Location = new System.Drawing.Point(138, 225);
+            this.lbCategoria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbCategoria.Name = "lbCategoria";
+            this.lbCategoria.Size = new System.Drawing.Size(144, 27);
+            this.lbCategoria.TabIndex = 33;
+            this.lbCategoria.Text = "Categoría: ";
+            // 
+            // lbMarca
+            // 
+            this.lbMarca.AutoSize = true;
+            this.lbMarca.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMarca.Location = new System.Drawing.Point(184, 177);
+            this.lbMarca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbMarca.Name = "lbMarca";
+            this.lbMarca.Size = new System.Drawing.Size(84, 27);
+            this.lbMarca.TabIndex = 31;
+            this.lbMarca.Text = "Marca:";
+            // 
+            // lbDescripcion
+            // 
+            this.lbDescripcion.AutoSize = true;
+            this.lbDescripcion.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbDescripcion.Location = new System.Drawing.Point(114, 128);
+            this.lbDescripcion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbDescripcion.Name = "lbDescripcion";
+            this.lbDescripcion.Size = new System.Drawing.Size(168, 27);
+            this.lbDescripcion.TabIndex = 29;
+            this.lbDescripcion.Text = "Descripción: ";
+            // 
+            // lbNombre
+            // 
+            this.lbNombre.AutoSize = true;
+            this.lbNombre.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbNombre.Location = new System.Drawing.Point(172, 83);
+            this.lbNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbNombre.Name = "lbNombre";
+            this.lbNombre.Size = new System.Drawing.Size(96, 27);
+            this.lbNombre.TabIndex = 27;
+            this.lbNombre.Text = "Nombre:";
+            // 
+            // lbCodigoArticulo
+            // 
+            this.lbCodigoArticulo.AutoSize = true;
+            this.lbCodigoArticulo.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbCodigoArticulo.Location = new System.Drawing.Point(30, 37);
+            this.lbCodigoArticulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbCodigoArticulo.Name = "lbCodigoArticulo";
+            this.lbCodigoArticulo.Size = new System.Drawing.Size(252, 27);
+            this.lbCodigoArticulo.TabIndex = 25;
+            this.lbCodigoArticulo.Text = "Codigo de artículo: ";
+            // 
+            // dgvArticulo
+            // 
+            this.dgvArticulo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvArticulo.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvArticulo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvArticulo.Location = new System.Drawing.Point(87, 631);
+            this.dgvArticulo.Name = "dgvArticulo";
+            this.dgvArticulo.RowHeadersWidth = 62;
+            this.dgvArticulo.RowTemplate.Height = 28;
+            this.dgvArticulo.Size = new System.Drawing.Size(1164, 230);
+            this.dgvArticulo.TabIndex = 6;
+            this.dgvArticulo.SelectionChanged += new System.EventHandler(this.dgvArticulo_SelectionChanged);
+            // 
+            // pbxArticulo
+            // 
+            this.pbxArticulo.Location = new System.Drawing.Point(857, 177);
+            this.pbxArticulo.Name = "pbxArticulo";
+            this.pbxArticulo.Size = new System.Drawing.Size(394, 369);
+            this.pbxArticulo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxArticulo.TabIndex = 7;
+            this.pbxArticulo.TabStop = false;
             // 
             // ListadoArticulos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(937, 523);
+            this.ClientSize = new System.Drawing.Size(1406, 805);
+            this.Controls.Add(this.pbxArticulo);
+            this.Controls.Add(this.dgvArticulo);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ListadoArticulos";
             this.Text = "ListadoArticulos";
+            this.Load += new System.EventHandler(this.ListadoArticulos_Load);
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvArticulo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxArticulo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -322,5 +377,7 @@
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.ComboBox cboMarcas;
+        private System.Windows.Forms.DataGridView dgvArticulo;
+        private System.Windows.Forms.PictureBox pbxArticulo;
     }
 }

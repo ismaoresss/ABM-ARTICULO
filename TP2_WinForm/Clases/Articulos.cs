@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP2_WinForm.Clases
 {
-     public class Articulos
+    public class Articulos
     {
         public int IdArticulo { get; set; }
         public string CodArticulo { get; set; }
@@ -15,6 +15,7 @@ namespace TP2_WinForm.Clases
         public int IdMarca { get; set; }
         public int IdCategoria { get; set; }
         public float Precio { get; set; }
+        public Imagenes Imagen { get; set; }
 
     }
 }
