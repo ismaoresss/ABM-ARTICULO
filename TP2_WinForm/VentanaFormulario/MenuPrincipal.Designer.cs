@@ -314,37 +314,37 @@
             // tsmAgregarArticulo
             // 
             this.tsmAgregarArticulo.Name = "tsmAgregarArticulo";
-            this.tsmAgregarArticulo.Size = new System.Drawing.Size(180, 22);
+            this.tsmAgregarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmAgregarArticulo.Text = "Agregar";
             // 
             // tsmListarArticulos
             // 
             this.tsmListarArticulos.Name = "tsmListarArticulos";
-            this.tsmListarArticulos.Size = new System.Drawing.Size(180, 22);
+            this.tsmListarArticulos.Size = new System.Drawing.Size(137, 22);
             this.tsmListarArticulos.Text = "Listar";
             // 
             // tsmBuscarArticulo
             // 
             this.tsmBuscarArticulo.Name = "tsmBuscarArticulo";
-            this.tsmBuscarArticulo.Size = new System.Drawing.Size(180, 22);
+            this.tsmBuscarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmBuscarArticulo.Text = "Buscar";
             // 
             // tsmModificarArticulo
             // 
             this.tsmModificarArticulo.Name = "tsmModificarArticulo";
-            this.tsmModificarArticulo.Size = new System.Drawing.Size(180, 22);
+            this.tsmModificarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmModificarArticulo.Text = "Modificar";
             // 
             // tsmDetallarArticulo
             // 
             this.tsmDetallarArticulo.Name = "tsmDetallarArticulo";
-            this.tsmDetallarArticulo.Size = new System.Drawing.Size(180, 22);
+            this.tsmDetallarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmDetallarArticulo.Text = "Detallar";
             // 
             // tsmEliminarArticulo
             // 
             this.tsmEliminarArticulo.Name = "tsmEliminarArticulo";
-            this.tsmEliminarArticulo.Size = new System.Drawing.Size(180, 22);
+            this.tsmEliminarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmEliminarArticulo.Text = "Eliminar";
             // 
             // tsmContacto
@@ -376,10 +376,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1054, 450);
+            this.ClientSize = new System.Drawing.Size(1054, 494);
             this.Controls.Add(this.panelArticulos);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip2);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuPrincipal";
             this.Text = "MenuPrincipal";
             this.toolStrip1.ResumeLayout(false);
