@@ -21,5 +21,10 @@ namespace TP2_WinForm.VentanaFormulario
         {
 
         }
+
+        private void lbl_buscarPor_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
