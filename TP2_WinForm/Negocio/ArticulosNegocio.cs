@@ -23,7 +23,7 @@ namespace TP2_WinForm.Negocio
             {
                 conexion.ConnectionString = "server= .\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "select a.nombre, a.descripcion, a.precio, i.imagenurl from articulos a\r\njoin imagenes i on a.id=i.id;";
+                comando.CommandText = "select a.nombre, a.descripcion, a.IdMarca, a.precio ,i.imagenurl from articulos a\r\njoin imagenes i on a.id=i.id;";
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -38,6 +38,7 @@ namespace TP2_WinForm.Negocio
                     aux.Precio = float.Parse(lector["precio"].ToString());
                     aux.Imagen = new Imagenes();
                     aux.Imagen.ImagenUrl = (string)lector["imagenUrl"];
+                    aux.IdMarca = (int)lector["IdMarca"];
 
                     lista.Add(aux);
                     

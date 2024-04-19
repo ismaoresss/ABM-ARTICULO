@@ -30,24 +30,37 @@ namespace TP2_WinForm.VentanaFormulario
             dgvArticulo.Columns["IdCategoria"].Visible = false;
             dgvArticulo.Columns["IdMarca"].Visible = false;
             dgvArticulo.Columns["Imagen"].Visible = false;
-            pbxArticulo.Load(listaArticulos[0].Imagen.ImagenUrl);
+            AgregariconoPc.Load(listaArticulos[0].Imagen.ImagenUrl);
         }
 
         private void dgvArticulo_SelectionChanged(object sender, EventArgs e)
         {
             Articulos seleccionado = (Articulos)dgvArticulo.CurrentRow.DataBoundItem;
+
+            txtArticuloNombre.Text = seleccionado.Nombre;
+            txtArticuloMarca.Text = seleccionado.IdMarca.ToString();
+            //txtArticuloNombre.Text = dgvArticulo.CurrentRow.Cells[2].Value.ToString();
+            txtArticuloDescripcion.Text = seleccionado.Descripcion;
+
+            txtArticuloPrecio.Text = seleccionado.Precio.ToString();
+
+
+
+
             cargarImagen(seleccionado.Imagen.ImagenUrl);
         }
         private void cargarImagen(string imagen)
         {
             try
             {
-                pbxArticulo.Load(imagen);
+                AgregariconoPc.Load(imagen);
             }
             catch (Exception im)
             {
-                pbxArticulo.Load("https://demofree.sirv.com/products/123456/123456.jpg?profile=error-example");
+                AgregariconoPc.Load("https://demofree.sirv.com/products/123456/123456.jpg?profile=error-example");
             }
         }
+
+
     }
 }

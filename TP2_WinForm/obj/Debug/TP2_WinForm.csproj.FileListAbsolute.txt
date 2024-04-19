@@ -11,3 +11,6 @@ C:\Users\pquiros\Documents\GITHUB-PEDRO\UTN_TP2_WinForm\TP2_WinForm\obj\Debug\TP
 C:\Users\pquiros\Documents\GITHUB-PEDRO\UTN_TP2_WinForm\TP2_WinForm\obj\Debug\TP2_WinForm.csproj.CoreCompileInputs.cache
 C:\Users\pquiros\Documents\GITHUB-PEDRO\UTN_TP2_WinForm\TP2_WinForm\obj\Debug\TP2_WinForm.exe
 C:\Users\pquiros\Documents\GITHUB-PEDRO\UTN_TP2_WinForm\TP2_WinForm\obj\Debug\TP2_WinForm.pdb
+C:\Users\pquiros\Documents\GITHUB-PEDRO\UTN_TP2_WinForm\TP2_WinForm\obj\Debug\TP2_WinForm.VentanaFormulario.AgregarArtículos.resources
+C:\Users\pquiros\Documents\GITHUB-PEDRO\UTN_TP2_WinForm\TP2_WinForm\obj\Debug\TP2_WinForm.VentanaFormulario.Eliminar.resources
+C:\Users\pquiros\Documents\GITHUB-PEDRO\UTN_TP2_WinForm\TP2_WinForm\obj\Debug\TP2_WinForm.VentanaFormulario.Modificar_artículos.resources
