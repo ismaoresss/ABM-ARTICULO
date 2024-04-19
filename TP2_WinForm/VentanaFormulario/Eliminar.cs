@@ -16,5 +16,10 @@ namespace TP2_WinForm.VentanaFormulario
         {
             InitializeComponent();
         }
+
+        private void Eliminar_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

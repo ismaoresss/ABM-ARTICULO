@@ -32,6 +32,11 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnguardar = new System.Windows.Forms.Button();
+            this.btnAcancelar = new System.Windows.Forms.Button();
+            this.btnvolver = new System.Windows.Forms.Button();
+            this.AgregariconoPc = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -51,15 +56,10 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.AgregariconoPc = new System.Windows.Forms.PictureBox();
-            this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnguardar = new System.Windows.Forms.Button();
-            this.btnAcancelar = new System.Windows.Forms.Button();
-            this.btnvolver = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.AgregariconoPc)).BeginInit();
             this.flowLayoutPanel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.AgregariconoPc)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -109,6 +109,69 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(852, 355);
             this.panel2.TabIndex = 40;
+            // 
+            // flowLayoutPanel3
+            // 
+            this.flowLayoutPanel3.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel3.Controls.Add(this.btnguardar);
+            this.flowLayoutPanel3.Controls.Add(this.btnAcancelar);
+            this.flowLayoutPanel3.Controls.Add(this.btnvolver);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(247, 274);
+            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(359, 69);
+            this.flowLayoutPanel3.TabIndex = 52;
+            // 
+            // btnguardar
+            // 
+            this.btnguardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnguardar.BackgroundImage")));
+            this.btnguardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnguardar.FlatAppearance.BorderSize = 0;
+            this.btnguardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnguardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnguardar.Location = new System.Drawing.Point(3, 3);
+            this.btnguardar.Name = "btnguardar";
+            this.btnguardar.Size = new System.Drawing.Size(112, 52);
+            this.btnguardar.TabIndex = 0;
+            this.btnguardar.UseVisualStyleBackColor = true;
+            // 
+            // btnAcancelar
+            // 
+            this.btnAcancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAcancelar.BackgroundImage")));
+            this.btnAcancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAcancelar.FlatAppearance.BorderSize = 0;
+            this.btnAcancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnAcancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnAcancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAcancelar.Location = new System.Drawing.Point(121, 3);
+            this.btnAcancelar.Name = "btnAcancelar";
+            this.btnAcancelar.Size = new System.Drawing.Size(112, 52);
+            this.btnAcancelar.TabIndex = 1;
+            this.btnAcancelar.UseVisualStyleBackColor = true;
+            // 
+            // btnvolver
+            // 
+            this.btnvolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnvolver.BackgroundImage")));
+            this.btnvolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnvolver.FlatAppearance.BorderSize = 0;
+            this.btnvolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnvolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnvolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnvolver.Location = new System.Drawing.Point(239, 3);
+            this.btnvolver.Name = "btnvolver";
+            this.btnvolver.Size = new System.Drawing.Size(86, 58);
+            this.btnvolver.TabIndex = 11;
+            this.btnvolver.UseVisualStyleBackColor = true;
+            // 
+            // AgregariconoPc
+            // 
+            this.AgregariconoPc.Image = ((System.Drawing.Image)(resources.GetObject("AgregariconoPc.Image")));
+            this.AgregariconoPc.Location = new System.Drawing.Point(558, 21);
+            this.AgregariconoPc.Name = "AgregariconoPc";
+            this.AgregariconoPc.Size = new System.Drawing.Size(262, 233);
+            this.AgregariconoPc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.AgregariconoPc.TabIndex = 51;
+            this.AgregariconoPc.TabStop = false;
             // 
             // panel6
             // 
@@ -288,69 +351,6 @@
             this.label8.TabIndex = 25;
             this.label8.Text = "Codigo de artículo: ";
             // 
-            // AgregariconoPc
-            // 
-            this.AgregariconoPc.Image = ((System.Drawing.Image)(resources.GetObject("AgregariconoPc.Image")));
-            this.AgregariconoPc.Location = new System.Drawing.Point(558, 21);
-            this.AgregariconoPc.Name = "AgregariconoPc";
-            this.AgregariconoPc.Size = new System.Drawing.Size(262, 233);
-            this.AgregariconoPc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.AgregariconoPc.TabIndex = 51;
-            this.AgregariconoPc.TabStop = false;
-            // 
-            // flowLayoutPanel3
-            // 
-            this.flowLayoutPanel3.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel3.Controls.Add(this.btnguardar);
-            this.flowLayoutPanel3.Controls.Add(this.btnAcancelar);
-            this.flowLayoutPanel3.Controls.Add(this.btnvolver);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(247, 274);
-            this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(359, 69);
-            this.flowLayoutPanel3.TabIndex = 52;
-            // 
-            // btnguardar
-            // 
-            this.btnguardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnguardar.BackgroundImage")));
-            this.btnguardar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnguardar.FlatAppearance.BorderSize = 0;
-            this.btnguardar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnguardar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnguardar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnguardar.Location = new System.Drawing.Point(3, 3);
-            this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(112, 52);
-            this.btnguardar.TabIndex = 0;
-            this.btnguardar.UseVisualStyleBackColor = true;
-            // 
-            // btnAcancelar
-            // 
-            this.btnAcancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAcancelar.BackgroundImage")));
-            this.btnAcancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAcancelar.FlatAppearance.BorderSize = 0;
-            this.btnAcancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnAcancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnAcancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcancelar.Location = new System.Drawing.Point(121, 3);
-            this.btnAcancelar.Name = "btnAcancelar";
-            this.btnAcancelar.Size = new System.Drawing.Size(112, 52);
-            this.btnAcancelar.TabIndex = 1;
-            this.btnAcancelar.UseVisualStyleBackColor = true;
-            // 
-            // btnvolver
-            // 
-            this.btnvolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnvolver.BackgroundImage")));
-            this.btnvolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnvolver.FlatAppearance.BorderSize = 0;
-            this.btnvolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnvolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnvolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnvolver.Location = new System.Drawing.Point(239, 3);
-            this.btnvolver.Name = "btnvolver";
-            this.btnvolver.Size = new System.Drawing.Size(86, 58);
-            this.btnvolver.TabIndex = 11;
-            this.btnvolver.UseVisualStyleBackColor = true;
-            // 
             // AgregarArtículos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -358,16 +358,18 @@
             this.ClientSize = new System.Drawing.Size(1155, 547);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AgregarArtículos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AgregarArtículos";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.AgregarArtículos_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.AgregariconoPc)).EndInit();
             this.flowLayoutPanel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.AgregariconoPc)).EndInit();
             this.ResumeLayout(false);
 
         }

@@ -16,5 +16,10 @@ namespace TP2_WinForm.VentanaFormulario
         {
             InitializeComponent();
         }
+
+        private void AgregarArtículos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
