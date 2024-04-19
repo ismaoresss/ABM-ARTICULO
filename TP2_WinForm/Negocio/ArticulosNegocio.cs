@@ -32,7 +32,8 @@ namespace TP2_WinForm.Negocio
                 while (lector.Read())
                 {
                     Articulos aux = new Articulos();
-            
+                    
+                    //Lector obtiene los nombres de las columnas de la BD
                     aux.CodArticulo = (string)lector["codigo"];
                     aux.Nombre = (string)lector["nombre"];
                     aux.Descripcion = (string)lector["descripcion"];
@@ -44,7 +45,6 @@ namespace TP2_WinForm.Negocio
                     aux.Categorias = new Categorias();
                     aux.Categorias.Descripcion = (string)lector["descripcion"];
                     
-
                     lista.Add(aux);
                     
                 }
@@ -57,7 +57,6 @@ namespace TP2_WinForm.Negocio
             {
                 throw ex;
             }
-
         }
     }
 }

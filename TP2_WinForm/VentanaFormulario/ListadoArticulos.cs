@@ -41,19 +41,13 @@ namespace TP2_WinForm.VentanaFormulario
             Articulos seleccionado = (Articulos)dgvArticulo.CurrentRow.DataBoundItem;
             txtArticuloCodigo.Text = seleccionado.CodArticulo;
             txtArticuloNombre.Text = seleccionado.Nombre;
-            
-            //txtArticuloNombre.Text = dgvArticulo.CurrentRow.Cells[2].Value.ToString();
-            txtArticuloMarca.Text = seleccionado.Marcas.Descripcion;
             txtArticuloDescripcion.Text = seleccionado.Descripcion;
+            txtArticuloMarca.Text = seleccionado.Marcas.Descripcion;
             txtArticuloCategoria.Text = seleccionado.Categorias.Descripcion;
-
             txtArticuloPrecio.Text = seleccionado.Precio.ToString();
-            txtArticuloCodigo.Text = seleccionado.CodArticulo;
             txtArticuloImagenUrl.Text = seleccionado.Imagen.ImagenUrl;
 
-
-
-
+            //txtArticuloNombre.Text = dgvArticulo.CurrentRow.Cells[2].Value.ToString();
 
             cargarImagen(seleccionado.Imagen.ImagenUrl);
         }
