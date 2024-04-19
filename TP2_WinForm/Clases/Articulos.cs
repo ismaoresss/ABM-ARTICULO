@@ -16,6 +16,8 @@ namespace TP2_WinForm.Clases
         public int IdCategoria { get; set; }
         public float Precio { get; set; }
         public Imagenes Imagen { get; set; }
+        public Marcas Marcas { get; set; }
+        public Categorias Categorias { get; set; }
 
     }
 }

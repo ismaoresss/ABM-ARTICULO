@@ -32,11 +32,20 @@
             this.lbl_ListadoArticulo = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.txtArticuloCategoria = new System.Windows.Forms.TextBox();
+            this.panel7 = new System.Windows.Forms.Panel();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txtArticuloMarca = new System.Windows.Forms.TextBox();
+            this.txtArticuloImagenUrl = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.txtArticuloPrecio = new System.Windows.Forms.TextBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.txtArticuloDescripcion = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.txtArticuloNombre = new System.Windows.Forms.TextBox();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.txtArticuloCodigo = new System.Windows.Forms.TextBox();
             this.lblImagen = new System.Windows.Forms.Label();
             this.lbPrecio = new System.Windows.Forms.Label();
             this.lbCategoria = new System.Windows.Forms.Label();
@@ -46,15 +55,6 @@
             this.lbCodigoArticulo = new System.Windows.Forms.Label();
             this.dgvArticulo = new System.Windows.Forms.DataGridView();
             this.AgregariconoPc = new System.Windows.Forms.PictureBox();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.txtArticuloPrecio = new System.Windows.Forms.TextBox();
-            this.txtArticuloDescripcion = new System.Windows.Forms.TextBox();
-            this.txtArticuloNombre = new System.Windows.Forms.TextBox();
-            this.txtArticuloCodigo = new System.Windows.Forms.TextBox();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.txtArticuloMarca = new System.Windows.Forms.TextBox();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.txtArticuloCategoria = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulo)).BeginInit();
@@ -91,7 +91,7 @@
             this.panel2.Controls.Add(this.panel7);
             this.panel2.Controls.Add(this.panel6);
             this.panel2.Controls.Add(this.txtArticuloMarca);
-            this.panel2.Controls.Add(this.textBox4);
+            this.panel2.Controls.Add(this.txtArticuloImagenUrl);
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.txtArticuloPrecio);
             this.panel2.Controls.Add(this.panel4);
@@ -113,6 +113,35 @@
             this.panel2.Size = new System.Drawing.Size(776, 417);
             this.panel2.TabIndex = 5;
             // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.Black;
+            this.panel8.Location = new System.Drawing.Point(291, 254);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(456, 2);
+            this.panel8.TabIndex = 52;
+            // 
+            // txtArticuloCategoria
+            // 
+            this.txtArticuloCategoria.BackColor = System.Drawing.Color.Silver;
+            this.txtArticuloCategoria.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloCategoria.ForeColor = System.Drawing.Color.White;
+            this.txtArticuloCategoria.Location = new System.Drawing.Point(291, 225);
+            this.txtArticuloCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtArticuloCategoria.Name = "txtArticuloCategoria";
+            this.txtArticuloCategoria.Size = new System.Drawing.Size(456, 19);
+            this.txtArticuloCategoria.TabIndex = 51;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Black;
+            this.panel7.Location = new System.Drawing.Point(291, 193);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(456, 2);
+            this.panel7.TabIndex = 44;
+            // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Black;
@@ -122,16 +151,27 @@
             this.panel6.Size = new System.Drawing.Size(456, 2);
             this.panel6.TabIndex = 50;
             // 
-            // textBox4
+            // txtArticuloMarca
             // 
-            this.textBox4.BackColor = System.Drawing.Color.Silver;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(291, 360);
-            this.textBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(456, 19);
-            this.textBox4.TabIndex = 49;
+            this.txtArticuloMarca.BackColor = System.Drawing.Color.Silver;
+            this.txtArticuloMarca.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloMarca.ForeColor = System.Drawing.Color.White;
+            this.txtArticuloMarca.Location = new System.Drawing.Point(291, 164);
+            this.txtArticuloMarca.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtArticuloMarca.Name = "txtArticuloMarca";
+            this.txtArticuloMarca.Size = new System.Drawing.Size(456, 19);
+            this.txtArticuloMarca.TabIndex = 43;
+            // 
+            // txtArticuloImagenUrl
+            // 
+            this.txtArticuloImagenUrl.BackColor = System.Drawing.Color.Silver;
+            this.txtArticuloImagenUrl.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloImagenUrl.ForeColor = System.Drawing.Color.White;
+            this.txtArticuloImagenUrl.Location = new System.Drawing.Point(291, 360);
+            this.txtArticuloImagenUrl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtArticuloImagenUrl.Name = "txtArticuloImagenUrl";
+            this.txtArticuloImagenUrl.Size = new System.Drawing.Size(456, 19);
+            this.txtArticuloImagenUrl.TabIndex = 49;
             // 
             // panel5
             // 
@@ -142,6 +182,17 @@
             this.panel5.Size = new System.Drawing.Size(184, 2);
             this.panel5.TabIndex = 48;
             // 
+            // txtArticuloPrecio
+            // 
+            this.txtArticuloPrecio.BackColor = System.Drawing.Color.Silver;
+            this.txtArticuloPrecio.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloPrecio.ForeColor = System.Drawing.Color.White;
+            this.txtArticuloPrecio.Location = new System.Drawing.Point(291, 288);
+            this.txtArticuloPrecio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtArticuloPrecio.Name = "txtArticuloPrecio";
+            this.txtArticuloPrecio.Size = new System.Drawing.Size(184, 19);
+            this.txtArticuloPrecio.TabIndex = 47;
+            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Black;
@@ -151,6 +202,17 @@
             this.panel4.Size = new System.Drawing.Size(456, 2);
             this.panel4.TabIndex = 42;
             // 
+            // txtArticuloDescripcion
+            // 
+            this.txtArticuloDescripcion.BackColor = System.Drawing.Color.Silver;
+            this.txtArticuloDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloDescripcion.ForeColor = System.Drawing.Color.White;
+            this.txtArticuloDescripcion.Location = new System.Drawing.Point(291, 123);
+            this.txtArticuloDescripcion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtArticuloDescripcion.Name = "txtArticuloDescripcion";
+            this.txtArticuloDescripcion.Size = new System.Drawing.Size(456, 19);
+            this.txtArticuloDescripcion.TabIndex = 41;
+            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Black;
@@ -159,6 +221,37 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(336, 2);
             this.panel3.TabIndex = 40;
+            // 
+            // txtArticuloNombre
+            // 
+            this.txtArticuloNombre.BackColor = System.Drawing.Color.Silver;
+            this.txtArticuloNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloNombre.ForeColor = System.Drawing.Color.White;
+            this.txtArticuloNombre.Location = new System.Drawing.Point(291, 78);
+            this.txtArticuloNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtArticuloNombre.Name = "txtArticuloNombre";
+            this.txtArticuloNombre.Size = new System.Drawing.Size(336, 19);
+            this.txtArticuloNombre.TabIndex = 39;
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.Black;
+            this.panel11.Location = new System.Drawing.Point(291, 62);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(231, 2);
+            this.panel11.TabIndex = 38;
+            // 
+            // txtArticuloCodigo
+            // 
+            this.txtArticuloCodigo.BackColor = System.Drawing.Color.Silver;
+            this.txtArticuloCodigo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloCodigo.ForeColor = System.Drawing.Color.White;
+            this.txtArticuloCodigo.Location = new System.Drawing.Point(291, 32);
+            this.txtArticuloCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txtArticuloCodigo.Name = "txtArticuloCodigo";
+            this.txtArticuloCodigo.Size = new System.Drawing.Size(231, 19);
+            this.txtArticuloCodigo.TabIndex = 37;
             // 
             // lblImagen
             // 
@@ -262,99 +355,6 @@
             this.AgregariconoPc.TabIndex = 13;
             this.AgregariconoPc.TabStop = false;
             // 
-            // panel11
-            // 
-            this.panel11.BackColor = System.Drawing.Color.Black;
-            this.panel11.Location = new System.Drawing.Point(291, 62);
-            this.panel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(231, 2);
-            this.panel11.TabIndex = 38;
-            // 
-            // txtArticuloPrecio
-            // 
-            this.txtArticuloPrecio.BackColor = System.Drawing.Color.Silver;
-            this.txtArticuloPrecio.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtArticuloPrecio.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloPrecio.Location = new System.Drawing.Point(291, 288);
-            this.txtArticuloPrecio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtArticuloPrecio.Name = "txtArticuloPrecio";
-            this.txtArticuloPrecio.Size = new System.Drawing.Size(184, 19);
-            this.txtArticuloPrecio.TabIndex = 47;
-            // 
-            // txtArticuloDescripcion
-            // 
-            this.txtArticuloDescripcion.BackColor = System.Drawing.Color.Silver;
-            this.txtArticuloDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtArticuloDescripcion.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloDescripcion.Location = new System.Drawing.Point(291, 123);
-            this.txtArticuloDescripcion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtArticuloDescripcion.Name = "txtArticuloDescripcion";
-            this.txtArticuloDescripcion.Size = new System.Drawing.Size(456, 19);
-            this.txtArticuloDescripcion.TabIndex = 41;
-            // 
-            // txtArticuloNombre
-            // 
-            this.txtArticuloNombre.BackColor = System.Drawing.Color.Silver;
-            this.txtArticuloNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtArticuloNombre.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloNombre.Location = new System.Drawing.Point(291, 78);
-            this.txtArticuloNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtArticuloNombre.Name = "txtArticuloNombre";
-            this.txtArticuloNombre.Size = new System.Drawing.Size(336, 19);
-            this.txtArticuloNombre.TabIndex = 39;
-            // 
-            // txtArticuloCodigo
-            // 
-            this.txtArticuloCodigo.BackColor = System.Drawing.Color.Silver;
-            this.txtArticuloCodigo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtArticuloCodigo.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloCodigo.Location = new System.Drawing.Point(291, 32);
-            this.txtArticuloCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtArticuloCodigo.Name = "txtArticuloCodigo";
-            this.txtArticuloCodigo.Size = new System.Drawing.Size(231, 19);
-            this.txtArticuloCodigo.TabIndex = 37;
-            // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.Black;
-            this.panel7.Location = new System.Drawing.Point(291, 193);
-            this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(456, 2);
-            this.panel7.TabIndex = 44;
-            // 
-            // txtArticuloMarca
-            // 
-            this.txtArticuloMarca.BackColor = System.Drawing.Color.Silver;
-            this.txtArticuloMarca.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtArticuloMarca.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloMarca.Location = new System.Drawing.Point(291, 164);
-            this.txtArticuloMarca.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtArticuloMarca.Name = "txtArticuloMarca";
-            this.txtArticuloMarca.Size = new System.Drawing.Size(456, 19);
-            this.txtArticuloMarca.TabIndex = 43;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.Black;
-            this.panel8.Location = new System.Drawing.Point(291, 254);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(456, 2);
-            this.panel8.TabIndex = 52;
-            // 
-            // txtArticuloCategoria
-            // 
-            this.txtArticuloCategoria.BackColor = System.Drawing.Color.Silver;
-            this.txtArticuloCategoria.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtArticuloCategoria.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloCategoria.Location = new System.Drawing.Point(291, 225);
-            this.txtArticuloCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.txtArticuloCategoria.Name = "txtArticuloCategoria";
-            this.txtArticuloCategoria.Size = new System.Drawing.Size(456, 19);
-            this.txtArticuloCategoria.TabIndex = 51;
-            // 
             // ListadoArticulos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -394,7 +394,7 @@
         private System.Windows.Forms.Label lbNombre;
         private System.Windows.Forms.Label lbCodigoArticulo;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txtArticuloImagenUrl;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.DataGridView dgvArticulo;
         private System.Windows.Forms.PictureBox AgregariconoPc;

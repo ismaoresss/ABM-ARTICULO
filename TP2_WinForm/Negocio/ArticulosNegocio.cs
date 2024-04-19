@@ -23,7 +23,7 @@ namespace TP2_WinForm.Negocio
             {
                 conexion.ConnectionString = "server= .\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "select a.nombre, a.descripcion, a.IdMarca, a.precio ,i.imagenurl from articulos a\r\njoin imagenes i on a.id=i.id;";
+                comando.CommandText = "select a.Codigo, a.nombre, a.descripcion, m.Descripcion, a.precio, c.Descripcion, i.imagenurl from articulos a \r\njoin imagenes i on i.id=a.id\r\njoin marcas m on m.Id=a.IdMarca\r\njoin categorias c on c.id = a.IdCategoria;";                                  
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -32,13 +32,18 @@ namespace TP2_WinForm.Negocio
                 while (lector.Read())
                 {
                     Articulos aux = new Articulos();
-                    Imagenes auxImagenes = new Imagenes();
+            
+                    aux.CodArticulo = (string)lector["codigo"];
                     aux.Nombre = (string)lector["nombre"];
                     aux.Descripcion = (string)lector["descripcion"];
                     aux.Precio = float.Parse(lector["precio"].ToString());
                     aux.Imagen = new Imagenes();
                     aux.Imagen.ImagenUrl = (string)lector["imagenUrl"];
-                    aux.IdMarca = (int)lector["IdMarca"];
+                    aux.Marcas = new Marcas();
+                    aux.Marcas.Descripcion = (string)lector["descripcion"];
+                    aux.Categorias = new Categorias();
+                    aux.Categorias.Descripcion = (string)lector["descripcion"];
+                    
 
                     lista.Add(aux);
                     
