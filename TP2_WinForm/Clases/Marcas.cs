@@ -10,6 +10,12 @@ namespace TP2_WinForm.Clases
     {
         public int IdMarcas { get; set; }
         public string Descripcion { get; set; }
-
+        
+        public override string ToString()
+        {
+            return Descripcion;
+        }
+        
+    
     }
 }

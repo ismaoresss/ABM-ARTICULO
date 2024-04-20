@@ -31,8 +31,9 @@ namespace TP2_WinForm.VentanaFormulario
             dgvArticulo.Columns["IdCategoria"].Visible = false;
             dgvArticulo.Columns["IdMarca"].Visible = false;
             dgvArticulo.Columns["Imagen"].Visible = false;
-            dgvArticulo.Columns["Marcas"].Visible = false;
+          //  dgvArticulo.Columns["Marcas"].Visible = false;
             dgvArticulo.Columns["Categorias"].Visible = false;
+            
             AgregariconoPc.Load(listaArticulos[0].Imagen.ImagenUrl);
         }
 
