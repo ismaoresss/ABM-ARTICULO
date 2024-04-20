@@ -72,6 +72,12 @@
     <Compile Include="VentanaFormulario\BuscarArticulo.Designer.cs">
       <DependentUpon>BuscarArticulo.cs</DependentUpon>
     </Compile>
+    <Compile Include="VentanaFormulario\DetalleArticulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VentanaFormulario\DetalleArticulo.Designer.cs">
+      <DependentUpon>DetalleArticulo.cs</DependentUpon>
+    </Compile>
     <Compile Include="VentanaFormulario\Eliminar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -113,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaFormulario\BuscarArticulo.resx">
       <DependentUpon>BuscarArticulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VentanaFormulario\DetalleArticulo.resx">
+      <DependentUpon>DetalleArticulo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="VentanaFormulario\Eliminar.resx">
       <DependentUpon>Eliminar.cs</DependentUpon>

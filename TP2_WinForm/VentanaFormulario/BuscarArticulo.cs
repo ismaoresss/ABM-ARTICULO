@@ -36,5 +36,10 @@ namespace TP2_WinForm.VentanaFormulario
         {
 
         }
+
+        private void btnvolverArticulo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

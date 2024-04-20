@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\detallearticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\detallearticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -33,6 +21,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\clases\\marcas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,6 +79,18 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DetalleArticulo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\DetalleArticulo.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\DetalleArticulo.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\DetalleArticulo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "VentanaFormulario\\DetalleArticulo.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-20T23:05:33.271Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "AgregarArt\u00EDculos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
@@ -90,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "BuscarArticulo.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\BuscarArticulo.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\BuscarArticulo.cs",
@@ -102,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Eliminar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Eliminar.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\Eliminar.cs",
@@ -114,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ListadoArticulos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\ListadoArticulos.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\ListadoArticulos.cs",
@@ -126,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "Modificar art\u00EDculos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\Modificar art\u00EDculos.cs",
@@ -138,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MenuPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\MenuPrincipal.cs",
@@ -150,20 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ListadoArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\ListadoArticulos.cs",
-              "RelativeDocumentMoniker": "VentanaFormulario\\ListadoArticulos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\ListadoArticulos.cs",
-              "RelativeToolTip": "VentanaFormulario\\ListadoArticulos.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAuwBsAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T02:28:07.744Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ArticulosNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
               "RelativeDocumentMoniker": "Negocio\\ArticulosNegocio.cs",

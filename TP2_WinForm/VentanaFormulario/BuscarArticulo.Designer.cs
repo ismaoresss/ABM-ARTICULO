@@ -32,20 +32,20 @@
             this.lbl_BuscarArticulo = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lbl_Buscar = new System.Windows.Forms.Label();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.txt_buscar = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnMostrartodo = new System.Windows.Forms.Button();
             this.panelbusqueda = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnvolverArticulo = new System.Windows.Forms.Button();
             this.AgregariconoPc = new System.Windows.Forms.PictureBox();
-            this.btnMostrartodo = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel4.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.panelbusqueda.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.AgregariconoPc)).BeginInit();
@@ -58,7 +58,7 @@
             this.lbl_BuscarArticulo.ForeColor = System.Drawing.Color.White;
             this.lbl_BuscarArticulo.Location = new System.Drawing.Point(326, 6);
             this.lbl_BuscarArticulo.Name = "lbl_BuscarArticulo";
-            this.lbl_BuscarArticulo.Size = new System.Drawing.Size(343, 32);
+            this.lbl_BuscarArticulo.Size = new System.Drawing.Size(342, 32);
             this.lbl_BuscarArticulo.TabIndex = 0;
             this.lbl_BuscarArticulo.Text = "BUSQUEDA DE ARTICULOS";
             this.lbl_BuscarArticulo.Click += new System.EventHandler(this.lbl_BuscarArticulo_Click);
@@ -85,6 +85,16 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(731, 56);
             this.panel4.TabIndex = 4;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 13);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(32, 31);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // lbl_Buscar
             // 
@@ -128,15 +138,18 @@
             this.txt_buscar.Size = new System.Drawing.Size(437, 21);
             this.txt_buscar.TabIndex = 1;
             // 
-            // pictureBox1
+            // btnMostrartodo
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(32, 31);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.btnMostrartodo.FlatAppearance.BorderSize = 0;
+            this.btnMostrartodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMostrartodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMostrartodo.ForeColor = System.Drawing.Color.Black;
+            this.btnMostrartodo.Location = new System.Drawing.Point(740, 48);
+            this.btnMostrartodo.Name = "btnMostrartodo";
+            this.btnMostrartodo.Size = new System.Drawing.Size(141, 35);
+            this.btnMostrartodo.TabIndex = 13;
+            this.btnMostrartodo.Text = "Mostrar todos";
+            this.btnMostrartodo.UseVisualStyleBackColor = true;
             // 
             // panelbusqueda
             // 
@@ -165,41 +178,29 @@
             this.btnvolverArticulo.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnvolverArticulo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnvolverArticulo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnvolverArticulo.Location = new System.Drawing.Point(667, 314);
+            this.btnvolverArticulo.Location = new System.Drawing.Point(668, 332);
             this.btnvolverArticulo.Name = "btnvolverArticulo";
             this.btnvolverArticulo.Size = new System.Drawing.Size(145, 58);
             this.btnvolverArticulo.TabIndex = 13;
             this.btnvolverArticulo.UseVisualStyleBackColor = true;
+            this.btnvolverArticulo.Click += new System.EventHandler(this.btnvolverArticulo_Click);
             // 
             // AgregariconoPc
             // 
             this.AgregariconoPc.Image = ((System.Drawing.Image)(resources.GetObject("AgregariconoPc.Image")));
-            this.AgregariconoPc.Location = new System.Drawing.Point(610, 115);
+            this.AgregariconoPc.Location = new System.Drawing.Point(610, 106);
             this.AgregariconoPc.Name = "AgregariconoPc";
-            this.AgregariconoPc.Size = new System.Drawing.Size(262, 193);
+            this.AgregariconoPc.Size = new System.Drawing.Size(262, 220);
             this.AgregariconoPc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AgregariconoPc.TabIndex = 12;
             this.AgregariconoPc.TabStop = false;
-            // 
-            // btnMostrartodo
-            // 
-            this.btnMostrartodo.FlatAppearance.BorderSize = 0;
-            this.btnMostrartodo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMostrartodo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnMostrartodo.ForeColor = System.Drawing.Color.Black;
-            this.btnMostrartodo.Location = new System.Drawing.Point(740, 48);
-            this.btnMostrartodo.Name = "btnMostrartodo";
-            this.btnMostrartodo.Size = new System.Drawing.Size(141, 35);
-            this.btnMostrartodo.TabIndex = 13;
-            this.btnMostrartodo.Text = "Mostrar todos";
-            this.btnMostrartodo.UseVisualStyleBackColor = true;
             // 
             // BuscarArticulo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(884, 749);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(884, 508);
             this.Controls.Add(this.btnvolverArticulo);
             this.Controls.Add(this.AgregariconoPc);
             this.Controls.Add(this.panelbusqueda);
@@ -214,9 +215,9 @@
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelbusqueda.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.AgregariconoPc)).EndInit();
