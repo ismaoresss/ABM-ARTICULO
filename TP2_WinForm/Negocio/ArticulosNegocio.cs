@@ -23,7 +23,7 @@ namespace TP2_WinForm.Negocio
             {
                 conexion.ConnectionString = "server= .\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true";
                 comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "select a.Codigo, a.nombre, a.descripcion, m.Descripcion, a.precio, c.Descripcion, i.imagenurl from articulos a \r\njoin imagenes i on i.id=a.id\r\njoin marcas m on m.Id=a.IdMarca\r\njoin categorias c on c.id = a.IdCategoria;";                                  
+                comando.CommandText = "SELECT a.Codigo, a.Nombre, a.Descripcion, m.Descripcion AS Marca, c.Descripcion AS Categoria, a.Precio, i.ImagenUrl FROM ARTICULOS a\r\nJOIN MARCAS m ON m.Id = a.IdMarca\r\nJOIN IMAGENES i ON i.Id = m.Id\r\nLEFT JOIN CATEGORIAS c ON c.Id = a.IdCategoria\r\nORDER BY a.Nombre ASC;";                                  
                 comando.Connection = conexion;
 
                 conexion.Open();
@@ -41,9 +41,11 @@ namespace TP2_WinForm.Negocio
                     aux.Imagen = new Imagenes();
                     aux.Imagen.ImagenUrl = (string)lector["imagenUrl"];
                     aux.Marcas = new Marcas();
-                    aux.Marcas.Descripcion = (string)lector["descripcion"];
-                    aux.Categorias = new Categorias();
-                    aux.Categorias.Descripcion = (string)lector["descripcion"];
+                    aux.Marcas.Descripcion = (string)lector["Marca"];
+
+                    aux.Categorias = new Categorias(); 
+                    if (!(lector["Categoria"] is DBNull)) // Validacion datos NULOS.
+                        aux.Categorias.Descripcion = (string)lector["Categoria"]; // Si es NULL queda vacio, sino asigna el valor a la propiedad.
                     
                     lista.Add(aux);
                     
