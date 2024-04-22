@@ -65,9 +65,10 @@
             // 
             this.lbl_ListadoArticulo.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_ListadoArticulo.ForeColor = System.Drawing.Color.White;
-            this.lbl_ListadoArticulo.Location = new System.Drawing.Point(280, 25);
+            this.lbl_ListadoArticulo.Location = new System.Drawing.Point(420, 38);
+            this.lbl_ListadoArticulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_ListadoArticulo.Name = "lbl_ListadoArticulo";
-            this.lbl_ListadoArticulo.Size = new System.Drawing.Size(376, 38);
+            this.lbl_ListadoArticulo.Size = new System.Drawing.Size(564, 58);
             this.lbl_ListadoArticulo.TabIndex = 0;
             this.lbl_ListadoArticulo.Text = "LISTADO DE ARTICULOS";
             this.lbl_ListadoArticulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -78,8 +79,9 @@
             this.panel1.Controls.Add(this.lbl_ListadoArticulo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(912, 88);
+            this.panel1.Size = new System.Drawing.Size(1368, 135);
             this.panel1.TabIndex = 1;
             // 
             // panel2
@@ -105,144 +107,174 @@
             this.panel2.Controls.Add(this.lbDescripcion);
             this.panel2.Controls.Add(this.lbNombre);
             this.panel2.Controls.Add(this.lbCodigoArticulo);
-            this.panel2.Location = new System.Drawing.Point(35, 94);
+            this.panel2.Location = new System.Drawing.Point(52, 145);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(517, 271);
+            this.panel2.Size = new System.Drawing.Size(776, 417);
             this.panel2.TabIndex = 5;
             // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.Black;
-            this.panel8.Location = new System.Drawing.Point(194, 165);
+            this.panel8.Location = new System.Drawing.Point(291, 254);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(304, 1);
+            this.panel8.Size = new System.Drawing.Size(456, 2);
             this.panel8.TabIndex = 52;
             // 
             // txtArticuloCategoria
             // 
             this.txtArticuloCategoria.BackColor = System.Drawing.Color.Silver;
             this.txtArticuloCategoria.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloCategoria.Enabled = false;
+            this.txtArticuloCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtArticuloCategoria.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloCategoria.Location = new System.Drawing.Point(194, 146);
+            this.txtArticuloCategoria.Location = new System.Drawing.Point(291, 225);
+            this.txtArticuloCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtArticuloCategoria.Name = "txtArticuloCategoria";
-            this.txtArticuloCategoria.Size = new System.Drawing.Size(304, 13);
+            this.txtArticuloCategoria.Size = new System.Drawing.Size(456, 23);
             this.txtArticuloCategoria.TabIndex = 51;
             // 
             // panel7
             // 
             this.panel7.BackColor = System.Drawing.Color.Black;
-            this.panel7.Location = new System.Drawing.Point(194, 125);
+            this.panel7.Location = new System.Drawing.Point(291, 204);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(304, 1);
+            this.panel7.Size = new System.Drawing.Size(456, 2);
             this.panel7.TabIndex = 44;
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.Black;
-            this.panel6.Location = new System.Drawing.Point(194, 253);
+            this.panel6.Location = new System.Drawing.Point(291, 356);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(304, 1);
+            this.panel6.Size = new System.Drawing.Size(456, 2);
             this.panel6.TabIndex = 50;
             // 
             // txtArticuloMarca
             // 
             this.txtArticuloMarca.BackColor = System.Drawing.Color.Silver;
             this.txtArticuloMarca.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloMarca.Enabled = false;
+            this.txtArticuloMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtArticuloMarca.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloMarca.Location = new System.Drawing.Point(194, 107);
+            this.txtArticuloMarca.Location = new System.Drawing.Point(291, 177);
+            this.txtArticuloMarca.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtArticuloMarca.Name = "txtArticuloMarca";
-            this.txtArticuloMarca.Size = new System.Drawing.Size(304, 13);
+            this.txtArticuloMarca.Size = new System.Drawing.Size(456, 23);
             this.txtArticuloMarca.TabIndex = 43;
             // 
             // txtArticuloImagenUrl
             // 
             this.txtArticuloImagenUrl.BackColor = System.Drawing.Color.Silver;
             this.txtArticuloImagenUrl.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloImagenUrl.Enabled = false;
+            this.txtArticuloImagenUrl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtArticuloImagenUrl.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloImagenUrl.Location = new System.Drawing.Point(194, 234);
+            this.txtArticuloImagenUrl.Location = new System.Drawing.Point(291, 327);
+            this.txtArticuloImagenUrl.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtArticuloImagenUrl.Name = "txtArticuloImagenUrl";
-            this.txtArticuloImagenUrl.Size = new System.Drawing.Size(304, 13);
+            this.txtArticuloImagenUrl.Size = new System.Drawing.Size(456, 23);
             this.txtArticuloImagenUrl.TabIndex = 49;
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Black;
-            this.panel5.Location = new System.Drawing.Point(194, 206);
+            this.panel5.Location = new System.Drawing.Point(291, 304);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(123, 1);
+            this.panel5.Size = new System.Drawing.Size(184, 2);
             this.panel5.TabIndex = 48;
             // 
             // txtArticuloPrecio
             // 
             this.txtArticuloPrecio.BackColor = System.Drawing.Color.Silver;
             this.txtArticuloPrecio.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloPrecio.Enabled = false;
+            this.txtArticuloPrecio.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtArticuloPrecio.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloPrecio.Location = new System.Drawing.Point(194, 187);
+            this.txtArticuloPrecio.Location = new System.Drawing.Point(291, 275);
+            this.txtArticuloPrecio.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtArticuloPrecio.Name = "txtArticuloPrecio";
-            this.txtArticuloPrecio.Size = new System.Drawing.Size(123, 13);
+            this.txtArticuloPrecio.Size = new System.Drawing.Size(184, 23);
             this.txtArticuloPrecio.TabIndex = 47;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.Black;
-            this.panel4.Location = new System.Drawing.Point(194, 99);
+            this.panel4.Location = new System.Drawing.Point(291, 152);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(304, 1);
+            this.panel4.Size = new System.Drawing.Size(456, 2);
             this.panel4.TabIndex = 42;
             // 
             // txtArticuloDescripcion
             // 
             this.txtArticuloDescripcion.BackColor = System.Drawing.Color.Silver;
             this.txtArticuloDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloDescripcion.Enabled = false;
+            this.txtArticuloDescripcion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtArticuloDescripcion.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloDescripcion.Location = new System.Drawing.Point(194, 80);
+            this.txtArticuloDescripcion.Location = new System.Drawing.Point(291, 123);
+            this.txtArticuloDescripcion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtArticuloDescripcion.Name = "txtArticuloDescripcion";
-            this.txtArticuloDescripcion.Size = new System.Drawing.Size(304, 13);
+            this.txtArticuloDescripcion.Size = new System.Drawing.Size(456, 23);
             this.txtArticuloDescripcion.TabIndex = 41;
             // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Black;
-            this.panel3.Location = new System.Drawing.Point(194, 70);
+            this.panel3.Location = new System.Drawing.Point(291, 108);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(224, 1);
+            this.panel3.Size = new System.Drawing.Size(336, 2);
             this.panel3.TabIndex = 40;
             // 
             // txtArticuloNombre
             // 
             this.txtArticuloNombre.BackColor = System.Drawing.Color.Silver;
             this.txtArticuloNombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloNombre.Enabled = false;
+            this.txtArticuloNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtArticuloNombre.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloNombre.Location = new System.Drawing.Point(194, 51);
+            this.txtArticuloNombre.Location = new System.Drawing.Point(291, 78);
+            this.txtArticuloNombre.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtArticuloNombre.Name = "txtArticuloNombre";
-            this.txtArticuloNombre.Size = new System.Drawing.Size(224, 13);
+            this.txtArticuloNombre.Size = new System.Drawing.Size(336, 23);
             this.txtArticuloNombre.TabIndex = 39;
             // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.Black;
-            this.panel11.Location = new System.Drawing.Point(194, 40);
+            this.panel11.Location = new System.Drawing.Point(291, 62);
+            this.panel11.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(154, 1);
+            this.panel11.Size = new System.Drawing.Size(231, 2);
             this.panel11.TabIndex = 38;
             // 
             // txtArticuloCodigo
             // 
             this.txtArticuloCodigo.BackColor = System.Drawing.Color.Silver;
             this.txtArticuloCodigo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtArticuloCodigo.Enabled = false;
+            this.txtArticuloCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
             this.txtArticuloCodigo.ForeColor = System.Drawing.Color.White;
-            this.txtArticuloCodigo.Location = new System.Drawing.Point(194, 21);
+            this.txtArticuloCodigo.Location = new System.Drawing.Point(291, 32);
+            this.txtArticuloCodigo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txtArticuloCodigo.Name = "txtArticuloCodigo";
-            this.txtArticuloCodigo.Size = new System.Drawing.Size(154, 13);
+            this.txtArticuloCodigo.Size = new System.Drawing.Size(231, 23);
             this.txtArticuloCodigo.TabIndex = 37;
             // 
             // lblImagen
             // 
             this.lblImagen.AutoSize = true;
             this.lblImagen.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblImagen.Location = new System.Drawing.Point(83, 237);
+            this.lblImagen.Location = new System.Drawing.Point(124, 327);
+            this.lblImagen.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblImagen.Name = "lblImagen";
-            this.lblImagen.Size = new System.Drawing.Size(96, 17);
+            this.lblImagen.Size = new System.Drawing.Size(144, 27);
             this.lblImagen.TabIndex = 36;
             this.lblImagen.Text = "URL Imagen:";
             // 
@@ -250,9 +282,10 @@
             // 
             this.lbPrecio.AutoSize = true;
             this.lbPrecio.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPrecio.Location = new System.Drawing.Point(116, 190);
+            this.lbPrecio.Location = new System.Drawing.Point(174, 275);
+            this.lbPrecio.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbPrecio.Name = "lbPrecio";
-            this.lbPrecio.Size = new System.Drawing.Size(72, 17);
+            this.lbPrecio.Size = new System.Drawing.Size(108, 27);
             this.lbPrecio.TabIndex = 35;
             this.lbPrecio.Text = "Precio: ";
             // 
@@ -260,9 +293,10 @@
             // 
             this.lbCategoria.AutoSize = true;
             this.lbCategoria.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCategoria.Location = new System.Drawing.Point(92, 146);
+            this.lbCategoria.Location = new System.Drawing.Point(138, 225);
+            this.lbCategoria.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbCategoria.Name = "lbCategoria";
-            this.lbCategoria.Size = new System.Drawing.Size(96, 17);
+            this.lbCategoria.Size = new System.Drawing.Size(144, 27);
             this.lbCategoria.TabIndex = 33;
             this.lbCategoria.Text = "Categoría: ";
             // 
@@ -270,9 +304,10 @@
             // 
             this.lbMarca.AutoSize = true;
             this.lbMarca.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbMarca.Location = new System.Drawing.Point(123, 115);
+            this.lbMarca.Location = new System.Drawing.Point(184, 177);
+            this.lbMarca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbMarca.Name = "lbMarca";
-            this.lbMarca.Size = new System.Drawing.Size(56, 17);
+            this.lbMarca.Size = new System.Drawing.Size(84, 27);
             this.lbMarca.TabIndex = 31;
             this.lbMarca.Text = "Marca:";
             // 
@@ -280,9 +315,10 @@
             // 
             this.lbDescripcion.AutoSize = true;
             this.lbDescripcion.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbDescripcion.Location = new System.Drawing.Point(76, 83);
+            this.lbDescripcion.Location = new System.Drawing.Point(114, 128);
+            this.lbDescripcion.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbDescripcion.Name = "lbDescripcion";
-            this.lbDescripcion.Size = new System.Drawing.Size(112, 17);
+            this.lbDescripcion.Size = new System.Drawing.Size(168, 27);
             this.lbDescripcion.TabIndex = 29;
             this.lbDescripcion.Text = "Descripción: ";
             // 
@@ -290,9 +326,10 @@
             // 
             this.lbNombre.AutoSize = true;
             this.lbNombre.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbNombre.Location = new System.Drawing.Point(115, 54);
+            this.lbNombre.Location = new System.Drawing.Point(172, 83);
+            this.lbNombre.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbNombre.Name = "lbNombre";
-            this.lbNombre.Size = new System.Drawing.Size(64, 17);
+            this.lbNombre.Size = new System.Drawing.Size(96, 27);
             this.lbNombre.TabIndex = 27;
             this.lbNombre.Text = "Nombre:";
             // 
@@ -300,9 +337,10 @@
             // 
             this.lbCodigoArticulo.AutoSize = true;
             this.lbCodigoArticulo.Font = new System.Drawing.Font("Cascadia Mono", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCodigoArticulo.Location = new System.Drawing.Point(20, 24);
+            this.lbCodigoArticulo.Location = new System.Drawing.Point(30, 37);
+            this.lbCodigoArticulo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbCodigoArticulo.Name = "lbCodigoArticulo";
-            this.lbCodigoArticulo.Size = new System.Drawing.Size(168, 17);
+            this.lbCodigoArticulo.Size = new System.Drawing.Size(252, 27);
             this.lbCodigoArticulo.TabIndex = 25;
             this.lbCodigoArticulo.Text = "Codigo de artículo: ";
             // 
@@ -310,39 +348,44 @@
             // 
             this.dgvArticulo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvArticulo.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
-            this.dgvArticulo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvArticulo.Location = new System.Drawing.Point(58, 410);
-            this.dgvArticulo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dgvArticulo.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.dgvArticulo.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.dgvArticulo.Location = new System.Drawing.Point(87, 631);
+            this.dgvArticulo.MultiSelect = false;
             this.dgvArticulo.Name = "dgvArticulo";
             this.dgvArticulo.RowHeadersWidth = 62;
             this.dgvArticulo.RowTemplate.Height = 28;
-            this.dgvArticulo.Size = new System.Drawing.Size(776, 150);
+            this.dgvArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvArticulo.Size = new System.Drawing.Size(1164, 231);
             this.dgvArticulo.TabIndex = 6;
             this.dgvArticulo.SelectionChanged += new System.EventHandler(this.dgvArticulo_SelectionChanged);
             // 
             // AgregariconoPc
             // 
             this.AgregariconoPc.Image = ((System.Drawing.Image)(resources.GetObject("AgregariconoPc.Image")));
-            this.AgregariconoPc.Location = new System.Drawing.Point(572, 108);
+            this.AgregariconoPc.Location = new System.Drawing.Point(858, 166);
+            this.AgregariconoPc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AgregariconoPc.Name = "AgregariconoPc";
-            this.AgregariconoPc.Size = new System.Drawing.Size(262, 233);
+            this.AgregariconoPc.Size = new System.Drawing.Size(393, 358);
             this.AgregariconoPc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AgregariconoPc.TabIndex = 13;
             this.AgregariconoPc.TabStop = false;
             // 
             // ListadoArticulos
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(912, 580);
+            this.ClientSize = new System.Drawing.Size(1368, 892);
             this.Controls.Add(this.AgregariconoPc);
             this.Controls.Add(this.dgvArticulo);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "ListadoArticulos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ListadoArticulos";
             this.Load += new System.EventHandler(this.ListadoArticulos_Load);
             this.panel1.ResumeLayout(false);

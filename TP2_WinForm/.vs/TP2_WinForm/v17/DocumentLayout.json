@@ -1,7 +1,16 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pquiros\\Documents\\GITHUB-PEDRO\\UTN_TP2_WinForm\\TP2_WinForm\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\pquiros\\documents\\github-utn\\utn_tp2_winform\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\pquiros\\documents\\github-utn\\utn_tp2_winform\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,6 +31,30 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ListadoArticulos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\ListadoArticulos.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\ListadoArticulos.cs",
+              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\ListadoArticulos.cs [Design]",
+              "RelativeToolTip": "VentanaFormulario\\ListadoArticulos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T23:46:15.637Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MenuPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs [Design]",
+              "RelativeToolTip": "VentanaFormulario\\MenuPrincipal.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T23:45:12.819Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }
