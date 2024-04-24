@@ -1,0 +1,6 @@
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PROG 3 TP2\UTN_TP2_WinForm\Dominio\bin\Debug\Dominio.dll
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PROG 3 TP2\UTN_TP2_WinForm\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PROG 3 TP2\UTN_TP2_WinForm\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PROG 3 TP2\UTN_TP2_WinForm\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PROG 3 TP2\UTN_TP2_WinForm\Dominio\obj\Debug\Dominio.dll
+C:\Users\Usuario\OneDrive\Documentos\GitHub\PROG 3 TP2\UTN_TP2_WinForm\Dominio\obj\Debug\Dominio.pdb

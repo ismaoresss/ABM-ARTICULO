@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Linq.Expressions;
 using Dominio;
+using Negocio;
 
 namespace TP2_WinForm.Negocio
 {
