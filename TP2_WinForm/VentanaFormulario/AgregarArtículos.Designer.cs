@@ -34,7 +34,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnguardar = new System.Windows.Forms.Button();
-            this.btnAcancelar = new System.Windows.Forms.Button();
             this.btnvolver = new System.Windows.Forms.Button();
             this.AgregariconoPc = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -114,11 +113,10 @@
             // 
             this.flowLayoutPanel3.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel3.Controls.Add(this.btnguardar);
-            this.flowLayoutPanel3.Controls.Add(this.btnAcancelar);
             this.flowLayoutPanel3.Controls.Add(this.btnvolver);
             this.flowLayoutPanel3.Location = new System.Drawing.Point(247, 274);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(359, 69);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(215, 69);
             this.flowLayoutPanel3.TabIndex = 52;
             // 
             // btnguardar
@@ -134,20 +132,7 @@
             this.btnguardar.Size = new System.Drawing.Size(112, 52);
             this.btnguardar.TabIndex = 0;
             this.btnguardar.UseVisualStyleBackColor = true;
-            // 
-            // btnAcancelar
-            // 
-            this.btnAcancelar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAcancelar.BackgroundImage")));
-            this.btnAcancelar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnAcancelar.FlatAppearance.BorderSize = 0;
-            this.btnAcancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnAcancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnAcancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcancelar.Location = new System.Drawing.Point(121, 3);
-            this.btnAcancelar.Name = "btnAcancelar";
-            this.btnAcancelar.Size = new System.Drawing.Size(112, 52);
-            this.btnAcancelar.TabIndex = 1;
-            this.btnAcancelar.UseVisualStyleBackColor = true;
+            this.btnguardar.Click += new System.EventHandler(this.btnguardar_Click);
             // 
             // btnvolver
             // 
@@ -157,7 +142,7 @@
             this.btnvolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnvolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnvolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnvolver.Location = new System.Drawing.Point(239, 3);
+            this.btnvolver.Location = new System.Drawing.Point(121, 3);
             this.btnvolver.Name = "btnvolver";
             this.btnvolver.Size = new System.Drawing.Size(86, 58);
             this.btnvolver.TabIndex = 11;
@@ -400,7 +385,6 @@
         private System.Windows.Forms.PictureBox AgregariconoPc;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.Button btnguardar;
-        private System.Windows.Forms.Button btnAcancelar;
         private System.Windows.Forms.Button btnvolver;
     }
 }

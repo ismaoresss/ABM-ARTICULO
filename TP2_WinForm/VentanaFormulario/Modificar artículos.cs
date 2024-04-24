@@ -21,5 +21,10 @@ namespace TP2_WinForm.VentanaFormulario
         {
 
         }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

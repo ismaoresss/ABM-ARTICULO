@@ -12,12 +12,20 @@ namespace TP2_WinForm.Negocio
 {
     public class ArticulosNegocio
     {
-        public List<Articulos> listar()
-        {
             List<Articulos> lista = new List<Articulos>();
             SqlConnection conexion = new SqlConnection();
             SqlCommand comando = new SqlCommand();
             SqlDataReader lector;
+        public ArticulosNegocio()
+        {
+            conexion= new SqlConnection("server= .\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
+            comando= new SqlCommand("");
+
+        }
+        public List<Articulos> listar()
+        {
+            List<Articulos> lista = new List<Articulos>();
+            AccesoDatos datos = new AccesoDatos();
 
             try
             {
@@ -58,6 +66,35 @@ namespace TP2_WinForm.Negocio
             catch (Exception ex)
             {
                 throw ex;
+            }
+        }
+
+        public void AgregarArticulo(Articulos nuevo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.SetearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio, ImagenUrl) VALUES (@CodArticulo,@Nombre,@Descripcion,@Precio,@Marcas,@Categoria,@ImagenUrl)");
+
+                datos.SeterParametros("@Codigo", nuevo.CodArticulo);
+                datos.SeterParametros("@Nombre", nuevo.Nombre);
+                datos.SeterParametros("@Descripcion", nuevo.Descripcion);
+                datos.SeterParametros("@IdMarca", nuevo.Marcas.IdMarcas);
+                datos.SeterParametros("@IdCategoria", nuevo.Categorias.IdCategoria);
+                datos.SeterParametros("@Precio", nuevo.Precio);
+                datos.SeterParametros("@ImagenUrl", nuevo.Imagen.ImagenUrl);
+                
+                datos.EjecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.CerrarConexion();
             }
         }
     }
