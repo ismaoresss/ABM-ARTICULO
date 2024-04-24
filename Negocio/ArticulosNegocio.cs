@@ -10,7 +10,7 @@ using Negocio;
 
 namespace TP2_WinForm.Negocio
 {
-    internal class ArticulosNegocio
+    public class ArticulosNegocio
     {
         public List<Articulos> listar()
         {

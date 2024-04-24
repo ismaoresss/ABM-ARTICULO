@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using TP2_WinForm.Clases;
+//using TP2_WinForm.Clases;
 using TP2_WinForm.Negocio;
+using Dominio;
 
 namespace TP2_WinForm.VentanaFormulario
 {
@@ -28,12 +29,12 @@ namespace TP2_WinForm.VentanaFormulario
             
             dgvArticulo.Columns["CodArticulo"].Visible = false;
             dgvArticulo.Columns["IdArticulo"].Visible = false;
-            dgvArticulo.Columns["IdCategoria"].Visible = false;
-            dgvArticulo.Columns["IdMarca"].Visible = false;
+           // dgvArticulo.Columns["IdCategoria"].Visible = false;
+            //dgvArticulo.Columns["IdMarca"].Visible = false;
             dgvArticulo.Columns["Imagen"].Visible = false;
           //  dgvArticulo.Columns["Marcas"].Visible = false;
             dgvArticulo.Columns["Categorias"].Visible = false;
-            
+
             AgregariconoPc.Load(listaArticulos[0].Imagen.ImagenUrl);
         }
 
@@ -60,6 +61,8 @@ namespace TP2_WinForm.VentanaFormulario
             }
             catch (Exception im)
             {
+
+
                 AgregariconoPc.Load("https://demofree.sirv.com/products/123456/123456.jpg?profile=error-example");
             }
         }
