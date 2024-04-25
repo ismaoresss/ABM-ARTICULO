@@ -128,5 +128,10 @@ namespace TP2_WinForm.VentanaFormulario
 
             dgvListaArt.DataSource = ListaArticulos;
         }
+
+        private void tsbLinkedinMaxi_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

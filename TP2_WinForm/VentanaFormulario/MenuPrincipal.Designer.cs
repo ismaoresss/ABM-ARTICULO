@@ -52,9 +52,6 @@
             this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbInstagram = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbLinkedinMaxi = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator12 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbLinkedinGonza = new System.Windows.Forms.ToolStripButton();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.tsmArticulos = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmAgregarArticulo = new System.Windows.Forms.ToolStripMenuItem();
@@ -97,10 +94,7 @@
             this.tsbYouTube,
             this.toolStripSeparator10,
             this.tsbInstagram,
-            this.toolStripSeparator11,
-            this.tsbLinkedinMaxi,
-            this.toolStripSeparator12,
-            this.tsbLinkedinGonza});
+            this.toolStripSeparator11});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
@@ -262,29 +256,6 @@
             this.toolStripSeparator11.Name = "toolStripSeparator11";
             this.toolStripSeparator11.Size = new System.Drawing.Size(6, 27);
             // 
-            // tsbLinkedinMaxi
-            // 
-            this.tsbLinkedinMaxi.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbLinkedinMaxi.Image = ((System.Drawing.Image)(resources.GetObject("tsbLinkedinMaxi.Image")));
-            this.tsbLinkedinMaxi.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbLinkedinMaxi.Name = "tsbLinkedinMaxi";
-            this.tsbLinkedinMaxi.Size = new System.Drawing.Size(24, 24);
-            this.tsbLinkedinMaxi.Text = "Linkedin Maximiliano Soria";
-            // 
-            // toolStripSeparator12
-            // 
-            this.toolStripSeparator12.Name = "toolStripSeparator12";
-            this.toolStripSeparator12.Size = new System.Drawing.Size(6, 27);
-            // 
-            // tsbLinkedinGonza
-            // 
-            this.tsbLinkedinGonza.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbLinkedinGonza.Image = ((System.Drawing.Image)(resources.GetObject("tsbLinkedinGonza.Image")));
-            this.tsbLinkedinGonza.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbLinkedinGonza.Name = "tsbLinkedinGonza";
-            this.tsbLinkedinGonza.Size = new System.Drawing.Size(24, 24);
-            this.tsbLinkedinGonza.Text = "Linkedin Gonzalo Ligero";
-            // 
             // menuStrip2
             // 
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -372,10 +343,13 @@
             // 
             // dgvListaArt
             // 
+            this.dgvListaArt.AllowUserToAddRows = false;
+            this.dgvListaArt.AllowUserToDeleteRows = false;
             this.dgvListaArt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListaArt.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvListaArt.Location = new System.Drawing.Point(0, 0);
             this.dgvListaArt.Name = "dgvListaArt";
+            this.dgvListaArt.ReadOnly = true;
             this.dgvListaArt.RowHeadersVisible = false;
             this.dgvListaArt.RowHeadersWidth = 62;
             this.dgvListaArt.Size = new System.Drawing.Size(847, 389);
@@ -430,9 +404,6 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
         private System.Windows.Forms.ToolStripButton tsbInstagram;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
-        private System.Windows.Forms.ToolStripButton tsbLinkedinMaxi;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator12;
-        private System.Windows.Forms.ToolStripButton tsbLinkedinGonza;
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.ToolStripMenuItem tsmArticulos;
         private System.Windows.Forms.ToolStripMenuItem tsmAgregarArticulo;

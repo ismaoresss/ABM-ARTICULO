@@ -268,26 +268,6 @@
         BlP0mo/MBcouAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="tsbLinkedinMaxi.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADVSURBVDhPYxhEoOJKERB/AeL/BDBQzeUCqC4kANNcfhGC
-        MTUicMnJz1BdSAAkAdR4+uGn/5Wb72HXiIwxAEgQaABIs9PUq9g1IWMMABIsPf9/1blX/4vW3f1vMeEy
-        mB2x4Pr/mUef/e/Z9/i/eOMlwgaAAEhj6IKbYPbH77//X3zyGczedvUNUPNl0gzIWHUX7LXj9z7+//Lz
-        z3+GsgukGQCiQXIgMRAAqRm8BgATEjCUQQpAGORXGA01HKIZqAZ7QgImT5AESDE+DFZzKQ+qa8ABAwMA
-        qdR7t2jGW5IAAAAASUVORK5CYII=
-</value>
-  </data>
-  <data name="tsbLinkedinGonza.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAADVSURBVDhPYxhEoOJKERB/AeL/BDBQzeUCqC4kANNcfhGC
-        MTUicMnJz1BdSAAkAdR4+uGn/5Wb72HXiIwxAEgQaABIs9PUq9g1IWMMABIsPf9/1blX/4vW3f1vMeEy
-        mB2x4Pr/mUef/e/Z9/i/eOMlwgaAAEhj6IKbYPbH77//X3zyGczedvUNUPNl0gzIWHUX7LXj9z7+//Lz
-        z3+GsgukGQCiQXIgMRAAqRm8BgATEjCUQQpAGORXGA01HKIZqAZ7QgImT5AESDE+DFZzKQ+qa8ABAwMA
-        qdR7t2jGW5IAAAAASUVORK5CYII=
-</value>
-  </data>
   <metadata name="menuStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>457, 17</value>
   </metadata>
