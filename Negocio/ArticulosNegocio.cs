@@ -97,5 +97,9 @@ namespace TP2_WinForm.Negocio
                 datos.CerrarConexion();
             }
         }
+        public void ModificarArticulo()
+        {
+
+        }
     }
 }

@@ -37,17 +37,17 @@
             this.btnvolver = new System.Windows.Forms.Button();
             this.AgregariconoPc = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.txturlimagen = new System.Windows.Forms.TextBox();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.cboMarcas = new System.Windows.Forms.ComboBox();
+            this.txtprecio = new System.Windows.Forms.TextBox();
+            this.cbomarca = new System.Windows.Forms.ComboBox();
+            this.cbocategoria = new System.Windows.Forms.ComboBox();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtdescripcion = new System.Windows.Forms.TextBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtnombre = new System.Windows.Forms.TextBox();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.txtnombres = new System.Windows.Forms.TextBox();
+            this.txtcodarticulo = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -86,17 +86,17 @@
             this.panel2.Controls.Add(this.flowLayoutPanel3);
             this.panel2.Controls.Add(this.AgregariconoPc);
             this.panel2.Controls.Add(this.panel6);
-            this.panel2.Controls.Add(this.textBox4);
+            this.panel2.Controls.Add(this.txturlimagen);
             this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.comboBox2);
-            this.panel2.Controls.Add(this.cboMarcas);
+            this.panel2.Controls.Add(this.txtprecio);
+            this.panel2.Controls.Add(this.cbomarca);
+            this.panel2.Controls.Add(this.cbocategoria);
             this.panel2.Controls.Add(this.panel4);
-            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.txtdescripcion);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.txtnombre);
             this.panel2.Controls.Add(this.panel11);
-            this.panel2.Controls.Add(this.txtnombres);
+            this.panel2.Controls.Add(this.txtcodarticulo);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.label4);
@@ -147,6 +147,7 @@
             this.btnvolver.Size = new System.Drawing.Size(86, 58);
             this.btnvolver.TabIndex = 11;
             this.btnvolver.UseVisualStyleBackColor = true;
+            this.btnvolver.Click += new System.EventHandler(this.btnvolver_Click);
             // 
             // AgregariconoPc
             // 
@@ -166,15 +167,15 @@
             this.panel6.Size = new System.Drawing.Size(304, 1);
             this.panel6.TabIndex = 50;
             // 
-            // textBox4
+            // txturlimagen
             // 
-            this.textBox4.BackColor = System.Drawing.Color.Silver;
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(194, 234);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(304, 13);
-            this.textBox4.TabIndex = 49;
+            this.txturlimagen.BackColor = System.Drawing.Color.Silver;
+            this.txturlimagen.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txturlimagen.ForeColor = System.Drawing.Color.White;
+            this.txturlimagen.Location = new System.Drawing.Point(194, 234);
+            this.txturlimagen.Name = "txturlimagen";
+            this.txturlimagen.Size = new System.Drawing.Size(304, 13);
+            this.txturlimagen.TabIndex = 49;
             // 
             // panel5
             // 
@@ -184,33 +185,33 @@
             this.panel5.Size = new System.Drawing.Size(123, 1);
             this.panel5.TabIndex = 48;
             // 
-            // textBox3
+            // txtprecio
             // 
-            this.textBox3.BackColor = System.Drawing.Color.Silver;
-            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.ForeColor = System.Drawing.Color.White;
-            this.textBox3.Location = new System.Drawing.Point(194, 187);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(123, 13);
-            this.textBox3.TabIndex = 47;
+            this.txtprecio.BackColor = System.Drawing.Color.Silver;
+            this.txtprecio.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtprecio.ForeColor = System.Drawing.Color.White;
+            this.txtprecio.Location = new System.Drawing.Point(194, 187);
+            this.txtprecio.Name = "txtprecio";
+            this.txtprecio.Size = new System.Drawing.Size(123, 13);
+            this.txtprecio.TabIndex = 47;
             // 
-            // comboBox2
+            // cbomarca
             // 
-            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(194, 115);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(166, 21);
-            this.comboBox2.TabIndex = 46;
+            this.cbomarca.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbomarca.FormattingEnabled = true;
+            this.cbomarca.Location = new System.Drawing.Point(194, 115);
+            this.cbomarca.Name = "cbomarca";
+            this.cbomarca.Size = new System.Drawing.Size(166, 21);
+            this.cbomarca.TabIndex = 46;
             // 
-            // cboMarcas
+            // cbocategoria
             // 
-            this.cboMarcas.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cboMarcas.FormattingEnabled = true;
-            this.cboMarcas.Location = new System.Drawing.Point(194, 146);
-            this.cboMarcas.Name = "cboMarcas";
-            this.cboMarcas.Size = new System.Drawing.Size(166, 21);
-            this.cboMarcas.TabIndex = 45;
+            this.cbocategoria.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbocategoria.FormattingEnabled = true;
+            this.cbocategoria.Location = new System.Drawing.Point(194, 146);
+            this.cbocategoria.Name = "cbocategoria";
+            this.cbocategoria.Size = new System.Drawing.Size(166, 21);
+            this.cbocategoria.TabIndex = 45;
             // 
             // panel4
             // 
@@ -220,15 +221,15 @@
             this.panel4.Size = new System.Drawing.Size(304, 1);
             this.panel4.TabIndex = 42;
             // 
-            // textBox2
+            // txtdescripcion
             // 
-            this.textBox2.BackColor = System.Drawing.Color.Silver;
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.ForeColor = System.Drawing.Color.White;
-            this.textBox2.Location = new System.Drawing.Point(194, 80);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(304, 13);
-            this.textBox2.TabIndex = 41;
+            this.txtdescripcion.BackColor = System.Drawing.Color.Silver;
+            this.txtdescripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtdescripcion.ForeColor = System.Drawing.Color.White;
+            this.txtdescripcion.Location = new System.Drawing.Point(194, 80);
+            this.txtdescripcion.Name = "txtdescripcion";
+            this.txtdescripcion.Size = new System.Drawing.Size(304, 13);
+            this.txtdescripcion.TabIndex = 41;
             // 
             // panel3
             // 
@@ -238,15 +239,15 @@
             this.panel3.Size = new System.Drawing.Size(224, 1);
             this.panel3.TabIndex = 40;
             // 
-            // textBox1
+            // txtnombre
             // 
-            this.textBox1.BackColor = System.Drawing.Color.Silver;
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(194, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(224, 13);
-            this.textBox1.TabIndex = 39;
+            this.txtnombre.BackColor = System.Drawing.Color.Silver;
+            this.txtnombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtnombre.ForeColor = System.Drawing.Color.White;
+            this.txtnombre.Location = new System.Drawing.Point(194, 51);
+            this.txtnombre.Name = "txtnombre";
+            this.txtnombre.Size = new System.Drawing.Size(224, 13);
+            this.txtnombre.TabIndex = 39;
             // 
             // panel11
             // 
@@ -256,15 +257,15 @@
             this.panel11.Size = new System.Drawing.Size(154, 1);
             this.panel11.TabIndex = 38;
             // 
-            // txtnombres
+            // txtcodarticulo
             // 
-            this.txtnombres.BackColor = System.Drawing.Color.Silver;
-            this.txtnombres.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtnombres.ForeColor = System.Drawing.Color.White;
-            this.txtnombres.Location = new System.Drawing.Point(194, 21);
-            this.txtnombres.Name = "txtnombres";
-            this.txtnombres.Size = new System.Drawing.Size(154, 13);
-            this.txtnombres.TabIndex = 37;
+            this.txtcodarticulo.BackColor = System.Drawing.Color.Silver;
+            this.txtcodarticulo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtcodarticulo.ForeColor = System.Drawing.Color.White;
+            this.txtcodarticulo.Location = new System.Drawing.Point(194, 21);
+            this.txtcodarticulo.Name = "txtcodarticulo";
+            this.txtcodarticulo.Size = new System.Drawing.Size(154, 13);
+            this.txtcodarticulo.TabIndex = 37;
             // 
             // label2
             // 
@@ -364,17 +365,17 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox txturlimagen;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox cboMarcas;
+        private System.Windows.Forms.TextBox txtprecio;
+        private System.Windows.Forms.ComboBox cbomarca;
+        private System.Windows.Forms.ComboBox cbocategoria;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtdescripcion;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtnombre;
         private System.Windows.Forms.Panel panel11;
-        private System.Windows.Forms.TextBox txtnombres;
+        private System.Windows.Forms.TextBox txtcodarticulo;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
