@@ -75,7 +75,7 @@ namespace TP2_WinForm.VentanaFormulario
                     nuevoArticulo.Marcas.IdMarcas = (int)cbomarca.SelectedValue;
                 }
 
-                nuevoArticulo.Imagen.ImagenUrl = (string)txturlimagen.Text;
+                nuevoArticulo.Imagen = (string)txturlimagen.Text;
 
                 decimal verificadorNumero;
 

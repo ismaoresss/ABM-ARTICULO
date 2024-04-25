@@ -57,7 +57,7 @@ namespace TP2_WinForm.VentanaFormulario
                 }
             }
             
-            ventana.ShowDialog();
+           ventana.ShowDialog();
         }
 
         private void tsmBuscarArticulo_Click(object sender, EventArgs e)

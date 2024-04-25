@@ -22,47 +22,66 @@ namespace TP2_WinForm.Negocio
             comando= new SqlCommand("");
 
         }
-        public List<Articulos> listar()
+        public List<Articulos> ListarArticulos()
         {
             List<Articulos> lista = new List<Articulos>();
             AccesoDatos datos = new AccesoDatos();
 
             try
             {
-                conexion.ConnectionString = "server= .\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true";
-                comando.CommandType = System.Data.CommandType.Text;
-                comando.CommandText = "SELECT a.Codigo, a.Nombre, a.Descripcion, m.Descripcion AS Marca, c.Descripcion AS Categoria, a.Precio, i.ImagenUrl FROM ARTICULOS a\r\nJOIN MARCAS m ON m.Id = a.IdMarca\r\nJOIN IMAGENES i ON i.Id = m.Id\r\nLEFT JOIN CATEGORIAS c ON c.Id = a.IdCategoria\r\nORDER BY a.Nombre ASC;";                                  
-                comando.Connection = conexion;
+                datos.SetearConsulta("SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS ArticuloDescripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, A.Precio, I.ImagenUrl FROM ARTICULOS A LEFT JOIN MARCAS M ON A.IdMarca = M.Id LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo");
+                datos.EjecutarAccion();
 
-                conexion.Open();
-                lector = comando.ExecuteReader();
-
-                while (lector.Read())
+                while (datos.Lector.Read())
                 {
                     Articulos aux = new Articulos();
-                    
-                    //Lector obtiene los nombres de las columnas de la BD
-                    aux.CodArticulo = (string)lector["codigo"];
-                    aux.Nombre = (string)lector["nombre"];
-                    aux.Descripcion = (string)lector["descripcion"];
-                    aux.Precio = decimal.Parse(lector["precio"].ToString());
-                    aux.Marcas = new Marcas();
-                    aux.Marcas.Descripcion = (string)lector["Marca"];
+                    aux.IdArticulo = (int)datos.Lector["Id"];
+                    aux.CodArticulo = (string)datos.Lector["Codigo"];
+                    aux.Nombre = (string)datos.Lector["Nombre"];
+                    aux.Descripcion = (string)datos.Lector["ArticuloDescripcion"];
 
-                    aux.Categorias = new Categorias(); 
-                    if (!(lector["Categoria"] is DBNull)) // Validacion datos NULOS.
-                        aux.Categorias.Descripcion = (string)lector["Categoria"]; // Si es NULL queda vacio, sino asigna el valor a la propiedad.
-                    
+
+                    if (!Convert.IsDBNull(datos.Lector["Marca"]))
+                    {
+                        aux.Marcas.Descripcion = (string)datos.Lector["Marca"];
+                    }
+                    else
+                    {
+                        aux.Marcas.Descripcion = "";
+                    }
+
+                    if (!Convert.IsDBNull(datos.Lector["Categoria"]))
+                    {
+                        aux.Categorias.Descripcion = (string)datos.Lector["Categoria"];
+                    }
+                    else
+                    {
+                        aux.Categorias.Descripcion = "https://images.samsung.com/is/image/samsung/co-galaxy-s10-sm-g970-sm-g970fzyjcoo-frontcanaryyellow-thumb-149016542";
+                    }
+
+
+                    aux.Precio = (decimal)datos.Lector["Precio"];
+
+                    if (!Convert.IsDBNull(datos.Lector["ImagenUrl"]))
+                    {
+                        aux.Imagen = (string)datos.Lector["ImagenUrl"];
+                    }
+                    else
+                    {
+
+                    }
+
                     lista.Add(aux);
-                    
                 }
-                conexion.Close();
                 return lista;
-
             }
             catch (Exception ex)
             {
                 throw ex;
+            }
+            finally
+            {
+                datos.CerrarConexion();
             }
         }
 
@@ -72,8 +91,8 @@ namespace TP2_WinForm.Negocio
 
             try
             {
-                
-                datos.SetearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) VALUES (@Codigo,@Nombre,@Descripcion,@IdMarca,@IdCategoria,@Precio)");     
+                datos.SetearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) VALUES (@Codigo,@Nombre,@Descripcion,@IdMarca,@IdCategoria,@Precio)");
+
                 datos.SeterParametros("@Codigo", nuevo.CodArticulo);
                 datos.SeterParametros("@Nombre", nuevo.Nombre);
                 datos.SeterParametros("@Descripcion", nuevo.Descripcion);
@@ -83,6 +102,8 @@ namespace TP2_WinForm.Negocio
 
                 conexion.Close();
                 datos.EjecutarAccion();
+                    
+             
             }
             catch (Exception ex)
             {
@@ -91,7 +112,7 @@ namespace TP2_WinForm.Negocio
             }
             finally
             {
-                datos.CerrarConexion();
+                conexion.Close();
             }
         }
         public void ModificarArticulo()
@@ -133,7 +154,7 @@ namespace TP2_WinForm.Negocio
         {
             Articulos articulo = new Articulos();
             AccesoDatos datos = new AccesoDatos();
-            articulo = listar().Last();
+            articulo = ListarArticulos().Last();
 
             try
             {

@@ -24,9 +24,9 @@ namespace TP2_WinForm.VentanaFormulario
         private void ListadoArticulos_Load(object sender, EventArgs e)
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
-            listaArticulos = negocio.listar();
-            dgvArticulo.DataSource = negocio.listar();
-            
+            listaArticulos = negocio.ListarArticulos();
+            dgvArticulo.DataSource = negocio.ListarArticulos();
+
             dgvArticulo.Columns["CodArticulo"].Visible = false;
             dgvArticulo.Columns["IdArticulo"].Visible = false;
            // dgvArticulo.Columns["IdCategoria"].Visible = false;
@@ -35,7 +35,7 @@ namespace TP2_WinForm.VentanaFormulario
           //  dgvArticulo.Columns["Marcas"].Visible = false;
             dgvArticulo.Columns["Categorias"].Visible = false;
 
-            AgregariconoPc.Load(listaArticulos[0].Imagen.ImagenUrl);
+            AgregariconoPc.Load(listaArticulos[0].Imagen);
         }
 
         private void dgvArticulo_SelectionChanged(object sender, EventArgs e)
@@ -47,11 +47,11 @@ namespace TP2_WinForm.VentanaFormulario
             txtArticuloMarca.Text = seleccionado.Marcas.Descripcion;
             txtArticuloCategoria.Text = seleccionado.Categorias.Descripcion;
             txtArticuloPrecio.Text = seleccionado.Precio.ToString();
-            txtArticuloImagenUrl.Text = seleccionado.Imagen.ImagenUrl;
+            txtArticuloImagenUrl.Text = seleccionado.Imagen;
 
             //txtArticuloNombre.Text = dgvArticulo.CurrentRow.Cells[2].Value.ToString();
 
-            cargarImagen(seleccionado.Imagen.ImagenUrl);
+            cargarImagen(seleccionado.Imagen);
         }
         private void cargarImagen(string imagen)
         {
