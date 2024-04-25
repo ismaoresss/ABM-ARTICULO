@@ -1,5 +1,4 @@
-﻿using Dominio;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -35,7 +34,31 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void btnguardar_Click(object sender, EventArgs e)
         {
-            ArticulosNegocio negocio = new ArticulosNegocio();
+            Articulos articulo = new Articulos();
+            try
+            {
+                articulo.CodArticulo = txtcodarticulo.Text;
+                articulo.Nombre = txtnombre.Text;
+                articulo.Descripcion = txtdescripcion.Text;
+                articulo.Marcas = (Marcas)cbomarca.SelectedItem;
+                articulo.Categorias = (Categorias)cbocategoria.SelectedItem;
+                articulo.Imagen.ImagenUrl = txturlimagen.Text;
+
+                ArticulosNegocio negocio = new ArticulosNegocio();
+                negocio.AgregarArticulo(articulo);
+                MessageBox.Show("Agregado exitosamente");
+                Close();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+            }
+
+
+
+            /*
+            
             try
             {
                 if (articulo == null)
@@ -48,9 +71,12 @@ namespace TP2_WinForm.VentanaFormulario
                 articulo.Categorias = (Categorias)cbocategoria.SelectedItem;
                 articulo.Imagen.ImagenUrl = txturlimagen.Text;
 
+
+
+                /*
                 if (articulo.IdArticulo != 0)
                 {
-                    negocio.modificar(articulo);
+                 //   negocio.modificar(articulo);
                     MessageBox.Show("Modificado exitosamente");
                 }
                 else
@@ -58,11 +84,11 @@ namespace TP2_WinForm.VentanaFormulario
                     negocio.AgregarArticulo(articulo);
                     MessageBox.Show("Agregado exitosamente");
                 }
-
+           
                 ////Guardo imagen si la levantó localmente:
                 //if (archivo != null && !(txturlimagen.Text.ToUpper().Contains("HTTP")))
                 //    File.Copy(archivo.FileName,ConfigurationManager["images-folder"] + archivo.SafeFileName);
-
+                
                 Close();
 
             }
@@ -70,7 +96,7 @@ namespace TP2_WinForm.VentanaFormulario
             {
                 MessageBox.Show(ex.ToString());
             }
-
+            */
         }
 
         private void btnvolver_Click(object sender, EventArgs e)

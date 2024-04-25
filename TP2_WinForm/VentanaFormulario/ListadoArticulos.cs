@@ -61,8 +61,6 @@ namespace TP2_WinForm.VentanaFormulario
             }
             catch (Exception im)
             {
-
-
                 AgregariconoPc.Load("https://demofree.sirv.com/products/123456/123456.jpg?profile=error-example");
             }
         }

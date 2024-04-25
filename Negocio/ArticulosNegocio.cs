@@ -61,7 +61,6 @@ namespace TP2_WinForm.Negocio
                 conexion.Close();
                 return lista;
 
-
             }
             catch (Exception ex)
             {
@@ -75,15 +74,16 @@ namespace TP2_WinForm.Negocio
 
             try
             {
-                datos.SetearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio, ImagenUrl) VALUES (@CodArticulo,@Nombre,@Descripcion,@Precio,@Marcas,@Categoria,@ImagenUrl)");
-
+                //datos.SetearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) VALUES (@CodArticulo,@Nombre,@Descripcion,@IdMarca, @Precio)");
+                datos.SetearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) VALUES (@Codigo,@Nombre,@Descripcion,1,1,@Precio)");
+                        
                 datos.SeterParametros("@Codigo", nuevo.CodArticulo);
                 datos.SeterParametros("@Nombre", nuevo.Nombre);
                 datos.SeterParametros("@Descripcion", nuevo.Descripcion);
-                datos.SeterParametros("@IdMarca", nuevo.Marcas.IdMarcas);
-                datos.SeterParametros("@IdCategoria", nuevo.Categorias.IdCategoria);
+             //   datos.SeterParametros("@IdMarca", nuevo.Marcas.IdMarcas);
+              //  datos.SeterParametros("@IdCategoria", nuevo.Categorias.IdCategoria);
                 datos.SeterParametros("@Precio", nuevo.Precio);
-                datos.SeterParametros("@ImagenUrl", nuevo.Imagen.ImagenUrl);
+             //   datos.SeterParametros("@ImagenUrl", nuevo.Imagen.ImagenUrl);
                 
                 datos.EjecutarAccion();
             }
