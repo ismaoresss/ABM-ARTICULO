@@ -350,7 +350,6 @@
             this.dgvListaArt.Location = new System.Drawing.Point(0, 0);
             this.dgvListaArt.Name = "dgvListaArt";
             this.dgvListaArt.ReadOnly = true;
-            this.dgvListaArt.RowHeadersVisible = false;
             this.dgvListaArt.RowHeadersWidth = 62;
             this.dgvListaArt.Size = new System.Drawing.Size(847, 389);
             this.dgvListaArt.TabIndex = 0;
