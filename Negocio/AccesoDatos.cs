@@ -23,6 +23,19 @@ namespace Negocio
             conexion = new SqlConnection("server=.\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
             comando = new SqlCommand(); 
         }
+        public void ejecutarLectura()
+        {
+            comando.Connection = conexion;
+            try
+            {
+                conexion.Open();
+                lector = comando.ExecuteReader();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public void SetearConsulta(String consulta)
         {
             comando.CommandType = System.Data.CommandType.Text;

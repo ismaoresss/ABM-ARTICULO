@@ -154,6 +154,11 @@ namespace TP2_WinForm.VentanaFormulario
             catch (Exception)
             { AgregariconoPc.Load("https://i.pinimg.com/564x/a5/6e/f6/a56ef61429307a58fbcbb16139d623f6.jpg"); }
         }
+
+        private void txtcodarticulo_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

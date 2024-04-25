@@ -269,6 +269,7 @@
             this.txtcodarticulo.Name = "txtcodarticulo";
             this.txtcodarticulo.Size = new System.Drawing.Size(154, 13);
             this.txtcodarticulo.TabIndex = 37;
+            this.txtcodarticulo.TextChanged += new System.EventHandler(this.txtcodarticulo_TextChanged);
             this.txtcodarticulo.Leave += new System.EventHandler(this.txtcodarticulo_Leave);
             // 
             // label2

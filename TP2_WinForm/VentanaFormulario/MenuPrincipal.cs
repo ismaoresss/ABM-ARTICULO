@@ -8,16 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TP2_WinForm;
+using TP2_WinForm.Negocio;
+using Dominio;
+using Negocio;
 
 
 namespace TP2_WinForm.VentanaFormulario
 {
     public partial class MenuPrincipal : Form
     {
+        private List<Articulos> ListaArticulos;
         public MenuPrincipal()
         {
             InitializeComponent();
         }
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -114,6 +119,14 @@ namespace TP2_WinForm.VentanaFormulario
                 }
             }
             ventana.ShowDialog();
+        }
+
+        private void MenuPrincipal_Load(object sender, EventArgs e)
+        {
+            ArticulosNegocio Articulo = new ArticulosNegocio(); 
+            ListaArticulos = Articulo.ListarArticulos();
+
+            dgvListaArt.DataSource = ListaArticulos;
         }
     }
 }

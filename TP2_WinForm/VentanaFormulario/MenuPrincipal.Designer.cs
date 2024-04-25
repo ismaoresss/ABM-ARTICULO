@@ -65,11 +65,11 @@
             this.tsmEliminarArticulo = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmContacto = new System.Windows.Forms.ToolStripMenuItem();
             this.panelArticulos = new System.Windows.Forms.Panel();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvListaArt = new System.Windows.Forms.DataGridView();
             this.toolStrip1.SuspendLayout();
             this.menuStrip2.SuspendLayout();
             this.panelArticulos.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListaArt)).BeginInit();
             this.SuspendLayout();
             // 
             // toolStrip1
@@ -364,22 +364,22 @@
             // 
             // panelArticulos
             // 
-            this.panelArticulos.Controls.Add(this.dataGridView1);
+            this.panelArticulos.Controls.Add(this.dgvListaArt);
             this.panelArticulos.Location = new System.Drawing.Point(12, 54);
             this.panelArticulos.Name = "panelArticulos";
             this.panelArticulos.Size = new System.Drawing.Size(847, 389);
             this.panelArticulos.TabIndex = 6;
             // 
-            // dataGridView1
+            // dgvListaArt
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 0);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.RowHeadersWidth = 62;
-            this.dataGridView1.Size = new System.Drawing.Size(847, 389);
-            this.dataGridView1.TabIndex = 0;
+            this.dgvListaArt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvListaArt.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgvListaArt.Location = new System.Drawing.Point(0, 0);
+            this.dgvListaArt.Name = "dgvListaArt";
+            this.dgvListaArt.RowHeadersVisible = false;
+            this.dgvListaArt.RowHeadersWidth = 62;
+            this.dgvListaArt.Size = new System.Drawing.Size(847, 389);
+            this.dgvListaArt.TabIndex = 0;
             // 
             // MenuPrincipal
             // 
@@ -393,12 +393,13 @@
             this.Name = "MenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuPrincipal";
+            this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.menuStrip2.ResumeLayout(false);
             this.menuStrip2.PerformLayout();
             this.panelArticulos.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvListaArt)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -442,6 +443,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmEliminarArticulo;
         private System.Windows.Forms.ToolStripMenuItem tsmContacto;
         private System.Windows.Forms.Panel panelArticulos;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvListaArt;
     }
 }
