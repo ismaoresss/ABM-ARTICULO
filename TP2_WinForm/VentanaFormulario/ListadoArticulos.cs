@@ -65,6 +65,18 @@ namespace TP2_WinForm.VentanaFormulario
             }
         }
 
-
+        private void txtArticuloCodigo_Leave(object sender, EventArgs e)
+        {
+            ArticulosNegocio verificador = new ArticulosNegocio();  
+            if(verificador.verificadorDeCodigos(txtArticuloCodigo.Text)==true)
+            {
+                MessageBox.Show("Codigo existe.Ingrese otro");
+                txtArticuloCodigo.Clear();
+            }
+            if(string.IsNullOrEmpty(txtArticuloCodigo.Text) ) 
+            {
+                MessageBox.Show("El campo de codigo no puede quedar vacio. Ingrese un codigo por favor");
+            }
+        }
     }
 }

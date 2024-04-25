@@ -56,7 +56,7 @@
             this.lbl_BuscarArticulo.AutoSize = true;
             this.lbl_BuscarArticulo.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_BuscarArticulo.ForeColor = System.Drawing.Color.White;
-            this.lbl_BuscarArticulo.Location = new System.Drawing.Point(326, 6);
+            this.lbl_BuscarArticulo.Location = new System.Drawing.Point(271, 6);
             this.lbl_BuscarArticulo.Name = "lbl_BuscarArticulo";
             this.lbl_BuscarArticulo.Size = new System.Drawing.Size(342, 32);
             this.lbl_BuscarArticulo.TabIndex = 0;
@@ -200,7 +200,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(884, 508);
+            this.ClientSize = new System.Drawing.Size(884, 418);
             this.Controls.Add(this.btnvolverArticulo);
             this.Controls.Add(this.AgregariconoPc);
             this.Controls.Add(this.panelbusqueda);
@@ -210,7 +210,6 @@
             this.Name = "BuscarArticulo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BuscarArticulo";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel4.ResumeLayout(false);

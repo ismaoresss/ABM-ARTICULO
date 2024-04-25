@@ -16,8 +16,9 @@ namespace TP2_WinForm
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VentanaFormulario.AgregarArtículos());
+            //Application.Run(new VentanaFormulario.AgregarArtículos());
             //Application.Run(new VentanaFormulario.ListadoArticulos());
+            Application.Run(new VentanaFormulario.MenuPrincipal());
         }
     }
 }

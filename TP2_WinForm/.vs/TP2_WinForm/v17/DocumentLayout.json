@@ -1,28 +1,27 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\TP2_WinForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{551BED00-EC71-4C14-9F71-2E83FAD9D423}|..\\Negocio\\Negocio.csproj|c:\\users\\pquiros\\documents\\github-utn\\utn_tp2_winform\\utn_tp2_winform\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{61DADF9B-67A7-4F6B-829F-94E6A551F3C5}|..\\Dominio\\Dominio.csproj|c:\\users\\usuario\\onedrive\\documentos\\github\\prog 3 tp2\\utn_tp2_winform\\dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\onedrive\\documentos\\github\\prog 3 tp2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{551BED00-EC71-4C14-9F71-2E83FAD9D423}|..\\Negocio\\Negocio.csproj|c:\\users\\usuario\\onedrive\\documentos\\github\\prog 3 tp2\\utn_tp2_winform\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\pquiros\\documents\\github-utn\\utn_tp2_winform\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{551BED00-EC71-4C14-9F71-2E83FAD9D423}|..\\Negocio\\Negocio.csproj|c:\\users\\usuario\\onedrive\\documentos\\github\\prog 3 tp2\\utn_tp2_winform\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{61DADF9B-67A7-4F6B-829F-94E6A551F3C5}|..\\Dominio\\Dominio.csproj|c:\\users\\pquiros\\documents\\github-utn\\utn_tp2_winform\\utn_tp2_winform\\dominio\\articulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\onedrive\\documentos\\github\\prog 3 tp2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\onedrive\\documentos\\github\\prog 3 tp2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,8 +31,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
@@ -48,80 +51,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Articulos.cs",
-              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\Dominio\\Articulos.cs",
-              "RelativeDocumentMoniker": "..\\Dominio\\Articulos.cs",
-              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\Dominio\\Articulos.cs",
-              "RelativeToolTip": "..\\Dominio\\Articulos.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAYwCEAAAAWAAAA",
+              "DocumentIndex": 1,
+              "Title": "ListadoArticulos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\ListadoArticulos.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\ListadoArticulos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\ListadoArticulos.cs",
+              "RelativeToolTip": "VentanaFormulario\\ListadoArticulos.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADEAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:02:43.702Z",
+              "WhenOpened": "2024-04-25T19:21:53.611Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AgregarArt\u00EDculos.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
-              "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
-              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs [Design]",
-              "RelativeToolTip": "VentanaFormulario\\AgregarArt\u00EDculos.cs [Design]",
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\Negocio\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "..\\Negocio\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\Negocio\\AccesoDatos.cs",
+              "RelativeToolTip": "..\\Negocio\\AccesoDatos.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAA0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T01:16:25.247Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBMAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T01:02:32.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListadoArticulos.cs",
-              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\ListadoArticulos.cs",
-              "RelativeDocumentMoniker": "VentanaFormulario\\ListadoArticulos.cs",
-              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\ListadoArticulos.cs",
-              "RelativeToolTip": "VentanaFormulario\\ListadoArticulos.cs",
-              "ViewState": "AQIAADoAAAAAAAAAAAAwwD4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:04:36.033Z",
+              "WhenOpened": "2024-04-25T18:42:39.481Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ArticulosNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
-              "RelativeDocumentMoniker": "..\\Negocio\\ArticulosNegocio.cs",
-              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
-              "RelativeToolTip": "..\\Negocio\\ArticulosNegocio.cs",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAqwFQAAAANAAAA",
+              "Title": "Articulos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\Dominio\\Articulos.cs",
+              "RelativeDocumentMoniker": "..\\Dominio\\Articulos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\Dominio\\Articulos.cs",
+              "RelativeToolTip": "..\\Dominio\\Articulos.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAABoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T01:18:03.126Z",
+              "WhenOpened": "2024-04-25T18:15:45.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ArticulosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
+              "RelativeDocumentMoniker": "..\\Negocio\\ArticulosNegocio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
+              "RelativeToolTip": "..\\Negocio\\ArticulosNegocio.cs",
+              "ViewState": "AQIAAF8AAAAAAAAAAAAAADAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T17:09:47.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AgregarArt\u00EDculos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "RelativeToolTip": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAF0AAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T17:15:13.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AgregarArt\u00EDculos.cs",
-              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "Title": "AgregarArt\u00EDculos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
-              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
-              "RelativeToolTip": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAAADEAAAAYAAAA",
+              "ToolTip": "C:\\Users\\Usuario\\OneDrive\\Documentos\\GitHub\\PROG 3 TP2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "VentanaFormulario\\AgregarArt\u00EDculos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T01:16:40.681Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-25T17:15:11.83Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

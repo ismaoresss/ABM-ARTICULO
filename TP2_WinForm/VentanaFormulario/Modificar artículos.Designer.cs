@@ -173,7 +173,7 @@
             // 
             this.textBox4.BackColor = System.Drawing.Color.Silver;
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.ForeColor = System.Drawing.Color.White;
+            this.textBox4.ForeColor = System.Drawing.Color.Black;
             this.textBox4.Location = new System.Drawing.Point(194, 234);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(304, 13);
@@ -191,7 +191,7 @@
             // 
             this.textBox3.BackColor = System.Drawing.Color.Silver;
             this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox3.ForeColor = System.Drawing.Color.White;
+            this.textBox3.ForeColor = System.Drawing.Color.Black;
             this.textBox3.Location = new System.Drawing.Point(194, 187);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(123, 13);
@@ -227,7 +227,7 @@
             // 
             this.textBox2.BackColor = System.Drawing.Color.Silver;
             this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.ForeColor = System.Drawing.Color.White;
+            this.textBox2.ForeColor = System.Drawing.Color.Black;
             this.textBox2.Location = new System.Drawing.Point(194, 80);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(304, 13);
@@ -245,7 +245,7 @@
             // 
             this.textBox1.BackColor = System.Drawing.Color.Silver;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox1.ForeColor = System.Drawing.Color.White;
+            this.textBox1.ForeColor = System.Drawing.Color.Black;
             this.textBox1.Location = new System.Drawing.Point(194, 51);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(224, 13);
@@ -263,7 +263,7 @@
             // 
             this.txtnombres.BackColor = System.Drawing.Color.Silver;
             this.txtnombres.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtnombres.ForeColor = System.Drawing.Color.White;
+            this.txtnombres.ForeColor = System.Drawing.Color.Black;
             this.txtnombres.Location = new System.Drawing.Point(194, 21);
             this.txtnombres.Name = "txtnombres";
             this.txtnombres.Size = new System.Drawing.Size(154, 13);
@@ -363,7 +363,6 @@
             this.Name = "Modificar_artículos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Modificar_artículos";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.Modificar_artículos_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

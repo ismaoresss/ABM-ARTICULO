@@ -317,36 +317,42 @@
             this.tsmAgregarArticulo.Name = "tsmAgregarArticulo";
             this.tsmAgregarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmAgregarArticulo.Text = "Agregar";
+            this.tsmAgregarArticulo.Click += new System.EventHandler(this.tsmAgregarArticulo_Click);
             // 
             // tsmListarArticulos
             // 
             this.tsmListarArticulos.Name = "tsmListarArticulos";
             this.tsmListarArticulos.Size = new System.Drawing.Size(137, 22);
             this.tsmListarArticulos.Text = "Listar";
+            this.tsmListarArticulos.Click += new System.EventHandler(this.tsmListarArticulos_Click);
             // 
             // tsmBuscarArticulo
             // 
             this.tsmBuscarArticulo.Name = "tsmBuscarArticulo";
             this.tsmBuscarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmBuscarArticulo.Text = "Buscar";
+            this.tsmBuscarArticulo.Click += new System.EventHandler(this.tsmBuscarArticulo_Click);
             // 
             // tsmModificarArticulo
             // 
             this.tsmModificarArticulo.Name = "tsmModificarArticulo";
             this.tsmModificarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmModificarArticulo.Text = "Modificar";
+            this.tsmModificarArticulo.Click += new System.EventHandler(this.tsmModificarArticulo_Click);
             // 
             // tsmDetallarArticulo
             // 
             this.tsmDetallarArticulo.Name = "tsmDetallarArticulo";
             this.tsmDetallarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmDetallarArticulo.Text = "Detallar";
+            this.tsmDetallarArticulo.Click += new System.EventHandler(this.tsmDetallarArticulo_Click);
             // 
             // tsmEliminarArticulo
             // 
             this.tsmEliminarArticulo.Name = "tsmEliminarArticulo";
             this.tsmEliminarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmEliminarArticulo.Text = "Eliminar";
+            this.tsmEliminarArticulo.Click += new System.EventHandler(this.tsmEliminarArticulo_Click);
             // 
             // tsmContacto
             // 
@@ -385,6 +391,7 @@
             this.Controls.Add(this.menuStrip2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MenuPrincipal";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuPrincipal";
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

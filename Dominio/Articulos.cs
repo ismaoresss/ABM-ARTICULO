@@ -18,28 +18,28 @@ namespace Dominio
             Descripcion = "";
             Marcas = new Marcas();  
             Categorias = new Categorias();
-            Imagen = new Imagenes();
+            Imagen = "";
             Precio = 0;
 
         }
-        public Articulos(string codigoArt, string nombreArt, string descripcionArt, Marcas marcaArt, Categorias categoriaArt, string imagenes, float precio)
+        public Articulos(string codigoArt, string nombreArt, string descripcionArt, Marcas marcaArt, Categorias categoriaArt, string imagenes, decimal precio)
         {
-            IdArticulo = 0;
-            CodArticulo = "";
-            Nombre = "";
-            Descripcion = "";
-            Marcas = new Marcas();
-            Categorias = new Categorias();
-            Imagen = new Imagenes();
-            Precio = 0;
+            CodArticulo = codigoArt;
+            Nombre = nombreArt;
+            Descripcion = descripcionArt;
+            Marcas = marcaArt;
+            Categorias = categoriaArt;
+            Imagen = imagenes;
+            Precio = precio;
         }
 
         public int IdArticulo { get; set; }
         public string CodArticulo { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
-        public float Precio { get; set; }
-        public Imagenes Imagen { get; set; }
+        public decimal Precio { get; set; }
+        public List<string> Imagenes { get; set; }
+        public string Imagen { get; set; }
         public Marcas Marcas { get; set; }
         public Categorias Categorias { get; set; }
 

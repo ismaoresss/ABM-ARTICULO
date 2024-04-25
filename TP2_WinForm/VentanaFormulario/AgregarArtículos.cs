@@ -13,6 +13,7 @@ using Dominio;
 using Negocio;
 using System.Configuration;
 using System.IO;
+using static System.Net.Mime.MediaTypeNames;
 
 namespace TP2_WinForm.VentanaFormulario
 {
@@ -29,79 +30,130 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void AgregarArtículos_Load(object sender, EventArgs e)
         {
-
+           
         }
 
         private void btnguardar_Click(object sender, EventArgs e)
         {
-            Articulos articulo = new Articulos();
+            Articulos nuevoArticulo = new Articulos();
+            Imagenes nuevaImagen = new Imagenes();
+            Negocio.ArticulosNegocio nuevoManager = new Negocio.ArticulosNegocio();
+            ArticulosNegocio imagenes = new ArticulosNegocio();
             try
             {
-                articulo.CodArticulo = txtcodarticulo.Text;
-                articulo.Nombre = txtnombre.Text;
-                articulo.Descripcion = txtdescripcion.Text;
-                articulo.Marcas = (Marcas)cbomarca.SelectedItem;
-                articulo.Categorias = (Categorias)cbocategoria.SelectedItem;
-                articulo.Imagen.ImagenUrl = txturlimagen.Text;
-
-                ArticulosNegocio negocio = new ArticulosNegocio();
-                negocio.AgregarArticulo(articulo);
-                MessageBox.Show("Agregado exitosamente");
-                Close();
-
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-
-
-
-            /*
-            
-            try
-            {
-                if (articulo == null)
-                    articulo = new Articulos();
-
-                articulo.CodArticulo = txtcodarticulo.Text;
-                articulo.Nombre = txtnombre.Text;
-                articulo.Descripcion = txtdescripcion.Text;
-                articulo.Marcas = (Marcas)cbomarca.SelectedItem;
-                articulo.Categorias = (Categorias)cbocategoria.SelectedItem;
-                articulo.Imagen.ImagenUrl = txturlimagen.Text;
-
-
-
-                /*
-                if (articulo.IdArticulo != 0)
+                if (nuevoManager.verificadorDeCodigos(nuevoArticulo.CodArticulo) == true)
                 {
-                 //   negocio.modificar(articulo);
-                    MessageBox.Show("Modificado exitosamente");
+                    MessageBox.Show("El codigo ya existe. Ingrese otro");
                 }
                 else
                 {
-                    negocio.AgregarArticulo(articulo);
-                    MessageBox.Show("Agregado exitosamente");
+                    nuevoArticulo.CodArticulo = txtcodarticulo.Text;
                 }
-           
-                ////Guardo imagen si la levantó localmente:
-                //if (archivo != null && !(txturlimagen.Text.ToUpper().Contains("HTTP")))
-                //    File.Copy(archivo.FileName,ConfigurationManager["images-folder"] + archivo.SafeFileName);
-                
-                Close();
+
+                if (string.IsNullOrEmpty(nuevoArticulo.CodArticulo))
+                {
+                    MessageBox.Show("El campo de código no puede quedar vacío. Ingrese uno por favor");
+                    return;
+                }
+
+                nuevoArticulo.Nombre = txtnombre.Text;
+                nuevoArticulo.Descripcion = txtdescripcion.Text;
+
+                if (string.IsNullOrEmpty(nuevoArticulo.Nombre))
+                {
+                    MessageBox.Show("No se ha ingresado un nombre al artículo");
+                    return;
+                }
+
+                if (cbocategoria.SelectedValue != null)
+                {
+                    nuevoArticulo.Categorias.IdCategoria = (int)cbocategoria.SelectedValue;
+                }
+
+                if (cbomarca.SelectedValue != null)
+                {
+                    nuevoArticulo.Marcas.IdMarcas = (int)cbomarca.SelectedValue;
+                }
+
+                nuevoArticulo.Imagen.ImagenUrl = (string)txturlimagen.Text;
+
+                decimal verificadorNumero;
+
+                if (decimal.TryParse((txtprecio.Text), out verificadorNumero))
+                {
+                    nuevoArticulo.Precio = decimal.Parse(txtprecio.Text);
+                }
+                else
+                {
+                    MessageBox.Show("Ingresar sólo números en el precio por favor");
+                    return;
+                }
+
+                nuevoManager.AgregarArticulo(nuevoArticulo);
+                imagenes.AgregarImagen(nuevoArticulo);
+                MessageBox.Show("Artículo agregado exitosamente");
 
             }
             catch (Exception ex)
             {
+
                 MessageBox.Show(ex.ToString());
             }
-            */
+
         }
 
         private void btnvolver_Click(object sender, EventArgs e)
         {
             Close();    
         }
+
+        private void txtcodarticulo_Leave(object sender, EventArgs e)
+        {
+            ArticulosNegocio verificador = new ArticulosNegocio();
+            if (verificador.verificadorDeCodigos(txtcodarticulo.Text) == true)
+            {
+                MessageBox.Show("Codigo existe.Ingrese otro");
+                txtcodarticulo.Clear();
+            }
+            if (string.IsNullOrEmpty(txtcodarticulo.Text))
+            {
+                MessageBox.Show("El campo de codigo no puede quedar vacio. Ingrese un codigo por favor");
+            }
+        }
+
+        private void txtnombre_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtcodarticulo.Text))
+            {
+                MessageBox.Show("No se ha ingresado un nombre al artículo");
+                return;
+            }
+        }
+
+        private void txtprecio_Leave(object sender, EventArgs e)
+        {
+            decimal verificadorNumero;
+
+            if ((!decimal.TryParse((txtprecio.Text), out verificadorNumero)))
+            {
+                MessageBox.Show("Ingresar sólo números en el precio por favor");
+                return;
+            }
+        }
+
+        private void txturlimagen_Leave(object sender, EventArgs e)
+        {
+            cargarImagen(txturlimagen.Text);
+        }
+        private void cargarImagen(string imagen)
+        {
+            try
+            {
+                AgregariconoPc.Load(imagen);
+            }
+            catch (Exception)
+            { AgregariconoPc.Load("https://i.pinimg.com/564x/a5/6e/f6/a56ef61429307a58fbcbb16139d623f6.jpg"); }
+        }
     }
 }
+

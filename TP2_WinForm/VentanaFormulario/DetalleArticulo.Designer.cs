@@ -65,9 +65,9 @@
             // AgregariconoPc
             // 
             this.AgregariconoPc.Image = ((System.Drawing.Image)(resources.GetObject("AgregariconoPc.Image")));
-            this.AgregariconoPc.Location = new System.Drawing.Point(389, 84);
+            this.AgregariconoPc.Location = new System.Drawing.Point(432, 84);
             this.AgregariconoPc.Name = "AgregariconoPc";
-            this.AgregariconoPc.Size = new System.Drawing.Size(267, 239);
+            this.AgregariconoPc.Size = new System.Drawing.Size(268, 258);
             this.AgregariconoPc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AgregariconoPc.TabIndex = 52;
             this.AgregariconoPc.TabStop = false;
@@ -80,7 +80,7 @@
             this.datalistadoArticulo.Name = "datalistadoArticulo";
             this.datalistadoArticulo.RowHeadersWidth = 51;
             this.datalistadoArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoArticulo.Size = new System.Drawing.Size(276, 239);
+            this.datalistadoArticulo.Size = new System.Drawing.Size(394, 258);
             this.datalistadoArticulo.TabIndex = 53;
             // 
             // dataGridView1
@@ -102,7 +102,7 @@
             this.btnAcancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnAcancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnAcancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcancelar.Location = new System.Drawing.Point(12, 329);
+            this.btnAcancelar.Location = new System.Drawing.Point(0, 360);
             this.btnAcancelar.Name = "btnAcancelar";
             this.btnAcancelar.Size = new System.Drawing.Size(164, 73);
             this.btnAcancelar.TabIndex = 55;
@@ -116,7 +116,7 @@
             this.btnguardarcambiospersonal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnguardarcambiospersonal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnguardarcambiospersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnguardarcambiospersonal.Location = new System.Drawing.Point(153, 329);
+            this.btnguardarcambiospersonal.Location = new System.Drawing.Point(153, 360);
             this.btnguardarcambiospersonal.Name = "btnguardarcambiospersonal";
             this.btnguardarcambiospersonal.Size = new System.Drawing.Size(135, 73);
             this.btnguardarcambiospersonal.TabIndex = 56;
@@ -136,6 +136,7 @@
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "DetalleArticulo";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "DetalleArticulo";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

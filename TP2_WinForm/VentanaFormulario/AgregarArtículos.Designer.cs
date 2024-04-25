@@ -171,11 +171,12 @@
             // 
             this.txturlimagen.BackColor = System.Drawing.Color.Silver;
             this.txturlimagen.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txturlimagen.ForeColor = System.Drawing.Color.White;
+            this.txturlimagen.ForeColor = System.Drawing.Color.Black;
             this.txturlimagen.Location = new System.Drawing.Point(194, 234);
             this.txturlimagen.Name = "txturlimagen";
             this.txturlimagen.Size = new System.Drawing.Size(304, 13);
             this.txturlimagen.TabIndex = 49;
+            this.txturlimagen.Leave += new System.EventHandler(this.txturlimagen_Leave);
             // 
             // panel5
             // 
@@ -189,11 +190,12 @@
             // 
             this.txtprecio.BackColor = System.Drawing.Color.Silver;
             this.txtprecio.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtprecio.ForeColor = System.Drawing.Color.White;
+            this.txtprecio.ForeColor = System.Drawing.Color.Black;
             this.txtprecio.Location = new System.Drawing.Point(194, 187);
             this.txtprecio.Name = "txtprecio";
             this.txtprecio.Size = new System.Drawing.Size(123, 13);
             this.txtprecio.TabIndex = 47;
+            this.txtprecio.Leave += new System.EventHandler(this.txtprecio_Leave);
             // 
             // cbomarca
             // 
@@ -225,7 +227,7 @@
             // 
             this.txtdescripcion.BackColor = System.Drawing.Color.Silver;
             this.txtdescripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtdescripcion.ForeColor = System.Drawing.Color.White;
+            this.txtdescripcion.ForeColor = System.Drawing.Color.Black;
             this.txtdescripcion.Location = new System.Drawing.Point(194, 80);
             this.txtdescripcion.Name = "txtdescripcion";
             this.txtdescripcion.Size = new System.Drawing.Size(304, 13);
@@ -243,11 +245,12 @@
             // 
             this.txtnombre.BackColor = System.Drawing.Color.Silver;
             this.txtnombre.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtnombre.ForeColor = System.Drawing.Color.White;
+            this.txtnombre.ForeColor = System.Drawing.Color.Black;
             this.txtnombre.Location = new System.Drawing.Point(194, 51);
             this.txtnombre.Name = "txtnombre";
             this.txtnombre.Size = new System.Drawing.Size(224, 13);
             this.txtnombre.TabIndex = 39;
+            this.txtnombre.Leave += new System.EventHandler(this.txtnombre_Leave);
             // 
             // panel11
             // 
@@ -261,11 +264,12 @@
             // 
             this.txtcodarticulo.BackColor = System.Drawing.Color.Silver;
             this.txtcodarticulo.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtcodarticulo.ForeColor = System.Drawing.Color.White;
+            this.txtcodarticulo.ForeColor = System.Drawing.Color.Black;
             this.txtcodarticulo.Location = new System.Drawing.Point(194, 21);
             this.txtcodarticulo.Name = "txtcodarticulo";
             this.txtcodarticulo.Size = new System.Drawing.Size(154, 13);
             this.txtcodarticulo.TabIndex = 37;
+            this.txtcodarticulo.Leave += new System.EventHandler(this.txtcodarticulo_Leave);
             // 
             // label2
             // 
@@ -348,7 +352,6 @@
             this.Name = "AgregarArtículos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "AgregarArtículos";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.AgregarArtículos_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
