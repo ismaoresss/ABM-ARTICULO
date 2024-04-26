@@ -16,6 +16,7 @@ namespace TP2_WinForm.VentanaFormulario
     public partial class BuscarArticulo : Form
     {
         private List<Articulos> ListaArticulos;
+        
 
         public BuscarArticulo()
         {
@@ -68,6 +69,11 @@ namespace TP2_WinForm.VentanaFormulario
             }
             dgvArticulos.DataSource = null;
             dgvArticulos.DataSource = listaFiltrada;
+
+            //Ocultar columnas
+            dgvArticulos.Columns["IdArticulo"].Visible = false;
+            dgvArticulos.Columns["Imagen"].Visible = false;
+
         }
 
         private void BuscarArticulo_Load(object sender, EventArgs e)
@@ -77,6 +83,10 @@ namespace TP2_WinForm.VentanaFormulario
             ListaArticulos = Articulo.ListarArticulos();
 
             dgvArticulos.DataSource = ListaArticulos;
+
+            //Ocultar columnas
+            dgvArticulos.Columns["IdArticulo"].Visible = false;
+            dgvArticulos.Columns["Imagen"].Visible = false;
         }
     }
 }

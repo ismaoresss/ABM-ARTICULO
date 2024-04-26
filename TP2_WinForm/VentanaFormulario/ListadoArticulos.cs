@@ -30,13 +30,8 @@ namespace TP2_WinForm.VentanaFormulario
             dgvArticulo.DataSource = negocio.ListarArticulos();
             Globales.DiseñoDtv(ref dgvArticulo);
 
-            dgvArticulo.Columns["CodArticulo"].Visible = false;
             dgvArticulo.Columns["IdArticulo"].Visible = false;
-           // dgvArticulo.Columns["IdCategoria"].Visible = false;
-            //dgvArticulo.Columns["IdMarca"].Visible = false;
             dgvArticulo.Columns["Imagen"].Visible = false;
-          //  dgvArticulo.Columns["Marcas"].Visible = false;
-            dgvArticulo.Columns["Categorias"].Visible = false;
 
             AgregariconoPc.Load(listaArticulos[0].Imagen);
         }
