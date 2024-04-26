@@ -45,7 +45,7 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void btnvolverArticulo_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
 
         private void lbl_Buscar_Click(object sender, EventArgs e)
@@ -88,5 +88,6 @@ namespace TP2_WinForm.VentanaFormulario
             dgvArticulos.Columns["IdArticulo"].Visible = false;
             dgvArticulos.Columns["Imagen"].Visible = false;
         }
+
     }
 }

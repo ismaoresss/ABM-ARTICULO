@@ -124,7 +124,7 @@
             this.btnAgregarimg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAgregarimg.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarimg.ForeColor = System.Drawing.Color.White;
-            this.btnAgregarimg.Location = new System.Drawing.Point(994, 400);
+            this.btnAgregarimg.Location = new System.Drawing.Point(995, 429);
             this.btnAgregarimg.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAgregarimg.Name = "btnAgregarimg";
             this.btnAgregarimg.Size = new System.Drawing.Size(134, 95);
@@ -137,10 +137,10 @@
             this.flowLayoutPanel3.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel3.Controls.Add(this.btnguardar);
             this.flowLayoutPanel3.Controls.Add(this.btnvolver);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(304, 400);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(304, 429);
             this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(322, 106);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(322, 101);
             this.flowLayoutPanel3.TabIndex = 52;
             // 
             // btnguardar
@@ -154,7 +154,7 @@
             this.btnguardar.Location = new System.Drawing.Point(4, 5);
             this.btnguardar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnguardar.Name = "btnguardar";
-            this.btnguardar.Size = new System.Drawing.Size(168, 80);
+            this.btnguardar.Size = new System.Drawing.Size(167, 80);
             this.btnguardar.TabIndex = 0;
             this.btnguardar.UseVisualStyleBackColor = true;
             this.btnguardar.Click += new System.EventHandler(this.btnguardar_Click);
@@ -167,7 +167,7 @@
             this.btnvolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnvolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnvolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnvolver.Location = new System.Drawing.Point(180, 5);
+            this.btnvolver.Location = new System.Drawing.Point(179, 5);
             this.btnvolver.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnvolver.Name = "btnvolver";
             this.btnvolver.Size = new System.Drawing.Size(129, 89);
