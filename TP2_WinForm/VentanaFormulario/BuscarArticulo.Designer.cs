@@ -224,9 +224,10 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "BuscarArticulo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "BuscarArticulo";
+            this.Text = "Buscar artículo";
             this.Load += new System.EventHandler(this.BuscarArticulo_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

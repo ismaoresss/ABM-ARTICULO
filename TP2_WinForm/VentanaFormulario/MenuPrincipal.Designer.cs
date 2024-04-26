@@ -372,7 +372,7 @@
             this.dgvListaArt.Name = "dgvListaArt";
             this.dgvListaArt.ReadOnly = true;
             this.dgvListaArt.RowHeadersWidth = 62;
-            this.dgvListaArt.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvListaArt.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.dgvListaArt.Size = new System.Drawing.Size(987, 283);
             this.dgvListaArt.TabIndex = 0;
             this.dgvListaArt.SelectionChanged += new System.EventHandler(this.dgvListaArt_SelectionChanged);
@@ -388,9 +388,10 @@
             this.Controls.Add(this.menuStrip2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "MenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MenuPrincipal";
+            this.Text = "Menu principal";
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

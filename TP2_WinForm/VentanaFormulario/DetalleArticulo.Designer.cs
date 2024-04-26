@@ -48,26 +48,30 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(755, 66);
+            this.panel1.Size = new System.Drawing.Size(1132, 102);
             this.panel1.TabIndex = 39;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Cascadia Mono", 20.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(210, 16);
+            this.label1.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(315, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(335, 35);
+            this.label1.Size = new System.Drawing.Size(475, 48);
             this.label1.TabIndex = 1;
             this.label1.Text = "DETALLE DEL ARTICULO";
             // 
             // AgregariconoPc
             // 
             this.AgregariconoPc.Image = ((System.Drawing.Image)(resources.GetObject("AgregariconoPc.Image")));
-            this.AgregariconoPc.Location = new System.Drawing.Point(432, 84);
+            this.AgregariconoPc.Location = new System.Drawing.Point(648, 129);
+            this.AgregariconoPc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AgregariconoPc.Name = "AgregariconoPc";
-            this.AgregariconoPc.Size = new System.Drawing.Size(268, 258);
+            this.AgregariconoPc.Size = new System.Drawing.Size(402, 397);
             this.AgregariconoPc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AgregariconoPc.TabIndex = 52;
             this.AgregariconoPc.TabStop = false;
@@ -76,22 +80,24 @@
             // 
             this.datalistadoArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datalistadoArticulo.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.datalistadoArticulo.Location = new System.Drawing.Point(12, 84);
+            this.datalistadoArticulo.Location = new System.Drawing.Point(18, 129);
+            this.datalistadoArticulo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.datalistadoArticulo.Name = "datalistadoArticulo";
             this.datalistadoArticulo.RowHeadersWidth = 51;
             this.datalistadoArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoArticulo.Size = new System.Drawing.Size(394, 258);
+            this.datalistadoArticulo.Size = new System.Drawing.Size(591, 397);
             this.datalistadoArticulo.TabIndex = 53;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 448);
+            this.dataGridView1.Location = new System.Drawing.Point(18, 689);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(688, 93);
+            this.dataGridView1.Size = new System.Drawing.Size(1032, 143);
             this.dataGridView1.TabIndex = 54;
             // 
             // btnAcancelar
@@ -102,9 +108,10 @@
             this.btnAcancelar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnAcancelar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnAcancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnAcancelar.Location = new System.Drawing.Point(0, 360);
+            this.btnAcancelar.Location = new System.Drawing.Point(0, 554);
+            this.btnAcancelar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAcancelar.Name = "btnAcancelar";
-            this.btnAcancelar.Size = new System.Drawing.Size(164, 73);
+            this.btnAcancelar.Size = new System.Drawing.Size(246, 112);
             this.btnAcancelar.TabIndex = 55;
             this.btnAcancelar.UseVisualStyleBackColor = true;
             // 
@@ -116,18 +123,19 @@
             this.btnguardarcambiospersonal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnguardarcambiospersonal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnguardarcambiospersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnguardarcambiospersonal.Location = new System.Drawing.Point(153, 360);
+            this.btnguardarcambiospersonal.Location = new System.Drawing.Point(230, 554);
+            this.btnguardarcambiospersonal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnguardarcambiospersonal.Name = "btnguardarcambiospersonal";
-            this.btnguardarcambiospersonal.Size = new System.Drawing.Size(135, 73);
+            this.btnguardarcambiospersonal.Size = new System.Drawing.Size(202, 112);
             this.btnguardarcambiospersonal.TabIndex = 56;
             this.btnguardarcambiospersonal.UseVisualStyleBackColor = true;
             // 
             // DetalleArticulo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(755, 612);
+            this.ClientSize = new System.Drawing.Size(1132, 942);
             this.Controls.Add(this.btnguardarcambiospersonal);
             this.Controls.Add(this.btnAcancelar);
             this.Controls.Add(this.dataGridView1);
@@ -135,9 +143,11 @@
             this.Controls.Add(this.AgregariconoPc);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "DetalleArticulo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "DetalleArticulo";
+            this.Text = "Detalle articulo";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AgregariconoPc)).EndInit();
