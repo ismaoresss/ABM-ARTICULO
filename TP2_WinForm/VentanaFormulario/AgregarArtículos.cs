@@ -30,7 +30,16 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void AgregarArtículos_Load(object sender, EventArgs e)
         {
-           
+
+            MarcasNegocio negocioMarcas = new MarcasNegocio();
+            cbomarca.DataSource = negocioMarcas.listarMarcas();
+            cbomarca.ValueMember = "IdMarcas";
+            cbomarca.DisplayMember = "Descripcion";
+
+            CategoriasNegocios negocioCategorias = new CategoriasNegocios();
+            cbocategoria.DataSource = negocioCategorias.listarCategorias();
+            cbocategoria.ValueMember = "IdCategoria";
+            cbocategoria.DisplayMember = "Descripcion";
         }
 
         private void btnguardar_Click(object sender, EventArgs e)
@@ -39,6 +48,8 @@ namespace TP2_WinForm.VentanaFormulario
             Imagenes nuevaImagen = new Imagenes();
             Negocio.ArticulosNegocio nuevoManager = new Negocio.ArticulosNegocio();
             ArticulosNegocio imagenes = new ArticulosNegocio();
+
+
             try
             {
                 if (nuevoManager.verificadorDeCodigos(nuevoArticulo.CodArticulo) == true)

@@ -10,6 +10,7 @@ using System.Windows.Forms;
 //using TP2_WinForm.Clases;
 using TP2_WinForm.Negocio;
 using Dominio;
+using Negocio;
 
 namespace TP2_WinForm.VentanaFormulario
 {
