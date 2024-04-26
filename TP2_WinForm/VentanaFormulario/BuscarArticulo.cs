@@ -87,6 +87,17 @@ namespace TP2_WinForm.VentanaFormulario
             //Ocultar columnas
             dgvArticulos.Columns["IdArticulo"].Visible = false;
             dgvArticulos.Columns["Imagen"].Visible = false;
+
+
+
+          
+        
+         
+        
+
+
+
+
         }
 
     }

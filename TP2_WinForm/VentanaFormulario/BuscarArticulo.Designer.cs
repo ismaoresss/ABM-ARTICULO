@@ -67,6 +67,7 @@
             this.panel1.Controls.Add(this.btnvolverArticulo);
             this.panel1.Controls.Add(this.lbl_BuscarArticulo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel1.Enabled = false;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
@@ -136,11 +137,11 @@
             this.txt_buscar.BackColor = System.Drawing.Color.MediumPurple;
             this.txt_buscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_buscar.ForeColor = System.Drawing.Color.White;
-            this.txt_buscar.Location = new System.Drawing.Point(422, 20);
+            this.txt_buscar.Location = new System.Drawing.Point(410, 20);
             this.txt_buscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_buscar.Multiline = true;
             this.txt_buscar.Name = "txt_buscar";
-            this.txt_buscar.Size = new System.Drawing.Size(484, 32);
+            this.txt_buscar.Size = new System.Drawing.Size(496, 32);
             this.txt_buscar.TabIndex = 1;
             this.txt_buscar.TextChanged += new System.EventHandler(this.txt_buscar_TextChanged);
             // 
@@ -176,10 +177,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvArticulos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvArticulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvArticulos.Enabled = false;
             this.dgvArticulos.Location = new System.Drawing.Point(196, 168);
             this.dgvArticulos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvArticulos.Name = "dgvArticulos";
             this.dgvArticulos.RowHeadersWidth = 62;
+            this.dgvArticulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvArticulos.Size = new System.Drawing.Size(998, 440);
             this.dgvArticulos.TabIndex = 0;
             // 

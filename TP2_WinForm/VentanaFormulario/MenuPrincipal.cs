@@ -31,7 +31,7 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void tsmContacto_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Aplicación desarrollada por Ismael Oreste, Pedro Bernabé Quirós y Facundo Nahuel Pino");
+            MessageBox.Show("Aplicación desarrollada por Ismael Oreste, Pedro Bernabé Quirós y Facundo Nahuel Pino.");
         }
 
         private void tsmAgregarArticulo_Click(object sender, EventArgs e)
@@ -128,6 +128,7 @@ namespace TP2_WinForm.VentanaFormulario
             ListaArticulos = Articulo.ListarArticulos();
             dgvListaArt.DataSource = ListaArticulos;
             Globales.OcultarColumnas(ref dgvListaArt);
+
         }
         
         private void tsbLinkedinMaxi_Click(object sender, EventArgs e)

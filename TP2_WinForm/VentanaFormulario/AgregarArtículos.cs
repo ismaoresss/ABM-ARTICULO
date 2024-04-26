@@ -113,6 +113,10 @@ namespace TP2_WinForm.VentanaFormulario
                 imagenes.AgregarImagen(nuevoArticulo);
                 MessageBox.Show("Artículo agregado exitosamente");
 
+                //Actualizar listado de articulos con el nuevo articulo
+                ListadoArticulos listado = new ListadoArticulos();
+                listado.cargarArticulos();
+
             }
             catch (Exception ex)
             {
