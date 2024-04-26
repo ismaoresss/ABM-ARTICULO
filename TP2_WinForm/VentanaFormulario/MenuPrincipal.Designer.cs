@@ -98,7 +98,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(924, 27);
+            this.toolStrip1.Size = new System.Drawing.Size(911, 27);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -265,7 +265,7 @@
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
-            this.menuStrip2.Size = new System.Drawing.Size(924, 24);
+            this.menuStrip2.Size = new System.Drawing.Size(911, 24);
             this.menuStrip2.TabIndex = 5;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -338,27 +338,30 @@
             this.panelArticulos.Controls.Add(this.dgvListaArt);
             this.panelArticulos.Location = new System.Drawing.Point(12, 54);
             this.panelArticulos.Name = "panelArticulos";
-            this.panelArticulos.Size = new System.Drawing.Size(847, 389);
+            this.panelArticulos.Size = new System.Drawing.Size(847, 310);
             this.panelArticulos.TabIndex = 6;
             // 
             // dgvListaArt
             // 
             this.dgvListaArt.AllowUserToAddRows = false;
             this.dgvListaArt.AllowUserToDeleteRows = false;
+            this.dgvListaArt.BackgroundColor = System.Drawing.Color.White;
             this.dgvListaArt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvListaArt.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvListaArt.Location = new System.Drawing.Point(0, 0);
             this.dgvListaArt.Name = "dgvListaArt";
             this.dgvListaArt.ReadOnly = true;
             this.dgvListaArt.RowHeadersWidth = 62;
-            this.dgvListaArt.Size = new System.Drawing.Size(847, 389);
+            this.dgvListaArt.Size = new System.Drawing.Size(847, 310);
             this.dgvListaArt.TabIndex = 0;
+            this.dgvListaArt.SelectionChanged += new System.EventHandler(this.dgvListaArt_SelectionChanged);
             // 
             // MenuPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(924, 487);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(911, 400);
             this.Controls.Add(this.panelArticulos);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip2);

@@ -195,6 +195,8 @@
             this.txtprecio.Name = "txtprecio";
             this.txtprecio.Size = new System.Drawing.Size(123, 13);
             this.txtprecio.TabIndex = 47;
+            this.txtprecio.TextChanged += new System.EventHandler(this.txtprecio_TextChanged);
+            this.txtprecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtprecio_KeyPress);
             this.txtprecio.Leave += new System.EventHandler(this.txtprecio_Leave);
             // 
             // cbomarca

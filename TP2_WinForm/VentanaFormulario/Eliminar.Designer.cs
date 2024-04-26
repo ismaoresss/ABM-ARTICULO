@@ -31,12 +31,12 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Eliminar));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.datalistadoArticulos = new System.Windows.Forms.DataGridView();
+            this.datalistadoArticulosEliminar = new System.Windows.Forms.DataGridView();
             this.panelBtnguardarpersonal = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnguardarpersonal = new System.Windows.Forms.Button();
+            this.btneliminar = new System.Windows.Forms.Button();
             this.btnguardarcambiospersonal = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.datalistadoArticulos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datalistadoArticulosEliminar)).BeginInit();
             this.panelBtnguardarpersonal.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,39 +60,44 @@
             this.label1.TabIndex = 1;
             this.label1.Text = "ELIMINAR ARTÍCULO";
             // 
-            // datalistadoArticulos
+            // datalistadoArticulosEliminar
             // 
-            this.datalistadoArticulos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.datalistadoArticulos.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.datalistadoArticulos.Location = new System.Drawing.Point(12, 72);
-            this.datalistadoArticulos.Name = "datalistadoArticulos";
-            this.datalistadoArticulos.RowHeadersWidth = 51;
-            this.datalistadoArticulos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoArticulos.Size = new System.Drawing.Size(755, 273);
-            this.datalistadoArticulos.TabIndex = 40;
+            this.datalistadoArticulosEliminar.AllowUserToAddRows = false;
+            this.datalistadoArticulosEliminar.AllowUserToDeleteRows = false;
+            this.datalistadoArticulosEliminar.BackgroundColor = System.Drawing.Color.White;
+            this.datalistadoArticulosEliminar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.datalistadoArticulosEliminar.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
+            this.datalistadoArticulosEliminar.Location = new System.Drawing.Point(12, 75);
+            this.datalistadoArticulosEliminar.Name = "datalistadoArticulosEliminar";
+            this.datalistadoArticulosEliminar.ReadOnly = true;
+            this.datalistadoArticulosEliminar.RowHeadersWidth = 51;
+            this.datalistadoArticulosEliminar.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.datalistadoArticulosEliminar.Size = new System.Drawing.Size(755, 273);
+            this.datalistadoArticulosEliminar.TabIndex = 40;
             // 
             // panelBtnguardarpersonal
             // 
-            this.panelBtnguardarpersonal.Controls.Add(this.btnguardarpersonal);
+            this.panelBtnguardarpersonal.Controls.Add(this.btneliminar);
             this.panelBtnguardarpersonal.Controls.Add(this.btnguardarcambiospersonal);
             this.panelBtnguardarpersonal.Location = new System.Drawing.Point(260, 351);
             this.panelBtnguardarpersonal.Name = "panelBtnguardarpersonal";
             this.panelBtnguardarpersonal.Size = new System.Drawing.Size(261, 71);
             this.panelBtnguardarpersonal.TabIndex = 41;
             // 
-            // btnguardarpersonal
+            // btneliminar
             // 
-            this.btnguardarpersonal.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnguardarpersonal.BackgroundImage")));
-            this.btnguardarpersonal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnguardarpersonal.FlatAppearance.BorderSize = 0;
-            this.btnguardarpersonal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnguardarpersonal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnguardarpersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnguardarpersonal.Location = new System.Drawing.Point(3, 3);
-            this.btnguardarpersonal.Name = "btnguardarpersonal";
-            this.btnguardarpersonal.Size = new System.Drawing.Size(121, 52);
-            this.btnguardarpersonal.TabIndex = 0;
-            this.btnguardarpersonal.UseVisualStyleBackColor = true;
+            this.btneliminar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btneliminar.BackgroundImage")));
+            this.btneliminar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btneliminar.FlatAppearance.BorderSize = 0;
+            this.btneliminar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btneliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btneliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btneliminar.Location = new System.Drawing.Point(3, 3);
+            this.btneliminar.Name = "btneliminar";
+            this.btneliminar.Size = new System.Drawing.Size(121, 52);
+            this.btneliminar.TabIndex = 0;
+            this.btneliminar.UseVisualStyleBackColor = true;
+            this.btneliminar.Click += new System.EventHandler(this.btneliminar_Click);
             // 
             // btnguardarcambiospersonal
             // 
@@ -107,6 +112,7 @@
             this.btnguardarcambiospersonal.Size = new System.Drawing.Size(118, 52);
             this.btnguardarcambiospersonal.TabIndex = 1;
             this.btnguardarcambiospersonal.UseVisualStyleBackColor = true;
+            this.btnguardarcambiospersonal.Click += new System.EventHandler(this.btnguardarcambiospersonal_Click);
             // 
             // Eliminar
             // 
@@ -115,7 +121,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(779, 432);
             this.Controls.Add(this.panelBtnguardarpersonal);
-            this.Controls.Add(this.datalistadoArticulos);
+            this.Controls.Add(this.datalistadoArticulosEliminar);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Eliminar";
@@ -124,7 +130,7 @@
             this.Load += new System.EventHandler(this.Eliminar_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.datalistadoArticulos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.datalistadoArticulosEliminar)).EndInit();
             this.panelBtnguardarpersonal.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -134,9 +140,9 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView datalistadoArticulos;
+        private System.Windows.Forms.DataGridView datalistadoArticulosEliminar;
         private System.Windows.Forms.FlowLayoutPanel panelBtnguardarpersonal;
-        private System.Windows.Forms.Button btnguardarpersonal;
+        private System.Windows.Forms.Button btneliminar;
         private System.Windows.Forms.Button btnguardarcambiospersonal;
     }
 }

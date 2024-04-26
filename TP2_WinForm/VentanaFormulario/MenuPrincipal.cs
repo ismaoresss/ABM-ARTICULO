@@ -123,15 +123,25 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
-            ArticulosNegocio Articulo = new ArticulosNegocio(); 
+            ArticulosNegocio Articulo = new ArticulosNegocio();
+            Globales.DiseñoDtv(ref dgvListaArt);
             ListaArticulos = Articulo.ListarArticulos();
 
             dgvListaArt.DataSource = ListaArticulos;
         }
-
+        //private void OcultarColumnas()
+        //{
+        //    dgvListaArt.SelectedColumns["ImagenUrl"].visible = false;
+        //    dgvListaArt.SelectedColumns["Id"].visible = false;
+        //}
         private void tsbLinkedinMaxi_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void dgvListaArt_SelectionChanged(object sender, EventArgs e)
+        {
+           
         }
     }
 }

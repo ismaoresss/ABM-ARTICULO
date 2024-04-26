@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Negocio;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,7 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void Modificar_artículos_Load(object sender, EventArgs e)
         {
-
+            Globales.DiseñoDtv(ref datalistadoArticulo);
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)

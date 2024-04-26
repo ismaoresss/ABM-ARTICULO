@@ -14,6 +14,7 @@ using Negocio;
 using System.Configuration;
 using System.IO;
 using static System.Net.Mime.MediaTypeNames;
+using System.Security.Cryptography;
 
 namespace TP2_WinForm.VentanaFormulario
 {
@@ -29,8 +30,7 @@ namespace TP2_WinForm.VentanaFormulario
         public object ConfigurationManager { get; private set; }
 
         private void AgregarArtículos_Load(object sender, EventArgs e)
-        {
-
+        {   
             MarcasNegocio negocioMarcas = new MarcasNegocio();
             cbomarca.DataSource = negocioMarcas.listarMarcas();
             cbomarca.ValueMember = "IdMarcas";
@@ -143,13 +143,7 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void txtprecio_Leave(object sender, EventArgs e)
         {
-            decimal verificadorNumero;
-
-            if ((!decimal.TryParse((txtprecio.Text), out verificadorNumero)))
-            {
-                MessageBox.Show("Ingresar sólo números en el precio por favor");
-                return;
-            }
+           
         }
 
         private void txturlimagen_Leave(object sender, EventArgs e)
@@ -169,6 +163,16 @@ namespace TP2_WinForm.VentanaFormulario
         private void txtcodarticulo_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtprecio_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void txtprecio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Globales.decimales(txtprecio, e);
         }
     }
 }

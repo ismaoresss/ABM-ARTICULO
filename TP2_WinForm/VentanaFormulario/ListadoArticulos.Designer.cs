@@ -323,28 +323,32 @@
             // 
             // dgvArticulo
             // 
+            this.dgvArticulo.AllowUserToAddRows = false;
+            this.dgvArticulo.AllowUserToDeleteRows = false;
             this.dgvArticulo.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvArticulo.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
+            this.dgvArticulo.BackgroundColor = System.Drawing.Color.White;
             this.dgvArticulo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvArticulo.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.dgvArticulo.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.dgvArticulo.Location = new System.Drawing.Point(58, 410);
+            this.dgvArticulo.Location = new System.Drawing.Point(35, 370);
             this.dgvArticulo.Margin = new System.Windows.Forms.Padding(2);
             this.dgvArticulo.MultiSelect = false;
             this.dgvArticulo.Name = "dgvArticulo";
+            this.dgvArticulo.ReadOnly = true;
             this.dgvArticulo.RowHeadersWidth = 62;
             this.dgvArticulo.RowTemplate.Height = 28;
             this.dgvArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvArticulo.Size = new System.Drawing.Size(776, 150);
+            this.dgvArticulo.Size = new System.Drawing.Size(799, 179);
             this.dgvArticulo.TabIndex = 6;
             this.dgvArticulo.SelectionChanged += new System.EventHandler(this.dgvArticulo_SelectionChanged);
             // 
             // AgregariconoPc
             // 
             this.AgregariconoPc.Image = ((System.Drawing.Image)(resources.GetObject("AgregariconoPc.Image")));
-            this.AgregariconoPc.Location = new System.Drawing.Point(572, 108);
+            this.AgregariconoPc.Location = new System.Drawing.Point(567, 108);
             this.AgregariconoPc.Name = "AgregariconoPc";
-            this.AgregariconoPc.Size = new System.Drawing.Size(262, 233);
+            this.AgregariconoPc.Size = new System.Drawing.Size(267, 257);
             this.AgregariconoPc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AgregariconoPc.TabIndex = 13;
             this.AgregariconoPc.TabStop = false;
@@ -354,7 +358,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(856, 487);
+            this.ClientSize = new System.Drawing.Size(856, 560);
             this.Controls.Add(this.AgregariconoPc);
             this.Controls.Add(this.dgvArticulo);
             this.Controls.Add(this.panel2);

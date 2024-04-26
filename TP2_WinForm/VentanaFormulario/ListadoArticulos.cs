@@ -24,9 +24,11 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void ListadoArticulos_Load(object sender, EventArgs e)
         {
+
             ArticulosNegocio negocio = new ArticulosNegocio();
             listaArticulos = negocio.ListarArticulos();
             dgvArticulo.DataSource = negocio.ListarArticulos();
+            Globales.DiseñoDtv(ref dgvArticulo);
 
             dgvArticulo.Columns["CodArticulo"].Visible = false;
             dgvArticulo.Columns["IdArticulo"].Visible = false;

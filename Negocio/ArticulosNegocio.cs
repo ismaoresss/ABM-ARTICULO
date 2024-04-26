@@ -120,6 +120,21 @@ namespace TP2_WinForm.Negocio
         {
 
         }
+        public void eliminar(int id)
+        {
+            try
+            {
+                AccesoDatos datos = new AccesoDatos();
+                datos.SetearConsulta("delete from ARTICULOS  where id = @id");
+                datos.SeterParametros("@id", id);
+                datos.EjecutarAccion();
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
         public bool verificadorDeCodigos(string codigo)
         {
 
@@ -174,6 +189,32 @@ namespace TP2_WinForm.Negocio
             finally
             {
                 conexion.Close();
+            }
+        }
+        public List<Articulos> listaParaImagenes()
+        {
+            List<Articulos> listaArticulos = ListarArticulos();
+
+            if (listaArticulos != null && listaArticulos.Count > 0)
+            {
+                Dictionary<string, Articulos> diccionarioArticulos = new Dictionary<string, Articulos>();
+
+                foreach (var articulo in listaArticulos)
+                {
+                    if (!diccionarioArticulos.ContainsKey(articulo.CodArticulo))
+                    {
+                        diccionarioArticulos.Add(articulo.CodArticulo, articulo);
+                        articulo.Imagenes = new List<string>();
+                    }
+                    diccionarioArticulos[articulo.CodArticulo].Imagenes.Add(articulo.Imagen);
+                }
+
+                List<Articulos> listaParaDgv = diccionarioArticulos.Values.ToList();
+                return listaParaDgv;
+            }
+            else
+            {
+                return new List<Articulos>();
             }
         }
     }
