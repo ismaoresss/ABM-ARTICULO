@@ -100,7 +100,7 @@
             this.toolStrip1.Location = new System.Drawing.Point(0, 34);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(1366, 29);
+            this.toolStrip1.Size = new System.Drawing.Size(1353, 29);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -268,7 +268,7 @@
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(6, 3, 0, 3);
-            this.menuStrip2.Size = new System.Drawing.Size(1366, 34);
+            this.menuStrip2.Size = new System.Drawing.Size(1353, 34);
             this.menuStrip2.TabIndex = 5;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -343,13 +343,13 @@
             this.panelArticulos.Location = new System.Drawing.Point(18, 83);
             this.panelArticulos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelArticulos.Name = "panelArticulos";
-            this.panelArticulos.Size = new System.Drawing.Size(1318, 477);
+            this.panelArticulos.Size = new System.Drawing.Size(1318, 525);
             this.panelArticulos.TabIndex = 6;
             // 
             // pcUTN
             // 
             this.pcUTN.Image = ((System.Drawing.Image)(resources.GetObject("pcUTN.Image")));
-            this.pcUTN.Location = new System.Drawing.Point(452, 350);
+            this.pcUTN.Location = new System.Drawing.Point(454, 389);
             this.pcUTN.Name = "pcUTN";
             this.pcUTN.Size = new System.Drawing.Size(386, 127);
             this.pcUTN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -372,8 +372,8 @@
             this.dgvListaArt.Name = "dgvListaArt";
             this.dgvListaArt.ReadOnly = true;
             this.dgvListaArt.RowHeadersWidth = 62;
-            this.dgvListaArt.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvListaArt.Size = new System.Drawing.Size(987, 283);
+            this.dgvListaArt.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
+            this.dgvListaArt.Size = new System.Drawing.Size(987, 348);
             this.dgvListaArt.TabIndex = 0;
             this.dgvListaArt.SelectionChanged += new System.EventHandler(this.dgvListaArt_SelectionChanged);
             // 
@@ -382,15 +382,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1366, 615);
+            this.ClientSize = new System.Drawing.Size(1353, 655);
             this.Controls.Add(this.panelArticulos);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "MenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "MenuPrincipal";
+            this.Text = "Menu principal";
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
