@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,15 +23,7 @@
       "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\buscararticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\pquiros\\documents\\github-utn\\utn_tp2_winform\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\listadoarticulos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\pquiros\\documents\\github-utn\\utn_tp2_winform\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\detallearticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\detallearticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\detallearticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -54,7 +54,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ListadoArticulos.cs",
               "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\ListadoArticulos.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\ListadoArticulos.cs",
@@ -68,13 +68,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BuscarArticulo.cs",
               "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\BuscarArticulo.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\BuscarArticulo.cs",
               "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\BuscarArticulo.cs",
               "RelativeToolTip": "VentanaFormulario\\BuscarArticulo.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwE8AAAAJAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAADwv08AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T19:35:30.844Z",
               "IsPinned": true,
@@ -94,7 +94,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "AgregarArt\u00EDculos.cs",
               "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
@@ -119,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "AgregarArt\u00EDculos.cs [Design]",
               "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
@@ -139,8 +139,7 @@
               "RelativeToolTip": "VentanaFormulario\\DetalleArticulo.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T20:11:00.017Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-26T20:11:00.017Z"
             },
             {
               "$type": "Document",
@@ -163,8 +162,7 @@
               "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs [Design]",
               "RelativeToolTip": "VentanaFormulario\\MenuPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T19:45:52.06Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-04-26T19:45:52.06Z"
             },
             {
               "$type": "Document",
@@ -176,7 +174,8 @@
               "RelativeToolTip": "VentanaFormulario\\BuscarArticulo.Designer.cs",
               "ViewState": "AQIAAJYAAAAAAAAAAAAMwKQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T19:36:26.346Z"
+              "WhenOpened": "2024-04-26T19:36:26.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

@@ -67,7 +67,6 @@
             this.panel1.Controls.Add(this.btnvolverArticulo);
             this.panel1.Controls.Add(this.lbl_BuscarArticulo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Enabled = false;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
