@@ -55,6 +55,7 @@
             this.lbCodigoArticulo = new System.Windows.Forms.Label();
             this.dgvArticulo = new System.Windows.Forms.DataGridView();
             this.AgregariconoPc = new System.Windows.Forms.PictureBox();
+            this.btnvolver = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvArticulo)).BeginInit();
@@ -75,6 +76,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.SlateBlue;
+            this.panel1.Controls.Add(this.btnvolver);
             this.panel1.Controls.Add(this.lbl_ListadoArticulo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -339,19 +341,34 @@
             this.dgvArticulo.RowHeadersWidth = 62;
             this.dgvArticulo.RowTemplate.Height = 28;
             this.dgvArticulo.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvArticulo.Size = new System.Drawing.Size(799, 179);
+            this.dgvArticulo.Size = new System.Drawing.Size(799, 153);
             this.dgvArticulo.TabIndex = 6;
             this.dgvArticulo.SelectionChanged += new System.EventHandler(this.dgvArticulo_SelectionChanged);
             // 
             // AgregariconoPc
             // 
             this.AgregariconoPc.Image = ((System.Drawing.Image)(resources.GetObject("AgregariconoPc.Image")));
-            this.AgregariconoPc.Location = new System.Drawing.Point(567, 108);
+            this.AgregariconoPc.Location = new System.Drawing.Point(567, 94);
             this.AgregariconoPc.Name = "AgregariconoPc";
-            this.AgregariconoPc.Size = new System.Drawing.Size(267, 257);
+            this.AgregariconoPc.Size = new System.Drawing.Size(267, 271);
             this.AgregariconoPc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AgregariconoPc.TabIndex = 13;
             this.AgregariconoPc.TabStop = false;
+            // 
+            // btnvolver
+            // 
+            this.btnvolver.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnvolver.BackgroundImage")));
+            this.btnvolver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnvolver.FlatAppearance.BorderSize = 0;
+            this.btnvolver.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnvolver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnvolver.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnvolver.Location = new System.Drawing.Point(748, 12);
+            this.btnvolver.Name = "btnvolver";
+            this.btnvolver.Size = new System.Drawing.Size(86, 58);
+            this.btnvolver.TabIndex = 12;
+            this.btnvolver.UseVisualStyleBackColor = true;
+            this.btnvolver.Click += new System.EventHandler(this.btnvolver_Click);
             // 
             // ListadoArticulos
             // 
@@ -405,5 +422,6 @@
         private System.Windows.Forms.TextBox txtArticuloCategoria;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.TextBox txtArticuloMarca;
+        private System.Windows.Forms.Button btnvolver;
     }
 }

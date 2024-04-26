@@ -81,5 +81,10 @@ namespace TP2_WinForm.VentanaFormulario
                 MessageBox.Show("El campo de codigo no puede quedar vacio. Ingrese un codigo por favor");
             }
         }
+
+        private void btnvolver_Click(object sender, EventArgs e)
+        {
+            Close();    
+        }
     }
 }

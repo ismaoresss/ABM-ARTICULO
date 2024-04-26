@@ -46,12 +46,12 @@ namespace Negocio
         public static void DiseñoDtv(ref DataGridView listado)
         {
             listado.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
-            listado.BackgroundColor = Color.FromArgb(20, 20, 20);
+            listado.BackgroundColor = Color.FromArgb(128, 128, 255);
             listado.EnableHeadersVisualStyles = false;
             listado.BorderStyle = BorderStyle.None;
             listado.CellBorderStyle = DataGridViewCellBorderStyle.SunkenVertical;
             listado.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            listado.RowHeadersVisible = true;
+            listado.RowHeadersVisible = false;
             
 
             DataGridViewCellStyle cabecera = new DataGridViewCellStyle();
@@ -60,7 +60,11 @@ namespace Negocio
             cabecera.Font = new Font("Segoe UI", 10, FontStyle.Bold);
             listado.ColumnHeadersDefaultCellStyle = cabecera;
         }
-        
+        public static void OcultarColumnas(ref DataGridView listado)
+        {
+            listado.Columns[0].Visible = false;
+            listado.Columns[5].Visible = false;
+        }
 
     }
 }

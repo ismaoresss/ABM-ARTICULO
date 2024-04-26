@@ -32,6 +32,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnAgregarimg = new System.Windows.Forms.Button();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnguardar = new System.Windows.Forms.Button();
             this.btnvolver = new System.Windows.Forms.Button();
@@ -83,6 +84,7 @@
             // 
             // panel2
             // 
+            this.panel2.Controls.Add(this.btnAgregarimg);
             this.panel2.Controls.Add(this.flowLayoutPanel3);
             this.panel2.Controls.Add(this.AgregariconoPc);
             this.panel2.Controls.Add(this.panel6);
@@ -109,12 +111,28 @@
             this.panel2.Size = new System.Drawing.Size(852, 355);
             this.panel2.TabIndex = 40;
             // 
+            // btnAgregarimg
+            // 
+            this.btnAgregarimg.BackColor = System.Drawing.Color.White;
+            this.btnAgregarimg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAgregarimg.BackgroundImage")));
+            this.btnAgregarimg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnAgregarimg.FlatAppearance.BorderSize = 0;
+            this.btnAgregarimg.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAgregarimg.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarimg.ForeColor = System.Drawing.Color.White;
+            this.btnAgregarimg.Location = new System.Drawing.Point(663, 260);
+            this.btnAgregarimg.Name = "btnAgregarimg";
+            this.btnAgregarimg.Size = new System.Drawing.Size(89, 62);
+            this.btnAgregarimg.TabIndex = 53;
+            this.btnAgregarimg.UseVisualStyleBackColor = false;
+            this.btnAgregarimg.Click += new System.EventHandler(this.btnAgregarimg_Click);
+            // 
             // flowLayoutPanel3
             // 
             this.flowLayoutPanel3.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel3.Controls.Add(this.btnguardar);
             this.flowLayoutPanel3.Controls.Add(this.btnvolver);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(247, 274);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(203, 260);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Size = new System.Drawing.Size(215, 69);
             this.flowLayoutPanel3.TabIndex = 52;
@@ -158,6 +176,7 @@
             this.AgregariconoPc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AgregariconoPc.TabIndex = 51;
             this.AgregariconoPc.TabStop = false;
+            this.AgregariconoPc.Click += new System.EventHandler(this.AgregariconoPc_Click);
             // 
             // panel6
             // 
@@ -393,5 +412,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.Button btnvolver;
+        private System.Windows.Forms.Button btnAgregarimg;
     }
 }

@@ -11,10 +11,11 @@ using System.Xml.Linq;
 using TP2_WinForm.Negocio;
 using Dominio;
 using Negocio;
-using System.Configuration;
 using System.IO;
+using System.Configuration;
 using static System.Net.Mime.MediaTypeNames;
 using System.Security.Cryptography;
+
 
 namespace TP2_WinForm.VentanaFormulario
 {
@@ -48,7 +49,7 @@ namespace TP2_WinForm.VentanaFormulario
             Imagenes nuevaImagen = new Imagenes();
             Negocio.ArticulosNegocio nuevoManager = new Negocio.ArticulosNegocio();
             ArticulosNegocio imagenes = new ArticulosNegocio();
-
+            MemoryStream ms = new MemoryStream();
 
             try
             {
@@ -99,6 +100,14 @@ namespace TP2_WinForm.VentanaFormulario
                     MessageBox.Show("Ingresar sólo números en el precio por favor");
                     return;
                 }
+                
+                
+                 
+
+                //if (archivo != null && !(txturlimagen.Text.ToUpper().Contains("HTTP")))
+
+                //    File.Copy(archivo.FileName, ConfigurationManager.AppSetting["Acceso rápido"] + archivo.SafeFileName);
+
 
                 nuevoManager.AgregarArticulo(nuevoArticulo);
                 imagenes.AgregarImagen(nuevoArticulo);
@@ -173,6 +182,28 @@ namespace TP2_WinForm.VentanaFormulario
         private void txtprecio_KeyPress(object sender, KeyPressEventArgs e)
         {
             Globales.decimales(txtprecio, e);
+        }
+
+        private void AgregariconoPc_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void btnAgregarimg_Click(object sender, EventArgs e)
+        {
+            //ArticulosNegocio nego = new ArticulosNegocio();
+
+            //d.InitialDirectory = "";
+            //archivo.Filter = "Imagenes|*.jpg;*.png";
+            //archivo.FilterIndex = 2;
+            //archivo.Title = "Cargador de imagenes";
+            //if (archivo.ShowDialog() == DialogResult.OK)
+            //{
+            //    AgregariconoPc.BackgroundImage = null;
+            //    AgregariconoPc.Image = new Bitmap(archivo.FileName);
+            //    cargarImagen(archivo.FileName);
+                
+            //}
         }
     }
 }

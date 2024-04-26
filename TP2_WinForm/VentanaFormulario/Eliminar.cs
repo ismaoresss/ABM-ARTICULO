@@ -37,12 +37,16 @@ namespace TP2_WinForm.VentanaFormulario
             Articulos seleccionado;
             try
             {
+                DialogResult result = MessageBox.Show("¿Estas seguro de Eliminar este Registro?", "Eliminar registro", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+                if (result == DialogResult.OK)
+                {
                 seleccionado = datalistadoArticulosEliminar.CurrentRow.DataBoundItem as Articulos;
                 articulo.eliminar(seleccionado.IdArticulo);
                 MessageBox.Show("Articulo eliminado");
 
                 listaArticulo = articulo.ListarArticulos();
                 datalistadoArticulosEliminar.DataSource = listaArticulo;
+                }
 
             }
             catch (Exception ex)
