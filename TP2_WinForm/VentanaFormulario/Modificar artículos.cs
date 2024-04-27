@@ -150,9 +150,16 @@ namespace TP2_WinForm.VentanaFormulario
             Articulos articulo = new Articulos();  
             try
             {
-                articulo.CodArticulo = txtCodArticulo.Text;
-                articulo.Nombre = txtCodArticulo.Text;
-                articulo.Descripcion = txtCodArticulo.Text;
+                if(articulosNegocio.verificadorDeCodigos(articulo.CodArticulo)==true && articulo.CodArticulo != txtCodArticulo.Text)
+                {
+                    MessageBox.Show("El codigo ya existe. Ingrese otro");
+                }
+                else
+                {
+                  articulo.CodArticulo = txtCodArticulo.Text;
+                }
+                articulo.Nombre = txtNombre.Text;
+                articulo.Descripcion = txtDescripcion.Text;
                 articulo.Marcas = (Marcas) cboMarca.SelectedItem;
                 articulo.Categorias = (Categorias) cboCategoria.SelectedItem;
                 articulo.Precio = decimal.Parse(txtPrecio.Text);

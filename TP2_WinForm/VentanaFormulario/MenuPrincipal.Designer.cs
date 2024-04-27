@@ -288,42 +288,42 @@
             // tsmAgregarArticulo
             // 
             this.tsmAgregarArticulo.Name = "tsmAgregarArticulo";
-            this.tsmAgregarArticulo.Size = new System.Drawing.Size(180, 22);
+            this.tsmAgregarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmAgregarArticulo.Text = "Agregar";
             this.tsmAgregarArticulo.Click += new System.EventHandler(this.tsmAgregarArticulo_Click);
             // 
             // tsmListarArticulos
             // 
             this.tsmListarArticulos.Name = "tsmListarArticulos";
-            this.tsmListarArticulos.Size = new System.Drawing.Size(180, 22);
+            this.tsmListarArticulos.Size = new System.Drawing.Size(137, 22);
             this.tsmListarArticulos.Text = "Listar";
             this.tsmListarArticulos.Click += new System.EventHandler(this.tsmListarArticulos_Click);
             // 
             // tsmBuscarArticulo
             // 
             this.tsmBuscarArticulo.Name = "tsmBuscarArticulo";
-            this.tsmBuscarArticulo.Size = new System.Drawing.Size(180, 22);
+            this.tsmBuscarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmBuscarArticulo.Text = "Buscar";
             this.tsmBuscarArticulo.Click += new System.EventHandler(this.tsmBuscarArticulo_Click);
             // 
             // tsmModificarArticulo
             // 
             this.tsmModificarArticulo.Name = "tsmModificarArticulo";
-            this.tsmModificarArticulo.Size = new System.Drawing.Size(180, 22);
+            this.tsmModificarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmModificarArticulo.Text = "Modificar";
             this.tsmModificarArticulo.Click += new System.EventHandler(this.tsmModificarArticulo_Click);
             // 
             // tsmDetallarArticulo
             // 
             this.tsmDetallarArticulo.Name = "tsmDetallarArticulo";
-            this.tsmDetallarArticulo.Size = new System.Drawing.Size(180, 22);
+            this.tsmDetallarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmDetallarArticulo.Text = "Detallar";
             this.tsmDetallarArticulo.Click += new System.EventHandler(this.tsmDetallarArticulo_Click);
             // 
             // tsmEliminarArticulo
             // 
             this.tsmEliminarArticulo.Name = "tsmEliminarArticulo";
-            this.tsmEliminarArticulo.Size = new System.Drawing.Size(180, 22);
+            this.tsmEliminarArticulo.Size = new System.Drawing.Size(137, 22);
             this.tsmEliminarArticulo.Text = "Eliminar";
             this.tsmEliminarArticulo.Click += new System.EventHandler(this.tsmEliminarArticulo_Click);
             // 
@@ -349,7 +349,7 @@
             // 
             this.pcUTN.Image = ((System.Drawing.Image)(resources.GetObject("pcUTN.Image")));
             this.pcUTN.Location = new System.Drawing.Point(303, 253);
-            this.pcUTN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pcUTN.Margin = new System.Windows.Forms.Padding(2);
             this.pcUTN.Name = "pcUTN";
             this.pcUTN.Size = new System.Drawing.Size(257, 83);
             this.pcUTN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -368,13 +368,13 @@
             this.dgvListaArt.ColumnHeadersHeight = 34;
             this.dgvListaArt.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvListaArt.Enabled = false;
-            this.dgvListaArt.Location = new System.Drawing.Point(109, 3);
+            this.dgvListaArt.Location = new System.Drawing.Point(76, 3);
             this.dgvListaArt.MultiSelect = false;
             this.dgvListaArt.Name = "dgvListaArt";
             this.dgvListaArt.ReadOnly = true;
             this.dgvListaArt.RowHeadersWidth = 62;
             this.dgvListaArt.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvListaArt.Size = new System.Drawing.Size(658, 226);
+            this.dgvListaArt.Size = new System.Drawing.Size(731, 226);
             this.dgvListaArt.TabIndex = 0;
             this.dgvListaArt.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaArt_CellContentClick);
             this.dgvListaArt.SelectionChanged += new System.EventHandler(this.dgvListaArt_SelectionChanged);
@@ -393,6 +393,7 @@
             this.Name = "MenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu principal";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MenuPrincipal_Load);
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();

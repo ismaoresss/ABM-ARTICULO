@@ -51,7 +51,7 @@ namespace Negocio
             listado.BorderStyle = BorderStyle.None;
             listado.CellBorderStyle = DataGridViewCellBorderStyle.SunkenVertical;
             listado.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            listado.RowHeadersVisible = false;
+            listado.RowHeadersVisible = true;
             
 
             DataGridViewCellStyle cabecera = new DataGridViewCellStyle();
