@@ -3,15 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{551BED00-EC71-4C14-9F71-2E83FAD9D423}|..\\Negocio\\Negocio.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\negocio\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{551BED00-EC71-4C14-9F71-2E83FAD9D423}|..\\Negocio\\Negocio.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,7 +40,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,33 +60,71 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "AgregarArt\u00EDculos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "RelativeToolTip": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAQwEYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T20:32:11.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AgregarArt\u00EDculos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "VentanaFormulario\\AgregarArt\u00EDculos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T20:32:09.887Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccesoDatos.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\Negocio\\AccesoDatos.cs",
+              "RelativeDocumentMoniker": "..\\Negocio\\AccesoDatos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\Negocio\\AccesoDatos.cs",
+              "RelativeToolTip": "..\\Negocio\\AccesoDatos.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T20:08:19.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ArticulosNegocio.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
               "RelativeDocumentMoniker": "..\\Negocio\\ArticulosNegocio.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
               "RelativeToolTip": "..\\Negocio\\ArticulosNegocio.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAYwIMAAAAQAAAA",
+              "ViewState": "AQIAAHAAAAAAAAAAAAAiwK4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T19:43:08.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Modificar art\u00EDculos.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\Modificar art\u00EDculos.cs",
               "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs",
               "RelativeToolTip": "VentanaFormulario\\Modificar art\u00EDculos.cs",
-              "ViewState": "AQIAAGgAAAAAAAAAAAAkwIwAAAA5AAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAAIwDcAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T19:42:32.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Modificar art\u00EDculos.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\Modificar art\u00EDculos.cs",
@@ -87,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MenuPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\MenuPrincipal.cs",
@@ -99,7 +148,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "MenuPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\MenuPrincipal.cs",

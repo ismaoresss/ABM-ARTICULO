@@ -51,9 +51,9 @@ namespace TP2_WinForm.VentanaFormulario
             {
                 AgregariconoPc.Load(imagen);
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                AgregariconoPc.Load("https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Escudo_del_C_A_River_Plate.svg/1200px-Escudo_del_C_A_River_Plate.svg.png");
+                AgregariconoPc.Load("https://motomagdperu.com/img/productos/no-image.png");
             }
         }
 
@@ -84,8 +84,8 @@ namespace TP2_WinForm.VentanaFormulario
                 txtNombre.Text = articulo.Nombre;
                 txtDescripcion.Text = articulo.Descripcion;
                 txtPrecio.Text = articulo.Precio.ToString();
-                txtImagen.Text = articulo.Imagen.ToString();
                 cargarImagen(articulo.Imagen);
+                txtImagen.Text = articulo.Imagen.ToString();
                 cboMarca.SelectedValue = articulo.Marcas.IdMarca;
                 cboCategoria.SelectedValue = articulo.Categorias.IdCategoria;
             }
@@ -120,33 +120,25 @@ namespace TP2_WinForm.VentanaFormulario
                 {
                   articulo.CodArticulo = txtCodArticulo.Text;
                 }
-                articulo.Nombre = txtNombre.Text;
-                articulo.Descripcion = txtDescripcion.Text;
-                if (!(cboMarca.SelectedItem == null))
+
+                if (!(txtNombre.Text == null || txtDescripcion.Text == null || cboMarca.SelectedItem == null || cboCategoria.SelectedItem == null || txtPrecio.Text == null))
                 {
-                articulo.Marcas = (Marcas) cboMarca.SelectedItem;
+                    articulo.Nombre = txtNombre.Text;
+                    articulo.Descripcion = txtDescripcion.Text;
+                    articulo.Marcas = (Marcas) cboMarca.SelectedItem;
+                    articulo.Categorias = (Categorias) cboCategoria.SelectedItem;
+                    articulo.Precio = decimal.Parse(txtPrecio.Text);
+                    articulo.Imagen = txtImagen.Text;
+
+                    articulosNegocio.ModificarArticulo(articulo);
+                    MessageBox.Show("Modificado exitosamente :)");
                 }
                 else
                 {
-                    articulo.Marcas.IdMarca = 0;
-                    articulo.Marcas.Descripcion = "";
+                    MessageBox.Show("Complete los campos de escritura mi estimado/a");
+                    return;
                 }
-                if (!(cboCategoria.SelectedItem == null))
-                {
-                articulo.Categorias = (Categorias) cboCategoria.SelectedItem;
-                }
-                else
-                {
-                    articulo.Categorias.IdCategoria = 0;
-                    articulo.Categorias.Descripcion = "";
-                }
-                articulo.Precio = decimal.Parse(txtPrecio.Text);
-                articulo.Imagen = txtImagen.Text;
 
-                articulosNegocio.ModificarArticulo(articulo);
-                MessageBox.Show("Modificado exitosamente");
-
-                Close ();
             }
             catch (Exception ex)
             {
