@@ -27,8 +27,8 @@ namespace TP2_WinForm.VentanaFormulario
             ArticulosNegocio articuloNeg = new ArticulosNegocio();
             listaArticulo = articuloNeg.listaParaImagenes();
             datalistadoArticulosEliminar.DataSource = listaArticulo;
-            datalistadoArticulosEliminar.Columns[0].Visible = false;
-            datalistadoArticulosEliminar.Columns[6].Visible = false;
+            Globales.DiseñoDtv(ref datalistadoArticulosEliminar);
+            Globales.OcultarColumnas(ref datalistadoArticulosEliminar);
         }
 
         private void btneliminar_Click(object sender, EventArgs e)
@@ -52,6 +52,17 @@ namespace TP2_WinForm.VentanaFormulario
             catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
+            }
+            finally
+            {
+
+                //Actualiza el menu principal con los nuevos articulos
+                MenuPrincipal menu = new MenuPrincipal();
+                menu.cargarArticulosEnMenuPrincipal();
+
+                //Actualiza el listado de articulos con los nuevos articulos
+                ListadoArticulos listado = new ListadoArticulos();
+                listado.cargarArticulosEnListado();
             }
         }
 

@@ -124,14 +124,19 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void MenuPrincipal_Load(object sender, EventArgs e)
         {
-            ArticulosNegocio Articulo = new ArticulosNegocio();
-            Globales.DiseñoDtv(ref dgvListaArt);
-            ListaArticulos = Articulo.ListarArticulos();
-            dgvListaArt.DataSource = ListaArticulos;
-            Globales.OcultarColumnas(ref dgvListaArt);
-
+            //Cargar la lista de articulos
+            cargarArticulosEnMenuPrincipal();
         }
-        
+
+        public void cargarArticulosEnMenuPrincipal()
+        {
+            ArticulosNegocio negocio = new ArticulosNegocio();
+            ListaArticulos = negocio.ListarArticulos();
+            dgvListaArt.DataSource = ListaArticulos;
+            Globales.DiseñoDtv(ref dgvListaArt);
+            Globales.OcultarColumnas(ref dgvListaArt);
+        }
+
         private void tsbLinkedinMaxi_Click(object sender, EventArgs e)
         {
 

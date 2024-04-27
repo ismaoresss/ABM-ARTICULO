@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -34,12 +35,14 @@ namespace Dominio
         }
 
         public int IdArticulo { get; set; }
+        [DisplayName("Cód. Artículo")]
         public string CodArticulo { get; set; }
         public string Nombre { get; set; }
         public string Descripcion { get; set; }
         public decimal Precio { get; set; }
         public List<string> Imagenes { get; set; }
         public string Imagen { get; set; }
+        [DisplayName("Marca")]
         public Marcas Marcas { get; set; }
         public Categorias Categorias { get; set; }
 

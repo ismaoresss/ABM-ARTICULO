@@ -48,8 +48,9 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(706, 66);
+            this.panel1.Size = new System.Drawing.Size(1059, 102);
             this.panel1.TabIndex = 39;
             // 
             // label1
@@ -57,18 +58,20 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline);
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(196, 16);
+            this.label1.Location = new System.Drawing.Point(294, 25);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(315, 32);
+            this.label1.Size = new System.Drawing.Size(475, 48);
             this.label1.TabIndex = 1;
             this.label1.Text = "DETALLE DEL ARTICULO";
             // 
             // AgregariconoPc
             // 
             this.AgregariconoPc.Image = ((System.Drawing.Image)(resources.GetObject("AgregariconoPc.Image")));
-            this.AgregariconoPc.Location = new System.Drawing.Point(356, 84);
+            this.AgregariconoPc.Location = new System.Drawing.Point(644, 172);
+            this.AgregariconoPc.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.AgregariconoPc.Name = "AgregariconoPc";
-            this.AgregariconoPc.Size = new System.Drawing.Size(268, 258);
+            this.AgregariconoPc.Size = new System.Drawing.Size(293, 297);
             this.AgregariconoPc.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.AgregariconoPc.TabIndex = 52;
             this.AgregariconoPc.TabStop = false;
@@ -80,12 +83,13 @@
             this.datalistadoDetalle.BackgroundColor = System.Drawing.Color.White;
             this.datalistadoDetalle.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datalistadoDetalle.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.datalistadoDetalle.Location = new System.Drawing.Point(12, 84);
+            this.datalistadoDetalle.Location = new System.Drawing.Point(18, 129);
+            this.datalistadoDetalle.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.datalistadoDetalle.Name = "datalistadoDetalle";
             this.datalistadoDetalle.ReadOnly = true;
             this.datalistadoDetalle.RowHeadersWidth = 51;
             this.datalistadoDetalle.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoDetalle.Size = new System.Drawing.Size(276, 258);
+            this.datalistadoDetalle.Size = new System.Drawing.Size(545, 397);
             this.datalistadoDetalle.TabIndex = 53;
             // 
             // datalistadoDetalletotal
@@ -93,11 +97,12 @@
             this.datalistadoDetalletotal.BackgroundColor = System.Drawing.Color.White;
             this.datalistadoDetalletotal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.datalistadoDetalletotal.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
-            this.datalistadoDetalletotal.Location = new System.Drawing.Point(12, 448);
+            this.datalistadoDetalletotal.Location = new System.Drawing.Point(18, 689);
+            this.datalistadoDetalletotal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.datalistadoDetalletotal.Name = "datalistadoDetalletotal";
             this.datalistadoDetalletotal.RowHeadersWidth = 51;
             this.datalistadoDetalletotal.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.datalistadoDetalletotal.Size = new System.Drawing.Size(688, 69);
+            this.datalistadoDetalletotal.Size = new System.Drawing.Size(1032, 106);
             this.datalistadoDetalletotal.TabIndex = 54;
             // 
             // btnDetallar
@@ -108,9 +113,10 @@
             this.btnDetallar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnDetallar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnDetallar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDetallar.Location = new System.Drawing.Point(0, 360);
+            this.btnDetallar.Location = new System.Drawing.Point(85, 548);
+            this.btnDetallar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnDetallar.Name = "btnDetallar";
-            this.btnDetallar.Size = new System.Drawing.Size(164, 73);
+            this.btnDetallar.Size = new System.Drawing.Size(171, 80);
             this.btnDetallar.TabIndex = 55;
             this.btnDetallar.UseVisualStyleBackColor = true;
             this.btnDetallar.Click += new System.EventHandler(this.btnDetallar_Click);
@@ -123,19 +129,20 @@
             this.btnguardarcambiospersonal.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.btnguardarcambiospersonal.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.btnguardarcambiospersonal.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnguardarcambiospersonal.Location = new System.Drawing.Point(153, 360);
+            this.btnguardarcambiospersonal.Location = new System.Drawing.Point(315, 548);
+            this.btnguardarcambiospersonal.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnguardarcambiospersonal.Name = "btnguardarcambiospersonal";
-            this.btnguardarcambiospersonal.Size = new System.Drawing.Size(135, 73);
+            this.btnguardarcambiospersonal.Size = new System.Drawing.Size(127, 80);
             this.btnguardarcambiospersonal.TabIndex = 56;
             this.btnguardarcambiospersonal.UseVisualStyleBackColor = true;
             this.btnguardarcambiospersonal.Click += new System.EventHandler(this.btnguardarcambiospersonal_Click);
             // 
             // DetalleArticulo
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(706, 558);
+            this.ClientSize = new System.Drawing.Size(1059, 858);
             this.Controls.Add(this.btnguardarcambiospersonal);
             this.Controls.Add(this.btnDetallar);
             this.Controls.Add(this.datalistadoDetalletotal);
@@ -143,6 +150,7 @@
             this.Controls.Add(this.AgregariconoPc);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "DetalleArticulo";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

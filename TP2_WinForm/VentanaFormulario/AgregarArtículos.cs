@@ -34,7 +34,7 @@ namespace TP2_WinForm.VentanaFormulario
         {   
             MarcasNegocio negocioMarcas = new MarcasNegocio();
             cbomarca.DataSource = negocioMarcas.listarMarcas();
-            cbomarca.ValueMember = "IdMarcas";
+            cbomarca.ValueMember = "IdMarca";
             cbomarca.DisplayMember = "Descripcion";
 
             CategoriasNegocios negocioCategorias = new CategoriasNegocios();
@@ -42,6 +42,7 @@ namespace TP2_WinForm.VentanaFormulario
             cbocategoria.ValueMember = "IdCategoria";
             cbocategoria.DisplayMember = "Descripcion";
         }
+
 
         private void btnguardar_Click(object sender, EventArgs e)
         {
@@ -101,8 +102,6 @@ namespace TP2_WinForm.VentanaFormulario
                     return;
                 }
                 
-                
-                 
 
                 //if (archivo != null && !(txturlimagen.Text.ToUpper().Contains("HTTP")))
 
@@ -113,9 +112,6 @@ namespace TP2_WinForm.VentanaFormulario
                 imagenes.AgregarImagen(nuevoArticulo);
                 MessageBox.Show("Artículo agregado exitosamente");
 
-                //Actualizar listado de articulos con el nuevo articulo
-                ListadoArticulos listado = new ListadoArticulos();
-                listado.cargarArticulos();
 
             }
             catch (Exception ex)
@@ -123,7 +119,17 @@ namespace TP2_WinForm.VentanaFormulario
 
                 MessageBox.Show(ex.ToString());
             }
+            finally
+            {
 
+                //Actualiza el menu principal con los nuevos articulos
+                MenuPrincipal menu = new MenuPrincipal();
+                menu.cargarArticulosEnMenuPrincipal();
+
+                //Actualiza el listado de articulos con los nuevos articulos
+                ListadoArticulos listado = new ListadoArticulos();
+                listado.cargarArticulosEnListado();
+            }
         }
 
         private void btnvolver_Click(object sender, EventArgs e)

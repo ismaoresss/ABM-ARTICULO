@@ -25,18 +25,17 @@ namespace TP2_WinForm.VentanaFormulario
         private void ListadoArticulos_Load(object sender, EventArgs e)
         {
             //Cargar la lista de articulos + Imagen
-            cargarArticulos();
+            cargarArticulosEnListado();
         }
 
-        public void cargarArticulos()
+        public void cargarArticulosEnListado()
         {
             ArticulosNegocio negocio = new ArticulosNegocio();
             listaArticulos = negocio.ListarArticulos();
-            dgvArticulo.DataSource = negocio.ListarArticulos();
+            dgvArticulo.DataSource = listaArticulos;
             Globales.DiseñoDtv(ref dgvArticulo);
-            dgvArticulo.Columns["IdArticulo"].Visible = false;
-            dgvArticulo.Columns["Imagen"].Visible = false;
-            AgregariconoPc.Load(listaArticulos[0].Imagen);
+            Globales.OcultarColumnas(ref dgvArticulo);
+            cargarImagen(listaArticulos[0].Imagen);
         }
 
 
