@@ -134,7 +134,6 @@ namespace TP2_WinForm.Negocio
                 datos.SeterParametros("precio", articulo.Precio);
                 datos.SeterParametros("id", articulo.IdArticulo);
                 
-
                 datos.EjecutarAccion();
             }
             catch (Exception ex)

@@ -86,8 +86,11 @@ namespace TP2_WinForm.VentanaFormulario
                 txtPrecio.Text = articulo.Precio.ToString();
                 cargarImagen(articulo.Imagen);
                 txtImagen.Text = articulo.Imagen.ToString();
-                cboMarca.SelectedValue = articulo.Marcas.IdMarca;
-                cboCategoria.SelectedValue = articulo.Categorias.IdCategoria;
+                
+                //cboMarca.SelectedValue = articulo.Marcas.IdMarca;
+                //cboCategoria.SelectedValue = articulo.Categorias.IdCategoria;
+                cboMarca.SelectedText = articulo.Marcas.Descripcion;
+                cboCategoria.SelectedText = articulo.Categorias.Descripcion;
             }
             catch (Exception ex)
             {
