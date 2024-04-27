@@ -27,39 +27,6 @@ namespace TP2_WinForm.VentanaFormulario
             Globales.DiseñoDtv(ref dgvArticulos);
 
             cargarArticulos();
-
-            /*
-            Articulos articulo = new Articulos();
-            articulo = (Articulos)dgvArticulos.CurrentRow.DataBoundItem;
-
-            CategoriasNegocios categoriasNegocios = new CategoriasNegocios();
-            MarcasNegocio marcasNegocio = new MarcasNegocio();
-
-            try
-            {
-                cboCategoria.DataSource = categoriasNegocios.listarCategorias();
-                cboCategoria.ValueMember = "IdCategoria";
-                cboCategoria.DisplayMember = "Descripcion";
-                cboMarca.DataSource = marcasNegocio.listarMarcas();
-                cboMarca.ValueMember = "IdMarca";
-                cboMarca.DisplayMember = "Descripcion";
-
-
-                txtCodArticulo.Text = articulo.CodArticulo;
-                txtNombre.Text = articulo.Nombre;
-                txtDescripcion.Text = articulo.Descripcion;
-                txtPrecio.Text = articulo.Precio.ToString();
-                txtImagen.Text = articulo.Imagen.ToString();
-                cargarImagen(articulo.Imagen);
-                cboMarca.SelectedValue = articulo.Marcas.IdMarcas;
-                cboCategoria.SelectedValue = articulo.Categorias.IdCategoria;
-            }
-            catch (Exception ex)
-            {
-
-                MessageBox.Show(ex.ToString());
-            }
-            */
         }
 
         public void cargarArticulos()
@@ -92,12 +59,7 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void dgvArticulos_Leave(object sender, EventArgs e)
         {
-           /*
-            Articulos articuloo = new Articulos();
-            articuloo = (Articulos)dgvArticulos.CurrentRow.DataBoundItem;
 
-            return articuloo;
-            */
         }
 
         private void dgvArticulos_SelectionChanged(object sender, EventArgs e)
@@ -160,8 +122,24 @@ namespace TP2_WinForm.VentanaFormulario
                 }
                 articulo.Nombre = txtNombre.Text;
                 articulo.Descripcion = txtDescripcion.Text;
+                if (!(cboMarca.SelectedItem == null))
+                {
                 articulo.Marcas = (Marcas) cboMarca.SelectedItem;
+                }
+                else
+                {
+                    articulo.Marcas.IdMarca = 0;
+                    articulo.Marcas.Descripcion = "";
+                }
+                if (!(cboCategoria.SelectedItem == null))
+                {
                 articulo.Categorias = (Categorias) cboCategoria.SelectedItem;
+                }
+                else
+                {
+                    articulo.Categorias.IdCategoria = 0;
+                    articulo.Categorias.Descripcion = "";
+                }
                 articulo.Precio = decimal.Parse(txtPrecio.Text);
                 articulo.Imagen = txtImagen.Text;
 

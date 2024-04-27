@@ -31,6 +31,7 @@ namespace TP2_WinForm.Negocio
             try
             {
                 datos.SetearConsulta("SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS ArticuloDescripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, A.Precio, I.ImagenUrl FROM ARTICULOS A LEFT JOIN MARCAS M ON A.IdMarca = M.Id LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo");
+                //datos.SetearConsulta("SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS ArticuloDescripcion, M.Descripcion AS Marca,\r\n C.Descripcion AS Categoria, A.Precio, I.ImagenUrl, M.Id AS IdMarcas, C.Id AS IdCategorias FROM ARTICULOS A\r\n  LEFT JOIN MARCAS M ON A.IdMarca = M.Id LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -131,6 +132,7 @@ namespace TP2_WinForm.Negocio
                 datos.SeterParametros("idmarca", articulo.Marcas.IdMarca);
                 datos.SeterParametros("idcategoria", articulo.Categorias.IdCategoria);
                 datos.SeterParametros("precio", articulo.Precio);
+                datos.SeterParametros("id", articulo.IdArticulo);
                 
 
                 datos.EjecutarAccion();
