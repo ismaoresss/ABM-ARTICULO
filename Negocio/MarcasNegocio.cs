@@ -22,7 +22,7 @@ namespace Negocio
                 while (datos.Lector.Read())
                 {
                     Marcas aux = new Marcas();
-                    aux.IdMarcas = (int)datos.Lector["id"];
+                    aux.IdMarca = (int)datos.Lector["id"];
                     aux.Descripcion = datos.Lector["descripcion"].ToString();
 
                     lista.Add(aux);

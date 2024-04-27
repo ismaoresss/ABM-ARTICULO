@@ -10,15 +10,15 @@ namespace Dominio
     {
         public Marcas() 
         {
-            IdMarcas = 0;
+            IdMarca = 0;
             Descripcion = "";
         }
-        public Marcas(int IdMarcas = 0,string descripcion = "")
+        public Marcas(int IdMarca = 0,string descripcion = "")
         {
-            this.IdMarcas = IdMarcas;
+            this.IdMarca = IdMarca;
             this.Descripcion = descripcion; 
         }
-        public int IdMarcas { get; set; }
+        public int IdMarca { get; set; }
         public string Descripcion { get; set; }
 
         

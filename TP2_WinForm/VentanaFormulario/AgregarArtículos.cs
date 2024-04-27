@@ -84,7 +84,7 @@ namespace TP2_WinForm.VentanaFormulario
 
                 if (cbomarca.SelectedValue != null)
                 {
-                    nuevoArticulo.Marcas.IdMarcas = (int)cbomarca.SelectedValue;
+                    nuevoArticulo.Marcas.IdMarca = (int)cbomarca.SelectedValue;
                 }
 
                 nuevoArticulo.Imagen = (string)txturlimagen.Text;

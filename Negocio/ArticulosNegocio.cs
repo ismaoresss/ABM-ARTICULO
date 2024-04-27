@@ -97,7 +97,7 @@ namespace TP2_WinForm.Negocio
                 datos.SeterParametros("@Codigo", nuevo.CodArticulo);
                 datos.SeterParametros("@Nombre", nuevo.Nombre);
                 datos.SeterParametros("@Descripcion", nuevo.Descripcion);
-                datos.SeterParametros("@IdMarca", nuevo.Marcas.IdMarcas);
+                datos.SeterParametros("@IdMarca", nuevo.Marcas.IdMarca);
                 datos.SeterParametros("@IdCategoria", nuevo.Categorias.IdCategoria);
                 datos.SeterParametros("@Precio", nuevo.Precio);
 
@@ -116,9 +116,34 @@ namespace TP2_WinForm.Negocio
                 conexion.Close();
             }
         }
-        public void ModificarArticulo()
-        {
 
+        public void ModificarArticulo(Articulos articulo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.SetearConsulta("Update ARTICULOS set CodArticulo = @codarticulo, Nombre = @nombre, Descripcion = @descripcion, IdMarca = @idmarca, IdCategoria  = @idcategoria, Precio = @precio, Imagen = @imagen Where Id = @id");
+                datos.SeterParametros("codarticulo", articulo.CodArticulo);
+                datos.SeterParametros("nombre", articulo.Nombre);
+                datos.SeterParametros("descripcion", articulo.Descripcion);
+                datos.SeterParametros("idmarca", articulo.Marcas.IdMarca);
+                datos.SeterParametros("idcategoria", articulo.Categorias.IdCategoria);
+                datos.SeterParametros("precio", articulo.Precio);
+                datos.SeterParametros("imagen", articulo.Imagen);
+                datos.SeterParametros("id", articulo.IdArticulo);
+
+                datos.EjecutarAccion();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.CerrarConexion();
+            }
         }
         public void eliminar(int id)
         {

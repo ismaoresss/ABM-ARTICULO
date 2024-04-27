@@ -97,10 +97,10 @@
             this.toolStripSeparator10,
             this.tsbInstagram,
             this.toolStripSeparator11});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 34);
+            this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(1353, 29);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(902, 27);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -110,13 +110,13 @@
             this.tsbAgregar.Image = ((System.Drawing.Image)(resources.GetObject("tsbAgregar.Image")));
             this.tsbAgregar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbAgregar.Name = "tsbAgregar";
-            this.tsbAgregar.Size = new System.Drawing.Size(34, 24);
+            this.tsbAgregar.Size = new System.Drawing.Size(24, 24);
             this.tsbAgregar.Text = "Agregar Artículo";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbListar
             // 
@@ -124,13 +124,13 @@
             this.tsbListar.Image = ((System.Drawing.Image)(resources.GetObject("tsbListar.Image")));
             this.tsbListar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbListar.Name = "tsbListar";
-            this.tsbListar.Size = new System.Drawing.Size(34, 24);
+            this.tsbListar.Size = new System.Drawing.Size(24, 24);
             this.tsbListar.Text = "Listar Artículos";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbBuscar
             // 
@@ -138,13 +138,13 @@
             this.tsbBuscar.Image = ((System.Drawing.Image)(resources.GetObject("tsbBuscar.Image")));
             this.tsbBuscar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbBuscar.Name = "tsbBuscar";
-            this.tsbBuscar.Size = new System.Drawing.Size(34, 24);
+            this.tsbBuscar.Size = new System.Drawing.Size(24, 24);
             this.tsbBuscar.Text = "Buscar Artículo";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbModificar
             // 
@@ -152,13 +152,13 @@
             this.tsbModificar.Image = ((System.Drawing.Image)(resources.GetObject("tsbModificar.Image")));
             this.tsbModificar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbModificar.Name = "tsbModificar";
-            this.tsbModificar.Size = new System.Drawing.Size(34, 24);
+            this.tsbModificar.Size = new System.Drawing.Size(24, 24);
             this.tsbModificar.Text = "Modificar Artículo";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbDetallar
             // 
@@ -166,13 +166,13 @@
             this.tsbDetallar.Image = ((System.Drawing.Image)(resources.GetObject("tsbDetallar.Image")));
             this.tsbDetallar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbDetallar.Name = "tsbDetallar";
-            this.tsbDetallar.Size = new System.Drawing.Size(34, 24);
+            this.tsbDetallar.Size = new System.Drawing.Size(24, 24);
             this.tsbDetallar.Text = "Detallar Artículo";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbEliminar
             // 
@@ -180,13 +180,13 @@
             this.tsbEliminar.Image = ((System.Drawing.Image)(resources.GetObject("tsbEliminar.Image")));
             this.tsbEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbEliminar.Name = "tsbEliminar";
-            this.tsbEliminar.Size = new System.Drawing.Size(34, 24);
+            this.tsbEliminar.Size = new System.Drawing.Size(24, 24);
             this.tsbEliminar.Text = "Eliminar Artículo";
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbImagenes
             // 
@@ -194,13 +194,13 @@
             this.tsbImagenes.Image = ((System.Drawing.Image)(resources.GetObject("tsbImagenes.Image")));
             this.tsbImagenes.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbImagenes.Name = "tsbImagenes";
-            this.tsbImagenes.Size = new System.Drawing.Size(34, 24);
+            this.tsbImagenes.Size = new System.Drawing.Size(24, 24);
             this.tsbImagenes.Text = "Agregar Imagen";
             // 
             // toolStripSeparator7
             // 
             this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbAlbum
             // 
@@ -208,13 +208,13 @@
             this.tsbAlbum.Image = ((System.Drawing.Image)(resources.GetObject("tsbAlbum.Image")));
             this.tsbAlbum.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbAlbum.Name = "tsbAlbum";
-            this.tsbAlbum.Size = new System.Drawing.Size(34, 24);
+            this.tsbAlbum.Size = new System.Drawing.Size(24, 24);
             this.tsbAlbum.Text = "Album de Imágenes";
             // 
             // toolStripSeparator8
             // 
             this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbContacto
             // 
@@ -222,13 +222,13 @@
             this.tsbContacto.Image = ((System.Drawing.Image)(resources.GetObject("tsbContacto.Image")));
             this.tsbContacto.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbContacto.Name = "tsbContacto";
-            this.tsbContacto.Size = new System.Drawing.Size(34, 24);
+            this.tsbContacto.Size = new System.Drawing.Size(24, 24);
             this.tsbContacto.Text = "Contacto";
             // 
             // toolStripSeparator9
             // 
             this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbYouTube
             // 
@@ -236,13 +236,13 @@
             this.tsbYouTube.Image = ((System.Drawing.Image)(resources.GetObject("tsbYouTube.Image")));
             this.tsbYouTube.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbYouTube.Name = "tsbYouTube";
-            this.tsbYouTube.Size = new System.Drawing.Size(34, 24);
+            this.tsbYouTube.Size = new System.Drawing.Size(24, 24);
             this.tsbYouTube.Text = "YouTube";
             // 
             // toolStripSeparator10
             // 
             this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 27);
             // 
             // tsbInstagram
             // 
@@ -250,25 +250,24 @@
             this.tsbInstagram.Image = ((System.Drawing.Image)(resources.GetObject("tsbInstagram.Image")));
             this.tsbInstagram.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tsbInstagram.Name = "tsbInstagram";
-            this.tsbInstagram.Size = new System.Drawing.Size(34, 24);
+            this.tsbInstagram.Size = new System.Drawing.Size(24, 24);
             this.tsbInstagram.Text = "Instagram";
             // 
             // toolStripSeparator11
             // 
             this.toolStripSeparator11.Name = "toolStripSeparator11";
-            this.toolStripSeparator11.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator11.Size = new System.Drawing.Size(6, 27);
             // 
             // menuStrip2
             // 
-            this.menuStrip2.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tsmArticulos,
             this.tsmContacto});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Padding = new System.Windows.Forms.Padding(6, 3, 0, 3);
-            this.menuStrip2.Size = new System.Drawing.Size(1353, 34);
+            this.menuStrip2.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip2.Size = new System.Drawing.Size(902, 24);
             this.menuStrip2.TabIndex = 5;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -283,48 +282,48 @@
             this.tsmEliminarArticulo});
             this.tsmArticulos.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmArticulos.Name = "tsmArticulos";
-            this.tsmArticulos.Size = new System.Drawing.Size(125, 28);
+            this.tsmArticulos.Size = new System.Drawing.Size(82, 20);
             this.tsmArticulos.Text = "Artículos";
             // 
             // tsmAgregarArticulo
             // 
             this.tsmAgregarArticulo.Name = "tsmAgregarArticulo";
-            this.tsmAgregarArticulo.Size = new System.Drawing.Size(209, 34);
+            this.tsmAgregarArticulo.Size = new System.Drawing.Size(180, 22);
             this.tsmAgregarArticulo.Text = "Agregar";
             this.tsmAgregarArticulo.Click += new System.EventHandler(this.tsmAgregarArticulo_Click);
             // 
             // tsmListarArticulos
             // 
             this.tsmListarArticulos.Name = "tsmListarArticulos";
-            this.tsmListarArticulos.Size = new System.Drawing.Size(209, 34);
+            this.tsmListarArticulos.Size = new System.Drawing.Size(180, 22);
             this.tsmListarArticulos.Text = "Listar";
             this.tsmListarArticulos.Click += new System.EventHandler(this.tsmListarArticulos_Click);
             // 
             // tsmBuscarArticulo
             // 
             this.tsmBuscarArticulo.Name = "tsmBuscarArticulo";
-            this.tsmBuscarArticulo.Size = new System.Drawing.Size(209, 34);
+            this.tsmBuscarArticulo.Size = new System.Drawing.Size(180, 22);
             this.tsmBuscarArticulo.Text = "Buscar";
             this.tsmBuscarArticulo.Click += new System.EventHandler(this.tsmBuscarArticulo_Click);
             // 
             // tsmModificarArticulo
             // 
             this.tsmModificarArticulo.Name = "tsmModificarArticulo";
-            this.tsmModificarArticulo.Size = new System.Drawing.Size(209, 34);
+            this.tsmModificarArticulo.Size = new System.Drawing.Size(180, 22);
             this.tsmModificarArticulo.Text = "Modificar";
             this.tsmModificarArticulo.Click += new System.EventHandler(this.tsmModificarArticulo_Click);
             // 
             // tsmDetallarArticulo
             // 
             this.tsmDetallarArticulo.Name = "tsmDetallarArticulo";
-            this.tsmDetallarArticulo.Size = new System.Drawing.Size(209, 34);
+            this.tsmDetallarArticulo.Size = new System.Drawing.Size(180, 22);
             this.tsmDetallarArticulo.Text = "Detallar";
             this.tsmDetallarArticulo.Click += new System.EventHandler(this.tsmDetallarArticulo_Click);
             // 
             // tsmEliminarArticulo
             // 
             this.tsmEliminarArticulo.Name = "tsmEliminarArticulo";
-            this.tsmEliminarArticulo.Size = new System.Drawing.Size(209, 34);
+            this.tsmEliminarArticulo.Size = new System.Drawing.Size(180, 22);
             this.tsmEliminarArticulo.Text = "Eliminar";
             this.tsmEliminarArticulo.Click += new System.EventHandler(this.tsmEliminarArticulo_Click);
             // 
@@ -332,7 +331,7 @@
             // 
             this.tsmContacto.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmContacto.Name = "tsmContacto";
-            this.tsmContacto.Size = new System.Drawing.Size(114, 28);
+            this.tsmContacto.Size = new System.Drawing.Size(75, 20);
             this.tsmContacto.Text = "Contacto";
             this.tsmContacto.Click += new System.EventHandler(this.tsmContacto_Click);
             // 
@@ -340,18 +339,19 @@
             // 
             this.panelArticulos.Controls.Add(this.pcUTN);
             this.panelArticulos.Controls.Add(this.dgvListaArt);
-            this.panelArticulos.Location = new System.Drawing.Point(18, 83);
-            this.panelArticulos.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panelArticulos.Location = new System.Drawing.Point(12, 54);
             this.panelArticulos.Name = "panelArticulos";
-            this.panelArticulos.Size = new System.Drawing.Size(1318, 525);
+            this.panelArticulos.Size = new System.Drawing.Size(879, 341);
             this.panelArticulos.TabIndex = 6;
+            this.panelArticulos.Paint += new System.Windows.Forms.PaintEventHandler(this.panelArticulos_Paint);
             // 
             // pcUTN
             // 
             this.pcUTN.Image = ((System.Drawing.Image)(resources.GetObject("pcUTN.Image")));
-            this.pcUTN.Location = new System.Drawing.Point(454, 389);
+            this.pcUTN.Location = new System.Drawing.Point(303, 253);
+            this.pcUTN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pcUTN.Name = "pcUTN";
-            this.pcUTN.Size = new System.Drawing.Size(386, 127);
+            this.pcUTN.Size = new System.Drawing.Size(257, 83);
             this.pcUTN.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pcUTN.TabIndex = 1;
             this.pcUTN.TabStop = false;
@@ -366,28 +366,29 @@
             this.dgvListaArt.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCellsExceptHeaders;
             this.dgvListaArt.BackgroundColor = System.Drawing.Color.White;
             this.dgvListaArt.ColumnHeadersHeight = 34;
+            this.dgvListaArt.EditMode = System.Windows.Forms.DataGridViewEditMode.EditProgrammatically;
             this.dgvListaArt.Enabled = false;
-            this.dgvListaArt.Location = new System.Drawing.Point(163, 5);
-            this.dgvListaArt.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.dgvListaArt.Location = new System.Drawing.Point(109, 3);
+            this.dgvListaArt.MultiSelect = false;
             this.dgvListaArt.Name = "dgvListaArt";
             this.dgvListaArt.ReadOnly = true;
             this.dgvListaArt.RowHeadersWidth = 62;
-            this.dgvListaArt.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
-            this.dgvListaArt.Size = new System.Drawing.Size(987, 348);
+            this.dgvListaArt.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvListaArt.Size = new System.Drawing.Size(658, 226);
             this.dgvListaArt.TabIndex = 0;
+            this.dgvListaArt.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaArt_CellContentClick);
             this.dgvListaArt.SelectionChanged += new System.EventHandler(this.dgvListaArt_SelectionChanged);
             // 
             // MenuPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1353, 655);
+            this.ClientSize = new System.Drawing.Size(902, 426);
             this.Controls.Add(this.panelArticulos);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.menuStrip2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "MenuPrincipal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

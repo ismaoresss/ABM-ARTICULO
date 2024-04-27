@@ -82,6 +82,7 @@ namespace TP2_WinForm.VentanaFormulario
         private void tsmModificarArticulo_Click(object sender, EventArgs e)
         {
             Modificar_artículos ventana = new Modificar_artículos();
+
             foreach (var item in Application.OpenForms)
             {
                 if (item.GetType() == typeof(Modificar_artículos))
@@ -139,6 +140,16 @@ namespace TP2_WinForm.VentanaFormulario
         private void dgvListaArt_SelectionChanged(object sender, EventArgs e)
         {
            
+        }
+
+        private void dgvListaArt_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void panelArticulos_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

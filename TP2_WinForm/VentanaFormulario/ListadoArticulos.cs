@@ -85,5 +85,10 @@ namespace TP2_WinForm.VentanaFormulario
         {
             Close();    
         }
+
+        private void dgvArticulo_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
