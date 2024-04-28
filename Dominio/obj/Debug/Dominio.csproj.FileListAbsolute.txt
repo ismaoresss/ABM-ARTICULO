@@ -22,3 +22,9 @@ C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForm\tp-winform-equipo-24\Domin
 C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForm\tp-winform-equipo-24\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForm\tp-winform-equipo-24\Dominio\obj\Debug\Dominio.dll
 C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForm\tp-winform-equipo-24\Dominio\obj\Debug\Dominio.pdb
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Dominio\bin\Debug\Dominio.dll
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Dominio\bin\Debug\Dominio.pdb
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Dominio\obj\Debug\Dominio.dll
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Dominio\obj\Debug\Dominio.pdb

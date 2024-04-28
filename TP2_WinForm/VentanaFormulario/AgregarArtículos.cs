@@ -211,6 +211,16 @@ namespace TP2_WinForm.VentanaFormulario
                 
             //}
         }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

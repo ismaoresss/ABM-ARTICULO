@@ -34,3 +34,12 @@ C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForm\tp-winform-equipo-24\Negoc
 C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForm\tp-winform-equipo-24\Negocio\obj\Debug\Negocio.csproj.Up2Date
 C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForm\tp-winform-equipo-24\Negocio\obj\Debug\Negocio.dll
 C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForm\tp-winform-equipo-24\Negocio\obj\Debug\Negocio.pdb
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Negocio\bin\Debug\Negocio.dll
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Negocio\bin\Debug\Negocio.pdb
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Negocio\bin\Debug\Dominio.dll
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Negocio\bin\Debug\Dominio.pdb
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Negocio\obj\Debug\Negocio.csproj.Up2Date
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Negocio\obj\Debug\Negocio.dll
+C:\Users\pquiros\Documents\Github-UTN\UTN_TP2_WinForms\tp-winform-equipo-24\Negocio\obj\Debug\Negocio.pdb
