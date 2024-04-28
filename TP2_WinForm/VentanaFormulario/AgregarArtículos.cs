@@ -15,8 +15,6 @@ using System.IO;
 using System.Configuration;
 using static System.Net.Mime.MediaTypeNames;
 using System.Security.Cryptography;
-using System.Collections;
-using System.Text.RegularExpressions;
 
 
 namespace TP2_WinForm.VentanaFormulario
@@ -213,8 +211,6 @@ namespace TP2_WinForm.VentanaFormulario
                 
             //}
         }
-<<<<<<< Updated upstream
-=======
 
         private void label10_Click(object sender, EventArgs e)
         {
@@ -225,94 +221,6 @@ namespace TP2_WinForm.VentanaFormulario
         {
 
         }
-
-        private void btnRegresar_Click(object sender, EventArgs e)
-        {
-            panelAgregarMarca.Visible = false;
-        }
-
-        private void btnConfirmar_Click(object sender, EventArgs e)
-        {
-            Marcas marcas = new Marcas();
-            MarcasNegocio negocio = new MarcasNegocio();
-            List <Marcas> listaMarcas = new List<Marcas>();
-
-            try
-            {
-                marcas.Descripcion = txtNuevaMarca.Text;
-
-                if(marcas.Descripcion == "")
-                {
-                    MessageBox.Show("El campo no puede estar vacio.");
-                }
-                else
-                {
-                    if (!listaMarcas.Any(m => m.Descripcion.Equals(marcas.Descripcion, StringComparison.OrdinalIgnoreCase)))
-                   {
-                        negocio.agregarMarca(marcas);
-                        MessageBox.Show("Nueva Marca agregada correctamente.");
-                        panelAgregarMarca.Visible=false;
-                   }
-                    else
-                    {
-                        MessageBox.Show("La Marca ya existe.");
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());                
-            }
-        }
-
-        private void btnAgregarMarca_Click(object sender, EventArgs e)
-        {
-            panelAgregarMarca.Visible = true;
-            panelAgregarCategoria.Visible = false;
-
-        }
-
-        private void btnConfirmarCategoria_Click(object sender, EventArgs e)
-        {
-            Categorias categoria = new Categorias();
-            CategoriasNegocios negocio = new CategoriasNegocios();
-            List<Categorias> listaCategorias = new List<Categorias>();
-
-            try
-            {
-                categoria.Descripcion = txtNuevaCategoria.Text;
-
-                if (categoria.Descripcion == "")
-                {
-                    MessageBox.Show("El campo no puede estar vacio.");
-                }
-                else
-                {
-                    if (!listaCategorias.Any(m => m.Descripcion.Equals(categoria.Descripcion, StringComparison.OrdinalIgnoreCase)))
-                    {
-                        negocio.agregarCategoria(categoria);
-                        MessageBox.Show("Nueva Categoria agregada correctamente.");
-                        panelAgregarCategoria.Visible=false;
-                    }
-                    else
-                    {
-                        MessageBox.Show("La Categoria ya existe.");
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.ToString());
-            }
-        }
-
-        private void btnNuevaCategoria_Click(object sender, EventArgs e)
-        {
-            panelAgregarMarca.Visible = false;
-            panelAgregarCategoria.Visible = true;
-
-        }
->>>>>>> Stashed changes
     }
 }
 
