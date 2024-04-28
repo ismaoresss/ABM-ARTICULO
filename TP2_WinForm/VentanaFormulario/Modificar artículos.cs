@@ -112,36 +112,24 @@ namespace TP2_WinForm.VentanaFormulario
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             ArticulosNegocio articulosNegocio = new ArticulosNegocio();
-            Articulos articulo = new Articulos();  
+            Articulos articulo = new Articulos();
+            articulo = (Articulos)dgvArticulos.CurrentRow.DataBoundItem;
+
             try
             {
-                if(articulosNegocio.verificadorDeCodigos(articulo.CodArticulo)==true && articulo.CodArticulo != txtCodArticulo.Text)
-                {
-                    MessageBox.Show("El codigo ya existe. Ingrese otro");
-                }
-                else
-                {
-                  articulo.CodArticulo = txtCodArticulo.Text;
-                }
+                articulo.Nombre = txtNombre.Text;
+                articulo.Descripcion = txtDescripcion.Text;
+                articulo.Marcas = (Marcas) cboMarca.SelectedItem;
+                articulo.Categorias = (Categorias) cboCategoria.SelectedItem;
+                articulo.Precio = decimal.Parse(txtPrecio.Text);
+                articulo.Imagen = txtImagen.Text;
 
-                if (!(txtNombre.Text == null || txtDescripcion.Text == null || cboMarca.SelectedItem == null || cboCategoria.SelectedItem == null || txtPrecio.Text == null))
-                {
-                    articulo.Nombre = txtNombre.Text;
-                    articulo.Descripcion = txtDescripcion.Text;
-                    articulo.Marcas = (Marcas) cboMarca.SelectedItem;
-                    articulo.Categorias = (Categorias) cboCategoria.SelectedItem;
-                    articulo.Precio = decimal.Parse(txtPrecio.Text);
-                    articulo.Imagen = txtImagen.Text;
+                articulosNegocio.ModificarArticulo(articulo);
+                articulosNegocio.ModificarMarca(articulo);
+                articulosNegocio.ModificarImagen(articulo);
+                articulosNegocio.ModificarCategoria(articulo);
 
-                    articulosNegocio.ModificarArticulo(articulo);
-                    MessageBox.Show("Modificado exitosamente :)");
-                }
-                else
-                {
-                    MessageBox.Show("Complete los campos de escritura mi estimado/a");
-                    return;
-                }
-
+                MessageBox.Show("Modificado exitosamente :)");
             }
             catch (Exception ex)
             {

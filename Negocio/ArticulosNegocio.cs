@@ -31,7 +31,7 @@ namespace TP2_WinForm.Negocio
             try
             {
                 datos.SetearConsulta("SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS ArticuloDescripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, A.Precio, I.ImagenUrl FROM ARTICULOS A LEFT JOIN MARCAS M ON A.IdMarca = M.Id LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo");
-                //datos.SetearConsulta("SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS ArticuloDescripcion, M.Descripcion AS Marca,\r\n C.Descripcion AS Categoria, A.Precio, I.ImagenUrl, M.Id AS IdMarcas, C.Id AS IdCategorias FROM ARTICULOS A\r\n  LEFT JOIN MARCAS M ON A.IdMarca = M.Id LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo");
+                //datos.SetearConsulta("SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS ArticuloDescripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, A.Precio, I.ImagenUrl, M.Id AS IdMarcas, C.Id AS IdCategorias FROM ARTICULOS A LEFT JOIN MARCAS M ON A.IdMarca = M.Id LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo");
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -94,7 +94,7 @@ namespace TP2_WinForm.Negocio
             try
             {
                 datos.SetearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) VALUES (@Codigo,@Nombre,@Descripcion,@IdMarca,@IdCategoria,@Precio)");
-
+                                        
                 datos.SeterParametros("@Codigo", nuevo.CodArticulo);
                 datos.SeterParametros("@Nombre", nuevo.Nombre);
                 datos.SeterParametros("@Descripcion", nuevo.Descripcion);
@@ -118,22 +118,85 @@ namespace TP2_WinForm.Negocio
             }
         }
 
+        //public int BuscarID(string codigo)
+        //{
+        //    int id = 0;
+        //    AccesoDatos accesoDatos = new AccesoDatos();
+        //    accesoDatos.SetearConsulta("select id from articulos where codigo = @codigo");
+        //    accesoDatos.SeterParametros("@codigo", codigo);
+        //    accesoDatos.ejecutarLectura();
+
+        //    while (accesoDatos.Lector.Read())
+        //    {
+        //        id = (int)accesoDatos.Lector["Id"];
+        //        return id;
+        //    }
+        //    return id;
+        //}
+
         public void ModificarArticulo(Articulos articulo)
         {
             AccesoDatos datos = new AccesoDatos();
 
             try
             {
-                datos.SetearConsulta("Update ARTICULOS set Codigo = @codarticulo, Nombre = @nombre, Descripcion = @descripcion, IdMarca = @idmarca, IdCategoria  = @idcategoria, Precio = @precio Where Id = @id");
+                datos.SetearConsulta("Update ARTICULOS set Codigo = @codarticulo, Nombre = @nombre, Descripcion = @descripcion, Precio = @precio Where Id = @id");
                
-                datos.SeterParametros("codarticulo", articulo.CodArticulo);
-                datos.SeterParametros("nombre", articulo.Nombre);
-                datos.SeterParametros("descripcion", articulo.Descripcion);
-                datos.SeterParametros("idmarca", articulo.Marcas.IdMarca);
-                datos.SeterParametros("idcategoria", articulo.Categorias.IdCategoria);
-                datos.SeterParametros("precio", articulo.Precio);
-                datos.SeterParametros("id", articulo.IdArticulo);
+                datos.SeterParametros("@codarticulo", articulo.CodArticulo);
+                datos.SeterParametros("@nombre", articulo.Nombre);
+                datos.SeterParametros("@descripcion", articulo.Descripcion);
+                //datos.SeterParametros("@idmarca", articulo.Marcas.IdMarca);
+                //datos.SeterParametros("@idcategoria", articulo.Categorias.IdCategoria);
+                datos.SeterParametros("@precio", articulo.Precio);
+                datos.SeterParametros("@id", articulo.IdArticulo);
                 
+                datos.EjecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.CerrarConexion();
+            }
+        }
+
+        public void ModificarCategoria (Articulos articulo)
+        {
+            AccesoDatos datos = new AccesoDatos ();
+
+            try
+            {
+                datos.SetearConsulta("Update ARTICULOS set IdCategoria = @idcategoria Where Id = @IdArticulo");
+
+                datos.SeterParametros("@IdArticulo", articulo.IdArticulo);
+                datos.SeterParametros("@idcategoria", articulo.Categorias.IdCategoria);
+
+                datos.EjecutarAccion ();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.CerrarConexion ();
+            }
+        }
+
+        public void ModificarMarca (Articulos articulo)
+        {
+            AccesoDatos datos = new AccesoDatos();
+
+            try
+            {
+                datos.SetearConsulta("Update ARTICULOS set IdMarca = @idmarca Where Id = @IdArticulo");
+
+                datos.SeterParametros("@idmarca", articulo.Marcas.IdMarca);
+                datos.SeterParametros("@IdArticulo", articulo.IdArticulo);
+
                 datos.EjecutarAccion();
             }
             catch (Exception ex)
@@ -143,9 +206,34 @@ namespace TP2_WinForm.Negocio
             }
             finally
             {
-                datos.CerrarConexion();
+                datos.CerrarConexion ();
             }
         }
+
+        public void ModificarImagen (Articulos articulo)
+        {
+            AccesoDatos datos = new AccesoDatos ();
+
+            try
+            {
+                datos.SetearConsulta("UPDATE IMAGENES SET ImagenUrl = @Imagenurl WHERE Id = (SELECT TOP 1 Id FROM IMAGENES WHERE IdArticulo = @Idarticulo)");
+
+                datos.SeterParametros("@Imagenurl", articulo.Imagen);
+                datos.SeterParametros("@Idarticulo", articulo.IdArticulo);
+
+                datos.EjecutarAccion ();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos .CerrarConexion ();
+            }
+        }
+
         public void eliminar(int id)
         {
             try
