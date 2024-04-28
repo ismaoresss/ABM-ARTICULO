@@ -122,39 +122,20 @@ namespace TP2_WinForm.VentanaFormulario
             ventana.ShowDialog();
         }
 
-        private void MenuPrincipal_Load(object sender, EventArgs e)
-        {
-            //Cargar la lista de articulos
-            cargarArticulosEnMenuPrincipal();
-        }
+        /*    private void MenuPrincipal_Load(object sender, EventArgs e)
+          {
+              //Cargar la lista de articulos
+              cargarArticulosEnMenuPrincipal();
+          }
 
-        public void cargarArticulosEnMenuPrincipal()
-        {
-            ArticulosNegocio negocio = new ArticulosNegocio();
-            ListaArticulos = negocio.ListarArticulos();
-            dgvListaArt.DataSource = ListaArticulos;
-            Globales.DiseñoDtv(ref dgvListaArt);
-            Globales.OcultarColumnas(ref dgvListaArt);
-        }
-
-        private void tsbLinkedinMaxi_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dgvListaArt_SelectionChanged(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void dgvListaArt_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
-        private void panelArticulos_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
+          public void cargarArticulosEnMenuPrincipal()
+          {
+              ArticulosNegocio negocio = new ArticulosNegocio();
+              ListaArticulos = negocio.ListarArticulos();
+              dgvListaArt.DataSource = ListaArticulos;
+              Globales.DiseñoDtv(ref dgvListaArt);
+              Globales.OcultarColumnas(ref dgvListaArt);
+          }
+       */
     }
 }

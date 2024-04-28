@@ -122,10 +122,6 @@ namespace TP2_WinForm.VentanaFormulario
             finally
             {
 
-                //Actualiza el menu principal con los nuevos articulos
-                MenuPrincipal menu = new MenuPrincipal();
-                menu.cargarArticulosEnMenuPrincipal();
-
                 //Actualiza el listado de articulos con los nuevos articulos
                 ListadoArticulos listado = new ListadoArticulos();
                 listado.cargarArticulosEnListado();

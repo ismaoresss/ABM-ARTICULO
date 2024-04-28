@@ -1,33 +1,44 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\",
+  "WorkspaceRootPath": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\pquiros\\documents\\github-utn\\utn_tp2_winform\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\menuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\menuprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{551BED00-EC71-4C14-9F71-2E83FAD9D423}|..\\Negocio\\Negocio.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\usuario\\documents\\tecnicatura en programaci\u00F3n\\programaci\u00F3n\\programacion 3 tp 2\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\pquiros\\documents\\github-utn\\utn_tp2_winform\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|c:\\users\\pquiros\\documents\\github-utn\\utn_tp2_winform\\utn_tp2_winform\\tp2_winform\\ventanaformulario\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\eliminar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{551BED00-EC71-4C14-9F71-2E83FAD9D423}|..\\Negocio\\Negocio.csproj|c:\\users\\pquiros\\documents\\github-utn\\utn_tp2_winform\\utn_tp2_winform\\negocio\\articulosnegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\modificar art\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{D22AB76A-3E3B-4B35-B25C-E034018CF054}|TP2_WinForm.csproj|solutionrelative:ventanaformulario\\agregarart\u00EDculos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,12 +48,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
@@ -56,92 +63,133 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AgregarArt\u00EDculos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
-              "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
-              "RelativeToolTip": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
-              "ViewState": "AQIAAF4AAAAAAAAAAAAvwG4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T00:33:26.449Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AgregarArt\u00EDculos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
-              "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "VentanaFormulario\\AgregarArt\u00EDculos.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "MenuPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\MenuPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.Designer.cs*",
+              "RelativeToolTip": "VentanaFormulario\\MenuPrincipal.Designer.cs*",
+              "ViewState": "AQIAAE0BAAAAAAAAAIAwwFABAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T00:32:29.376Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ArticulosNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
-              "RelativeDocumentMoniker": "..\\Negocio\\ArticulosNegocio.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
-              "RelativeToolTip": "..\\Negocio\\ArticulosNegocio.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAowKMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T19:43:08.494Z",
+              "WhenOpened": "2024-04-28T18:36:42.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MenuPrincipal.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\MenuPrincipal.cs",
+              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs [Design]*",
+              "RelativeToolTip": "VentanaFormulario\\MenuPrincipal.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:34:09.596Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Modificar art\u00EDculos.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs",
+              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\Modificar art\u00EDculos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs",
+              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs",
               "RelativeToolTip": "VentanaFormulario\\Modificar art\u00EDculos.cs",
-              "ViewState": "AQIAAG0AAAAAAAAAAAAmwIMAAAA+AAAA",
+              "ViewState": "AQIAAH4AAAAAAAAAAAAqwIMAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T19:42:32.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Modificar art\u00EDculos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs",
-              "RelativeDocumentMoniker": "VentanaFormulario\\Modificar art\u00EDculos.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "VentanaFormulario\\Modificar art\u00EDculos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T17:34:05.764Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "MenuPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "VentanaFormulario\\MenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs",
-              "RelativeToolTip": "VentanaFormulario\\MenuPrincipal.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAASwFAAAAAAAAAA",
+              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs*",
+              "RelativeToolTip": "VentanaFormulario\\MenuPrincipal.cs*",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAMwIoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-27T17:34:56.381Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MenuPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs",
-              "RelativeDocumentMoniker": "VentanaFormulario\\MenuPrincipal.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\MenuPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "VentanaFormulario\\MenuPrincipal.cs [Dise\u00F1o]",
+              "DocumentIndex": 4,
+              "Title": "Eliminar.cs",
+              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Eliminar.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\Eliminar.cs",
+              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Eliminar.cs",
+              "RelativeToolTip": "VentanaFormulario\\Eliminar.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAIAwwDkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T17:34:09.596Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-04-28T18:37:14.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ArticulosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
+              "RelativeDocumentMoniker": "..\\Negocio\\ArticulosNegocio.cs",
+              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
+              "RelativeToolTip": "..\\Negocio\\ArticulosNegocio.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIAwwBIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T18:36:48.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AgregarArt\u00EDculos.cs",
+              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "RelativeToolTip": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "ViewState": "AQIAAHIAAAAAAAAAAIAwwHwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T00:33:26.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ArticulosNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\Negocio\\ArticulosNegocio.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAowKMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T19:43:08.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AgregarArt\u00EDculos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\AgregarArt\u00EDculos.cs",
+              "ToolTip": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\AgregarArt\u00EDculos.cs [Design]",
+              "RelativeToolTip": "VentanaFormulario\\AgregarArt\u00EDculos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T00:32:29.376Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Modificar art\u00EDculos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\pquiros\\Documents\\Github-UTN\\UTN_TP2_WinForm\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs",
+              "RelativeDocumentMoniker": "VentanaFormulario\\Modificar art\u00EDculos.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Usuario\\Documents\\TECNICATURA EN PROGRAMACI\u00D3N\\Programaci\u00F3n\\Programacion 3 TP 2\\UTN_TP2_WinForm\\TP2_WinForm\\VentanaFormulario\\Modificar art\u00EDculos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T17:34:05.764Z"
             }
           ]
         }
