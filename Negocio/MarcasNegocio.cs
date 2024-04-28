@@ -9,10 +9,11 @@ namespace Negocio
 {
     public class MarcasNegocio
     {
+        AccesoDatos datos = new AccesoDatos();
         public List<Marcas> listarMarcas()
         {
             List<Marcas> lista = new List<Marcas>();
-            AccesoDatos datos = new AccesoDatos();
+           
 
             try
             {
@@ -39,6 +40,25 @@ namespace Negocio
                 datos.CerrarConexion(); 
             }
 
+        }
+
+        public void agregarMarca (Marcas Marca)
+        {
+          
+            try
+            {
+                datos.SetearConsulta("insert into MARCAS VALUES ('" + Marca.Descripcion + "')");
+                datos.EjecutarConsulta();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.CerrarConexion();
+            }
 
         }
     }

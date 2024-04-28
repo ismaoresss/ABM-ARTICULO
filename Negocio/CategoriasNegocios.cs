@@ -9,6 +9,7 @@ namespace Negocio
 {
     public class CategoriasNegocios
     {
+        AccesoDatos datos = new AccesoDatos();
         public List<Categorias> listarCategorias()
         {
             List<Categorias> lista = new List<Categorias>();
@@ -38,6 +39,25 @@ namespace Negocio
             {
                 datos.CerrarConexion();
             }
+        }
+
+        public void agregarCategoria(Categorias Categoria)
+        {
+            try
+            {
+                datos.SetearConsulta("insert into CATEGORIAS VALUES ('" + Categoria.Descripcion + "')");
+                datos.EjecutarConsulta();
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+            finally
+            {
+                datos.CerrarConexion();
+            }
+
         }
     }
 }

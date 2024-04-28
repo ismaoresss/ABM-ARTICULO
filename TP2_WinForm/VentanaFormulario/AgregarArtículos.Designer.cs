@@ -56,10 +56,40 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+<<<<<<< Updated upstream
+=======
+            this.panelAgregarMarca = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnConfirmar = new System.Windows.Forms.Button();
+            this.btnRegresar = new System.Windows.Forms.Button();
+            this.txtNuevaMarca = new System.Windows.Forms.TextBox();
+            this.lblNuevaMarca = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.lblAgregarMarca = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panelAgregarCategoria = new System.Windows.Forms.Panel();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.btnConfirmarCategoria = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.txtNuevaCategoria = new System.Windows.Forms.TextBox();
+            this.lblNuevaCategoria = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+>>>>>>> Stashed changes
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AgregariconoPc)).BeginInit();
+<<<<<<< Updated upstream
+=======
+            this.panelAgregarMarca.SuspendLayout();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panelAgregarCategoria.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
+            this.panel10.SuspendLayout();
+>>>>>>> Stashed changes
             this.SuspendLayout();
             // 
             // panel1
@@ -117,6 +147,7 @@
             // 
             // btnAgregarimg
             // 
+<<<<<<< Updated upstream
             this.btnAgregarimg.BackColor = System.Drawing.Color.White;
             this.btnAgregarimg.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnAgregarimg.BackgroundImage")));
             this.btnAgregarimg.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
@@ -131,6 +162,27 @@
             this.btnAgregarimg.TabIndex = 53;
             this.btnAgregarimg.UseVisualStyleBackColor = false;
             this.btnAgregarimg.Click += new System.EventHandler(this.btnAgregarimg_Click);
+=======
+            this.btnNuevaCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNuevaCategoria.Location = new System.Drawing.Point(555, 219);
+            this.btnNuevaCategoria.Name = "btnNuevaCategoria";
+            this.btnNuevaCategoria.Size = new System.Drawing.Size(192, 37);
+            this.btnNuevaCategoria.TabIndex = 54;
+            this.btnNuevaCategoria.Text = "Agregar Categoria";
+            this.btnNuevaCategoria.UseVisualStyleBackColor = true;
+            this.btnNuevaCategoria.Click += new System.EventHandler(this.btnNuevaCategoria_Click);
+            // 
+            // btnAgregarMarca
+            // 
+            this.btnAgregarMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAgregarMarca.Location = new System.Drawing.Point(555, 174);
+            this.btnAgregarMarca.Name = "btnAgregarMarca";
+            this.btnAgregarMarca.Size = new System.Drawing.Size(169, 37);
+            this.btnAgregarMarca.TabIndex = 53;
+            this.btnAgregarMarca.Text = "Agregar Marca";
+            this.btnAgregarMarca.UseVisualStyleBackColor = true;
+            this.btnAgregarMarca.Click += new System.EventHandler(this.btnAgregarMarca_Click);
+>>>>>>> Stashed changes
             // 
             // flowLayoutPanel3
             // 
@@ -391,11 +443,233 @@
             this.label8.TabIndex = 25;
             this.label8.Text = "Codigo de artículo: ";
             // 
+<<<<<<< Updated upstream
+=======
+            // panelAgregarMarca
+            // 
+            this.panelAgregarMarca.Controls.Add(this.flowLayoutPanel1);
+            this.panelAgregarMarca.Controls.Add(this.txtNuevaMarca);
+            this.panelAgregarMarca.Controls.Add(this.lblNuevaMarca);
+            this.panelAgregarMarca.Controls.Add(this.panel8);
+            this.panelAgregarMarca.Location = new System.Drawing.Point(1792, 194);
+            this.panelAgregarMarca.Name = "panelAgregarMarca";
+            this.panelAgregarMarca.Size = new System.Drawing.Size(609, 494);
+            this.panelAgregarMarca.TabIndex = 41;
+            // 
+            // flowLayoutPanel1
+            // 
+            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel1.Controls.Add(this.btnConfirmar);
+            this.flowLayoutPanel1.Controls.Add(this.btnRegresar);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(162, 326);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(316, 95);
+            this.flowLayoutPanel1.TabIndex = 53;
+            // 
+            // btnConfirmar
+            // 
+            this.btnConfirmar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirmar.BackgroundImage")));
+            this.btnConfirmar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnConfirmar.FlatAppearance.BorderSize = 0;
+            this.btnConfirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnConfirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmar.Location = new System.Drawing.Point(4, 5);
+            this.btnConfirmar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnConfirmar.Name = "btnConfirmar";
+            this.btnConfirmar.Size = new System.Drawing.Size(167, 80);
+            this.btnConfirmar.TabIndex = 0;
+            this.btnConfirmar.UseVisualStyleBackColor = true;
+            this.btnConfirmar.Click += new System.EventHandler(this.btnConfirmar_Click);
+            // 
+            // btnRegresar
+            // 
+            this.btnRegresar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnRegresar.BackgroundImage")));
+            this.btnRegresar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnRegresar.FlatAppearance.BorderSize = 0;
+            this.btnRegresar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnRegresar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnRegresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegresar.Location = new System.Drawing.Point(179, 5);
+            this.btnRegresar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnRegresar.Name = "btnRegresar";
+            this.btnRegresar.Size = new System.Drawing.Size(129, 89);
+            this.btnRegresar.TabIndex = 11;
+            this.btnRegresar.UseVisualStyleBackColor = true;
+            this.btnRegresar.Click += new System.EventHandler(this.btnRegresar_Click);
+            // 
+            // txtNuevaMarca
+            // 
+            this.txtNuevaMarca.Location = new System.Drawing.Point(265, 160);
+            this.txtNuevaMarca.Name = "txtNuevaMarca";
+            this.txtNuevaMarca.Size = new System.Drawing.Size(228, 26);
+            this.txtNuevaMarca.TabIndex = 41;
+            // 
+            // lblNuevaMarca
+            // 
+            this.lblNuevaMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNuevaMarca.Location = new System.Drawing.Point(110, 161);
+            this.lblNuevaMarca.Name = "lblNuevaMarca";
+            this.lblNuevaMarca.Size = new System.Drawing.Size(139, 25);
+            this.lblNuevaMarca.TabIndex = 40;
+            this.lblNuevaMarca.Text = "Nueva Marca:";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.SlateBlue;
+            this.panel8.Controls.Add(this.lblAgregarMarca);
+            this.panel8.Controls.Add(this.label9);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(609, 102);
+            this.panel8.TabIndex = 39;
+            // 
+            // lblAgregarMarca
+            // 
+            this.lblAgregarMarca.AutoSize = true;
+            this.lblAgregarMarca.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline);
+            this.lblAgregarMarca.ForeColor = System.Drawing.Color.White;
+            this.lblAgregarMarca.Location = new System.Drawing.Point(131, 25);
+            this.lblAgregarMarca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAgregarMarca.Name = "lblAgregarMarca";
+            this.lblAgregarMarca.Size = new System.Drawing.Size(347, 48);
+            this.lblAgregarMarca.TabIndex = 2;
+            this.lblAgregarMarca.Text = "AGREGAR MARCA";
+            this.lblAgregarMarca.Click += new System.EventHandler(this.label10_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline);
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(663, 25);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(406, 48);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "AGREGAR ARTÍCULO";
+            // 
+            // panelAgregarCategoria
+            // 
+            this.panelAgregarCategoria.Controls.Add(this.flowLayoutPanel2);
+            this.panelAgregarCategoria.Controls.Add(this.txtNuevaCategoria);
+            this.panelAgregarCategoria.Controls.Add(this.lblNuevaCategoria);
+            this.panelAgregarCategoria.Controls.Add(this.panel10);
+            this.panelAgregarCategoria.Location = new System.Drawing.Point(2596, 194);
+            this.panelAgregarCategoria.Name = "panelAgregarCategoria";
+            this.panelAgregarCategoria.Size = new System.Drawing.Size(609, 500);
+            this.panelAgregarCategoria.TabIndex = 54;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel2.Controls.Add(this.btnConfirmarCategoria);
+            this.flowLayoutPanel2.Controls.Add(this.button2);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(162, 326);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(316, 95);
+            this.flowLayoutPanel2.TabIndex = 53;
+            // 
+            // btnConfirmarCategoria
+            // 
+            this.btnConfirmarCategoria.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirmarCategoria.BackgroundImage")));
+            this.btnConfirmarCategoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnConfirmarCategoria.FlatAppearance.BorderSize = 0;
+            this.btnConfirmarCategoria.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnConfirmarCategoria.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnConfirmarCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmarCategoria.Location = new System.Drawing.Point(4, 5);
+            this.btnConfirmarCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnConfirmarCategoria.Name = "btnConfirmarCategoria";
+            this.btnConfirmarCategoria.Size = new System.Drawing.Size(167, 80);
+            this.btnConfirmarCategoria.TabIndex = 0;
+            this.btnConfirmarCategoria.UseVisualStyleBackColor = true;
+            this.btnConfirmarCategoria.Click += new System.EventHandler(this.btnConfirmarCategoria_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.FlatAppearance.BorderSize = 0;
+            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.Location = new System.Drawing.Point(179, 5);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(129, 89);
+            this.button2.TabIndex = 11;
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // txtNuevaCategoria
+            // 
+            this.txtNuevaCategoria.Location = new System.Drawing.Point(265, 160);
+            this.txtNuevaCategoria.Name = "txtNuevaCategoria";
+            this.txtNuevaCategoria.Size = new System.Drawing.Size(228, 26);
+            this.txtNuevaCategoria.TabIndex = 41;
+            // 
+            // lblNuevaCategoria
+            // 
+            this.lblNuevaCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNuevaCategoria.Location = new System.Drawing.Point(73, 161);
+            this.lblNuevaCategoria.Name = "lblNuevaCategoria";
+            this.lblNuevaCategoria.Size = new System.Drawing.Size(173, 25);
+            this.lblNuevaCategoria.TabIndex = 40;
+            this.lblNuevaCategoria.Text = "Nueva Categoria:";
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.SlateBlue;
+            this.panel10.Controls.Add(this.label11);
+            this.panel10.Controls.Add(this.label12);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel10.Location = new System.Drawing.Point(0, 0);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(609, 102);
+            this.panel10.TabIndex = 39;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline);
+            this.label11.ForeColor = System.Drawing.Color.White;
+            this.label11.Location = new System.Drawing.Point(89, 25);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(430, 48);
+            this.label11.TabIndex = 2;
+            this.label11.Text = "AGREGAR CATEGORIA";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline);
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(663, 25);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(406, 48);
+            this.label12.TabIndex = 1;
+            this.label12.Text = "AGREGAR ARTÍCULO";
+            // 
+>>>>>>> Stashed changes
             // AgregarArtículos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(1732, 842);
+=======
+            this.ClientSize = new System.Drawing.Size(3233, 842);
+            this.Controls.Add(this.panelAgregarCategoria);
+            this.Controls.Add(this.panelAgregarMarca);
+>>>>>>> Stashed changes
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -411,6 +685,19 @@
             this.panel2.PerformLayout();
             this.flowLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.AgregariconoPc)).EndInit();
+<<<<<<< Updated upstream
+=======
+            this.panelAgregarMarca.ResumeLayout(false);
+            this.panelAgregarMarca.PerformLayout();
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.panel8.PerformLayout();
+            this.panelAgregarCategoria.ResumeLayout(false);
+            this.panelAgregarCategoria.PerformLayout();
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
+            this.panel10.PerformLayout();
+>>>>>>> Stashed changes
             this.ResumeLayout(false);
 
         }
@@ -442,6 +729,29 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.Button btnguardar;
         private System.Windows.Forms.Button btnvolver;
+<<<<<<< Updated upstream
         private System.Windows.Forms.Button btnAgregarimg;
+=======
+        private System.Windows.Forms.Button btnAgregarMarca;
+        private System.Windows.Forms.Button btnNuevaCategoria;
+        private System.Windows.Forms.Panel panelAgregarMarca;
+        private System.Windows.Forms.Panel panel8;
+        private System.Windows.Forms.Label lblAgregarMarca;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button btnConfirmar;
+        private System.Windows.Forms.Button btnRegresar;
+        private System.Windows.Forms.TextBox txtNuevaMarca;
+        private System.Windows.Forms.Label lblNuevaMarca;
+        private System.Windows.Forms.Panel panelAgregarCategoria;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.Button btnConfirmarCategoria;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtNuevaCategoria;
+        private System.Windows.Forms.Label lblNuevaCategoria;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+>>>>>>> Stashed changes
     }
 }
