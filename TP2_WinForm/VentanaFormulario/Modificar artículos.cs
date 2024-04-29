@@ -109,9 +109,11 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
+
             ArticulosNegocio articulosNegocio = new ArticulosNegocio();
             Articulos articulo = new Articulos();
-            articulo = (Articulos)dgvArticulos.CurrentRow.DataBoundItem;
+            articulo = (Articulos)dgvArticulos.CurrentRow.DataBoundItem;                
+
 
             try
             {

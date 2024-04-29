@@ -280,6 +280,15 @@ namespace TP2_WinForm.VentanaFormulario
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            panelAgregarCategoria.Visible = false;
+        }
+
+        private void btnRegresar_Click_1(object sender, EventArgs e)
+        {
+            panelAgregarMarca.Visible = false;
+        }
     }
 }
 
