@@ -57,16 +57,16 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.lblAgregarMarca = new System.Windows.Forms.Label();
-            this.lblNuevaMarca = new System.Windows.Forms.Label();
-            this.txtNuevaMarca = new System.Windows.Forms.TextBox();
+            this.panelAgregarMarca = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
-            this.panel9 = new System.Windows.Forms.Panel();
+            this.txtNuevaMarca = new System.Windows.Forms.TextBox();
+            this.lblNuevaMarca = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.lblAgregarMarca = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.panelAgregarCategoria = new System.Windows.Forms.Panel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -79,10 +79,10 @@
             this.panel2.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.AgregariconoPc)).BeginInit();
-            this.panel7.SuspendLayout();
-            this.panel8.SuspendLayout();
+            this.panelAgregarMarca.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
-            this.panel9.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.panelAgregarCategoria.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel10.SuspendLayout();
             this.SuspendLayout();
@@ -160,6 +160,7 @@
             this.btnAgregarMarca.TabIndex = 53;
             this.btnAgregarMarca.Text = "Agregar Marca";
             this.btnAgregarMarca.UseVisualStyleBackColor = true;
+            this.btnAgregarMarca.Click += new System.EventHandler(this.btnAgregarMarca_Click);
             // 
             // flowLayoutPanel3
             // 
@@ -256,9 +257,8 @@
             this.txtprecio.Name = "txtprecio";
             this.txtprecio.Size = new System.Drawing.Size(184, 19);
             this.txtprecio.TabIndex = 47;
-            this.txtprecio.TextChanged += new System.EventHandler(this.txtprecio_TextChanged);
             this.txtprecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtprecio_KeyPress);
-            this.txtprecio.Leave += new System.EventHandler(this.txtprecio_Leave);
+
             // 
             // cbomarca
             // 
@@ -340,7 +340,6 @@
             this.txtcodarticulo.Name = "txtcodarticulo";
             this.txtcodarticulo.Size = new System.Drawing.Size(231, 19);
             this.txtcodarticulo.TabIndex = 37;
-            this.txtcodarticulo.TextChanged += new System.EventHandler(this.txtcodarticulo_TextChanged);
             this.txtcodarticulo.Leave += new System.EventHandler(this.txtcodarticulo_Leave);
             // 
             // label2
@@ -420,69 +419,16 @@
             this.label8.TabIndex = 25;
             this.label8.Text = "Codigo de artículo: ";
             // 
-            // panel7
+            // panelAgregarMarca
             // 
-            this.panel7.Controls.Add(this.flowLayoutPanel1);
-            this.panel7.Controls.Add(this.txtNuevaMarca);
-            this.panel7.Controls.Add(this.lblNuevaMarca);
-            this.panel7.Controls.Add(this.panel8);
-            this.panel7.Location = new System.Drawing.Point(1792, 194);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(609, 494);
-            this.panel7.TabIndex = 41;
-            // 
-            // panel8
-            // 
-            this.panel8.BackColor = System.Drawing.Color.SlateBlue;
-            this.panel8.Controls.Add(this.lblAgregarMarca);
-            this.panel8.Controls.Add(this.label9);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel8.Location = new System.Drawing.Point(0, 0);
-            this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(609, 102);
-            this.panel8.TabIndex = 39;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline);
-            this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(663, 25);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(406, 48);
-            this.label9.TabIndex = 1;
-            this.label9.Text = "AGREGAR ARTÍCULO";
-            // 
-            // lblAgregarMarca
-            // 
-            this.lblAgregarMarca.AutoSize = true;
-            this.lblAgregarMarca.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline);
-            this.lblAgregarMarca.ForeColor = System.Drawing.Color.White;
-            this.lblAgregarMarca.Location = new System.Drawing.Point(131, 25);
-            this.lblAgregarMarca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.lblAgregarMarca.Name = "lblAgregarMarca";
-            this.lblAgregarMarca.Size = new System.Drawing.Size(347, 48);
-            this.lblAgregarMarca.TabIndex = 2;
-            this.lblAgregarMarca.Text = "AGREGAR MARCA";
-            this.lblAgregarMarca.Click += new System.EventHandler(this.label10_Click);
-            // 
-            // lblNuevaMarca
-            // 
-            this.lblNuevaMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNuevaMarca.Location = new System.Drawing.Point(110, 161);
-            this.lblNuevaMarca.Name = "lblNuevaMarca";
-            this.lblNuevaMarca.Size = new System.Drawing.Size(139, 25);
-            this.lblNuevaMarca.TabIndex = 40;
-            this.lblNuevaMarca.Text = "Nueva Marca:";
-            // 
-            // txtNuevaMarca
-            // 
-            this.txtNuevaMarca.Location = new System.Drawing.Point(265, 160);
-            this.txtNuevaMarca.Name = "txtNuevaMarca";
-            this.txtNuevaMarca.Size = new System.Drawing.Size(228, 26);
-            this.txtNuevaMarca.TabIndex = 41;
+            this.panelAgregarMarca.Controls.Add(this.flowLayoutPanel1);
+            this.panelAgregarMarca.Controls.Add(this.txtNuevaMarca);
+            this.panelAgregarMarca.Controls.Add(this.lblNuevaMarca);
+            this.panelAgregarMarca.Controls.Add(this.panel8);
+            this.panelAgregarMarca.Location = new System.Drawing.Point(1792, 194);
+            this.panelAgregarMarca.Name = "panelAgregarMarca";
+            this.panelAgregarMarca.Size = new System.Drawing.Size(609, 494);
+            this.panelAgregarMarca.TabIndex = 41;
             // 
             // flowLayoutPanel1
             // 
@@ -525,16 +471,68 @@
             this.btnRegresar.TabIndex = 11;
             this.btnRegresar.UseVisualStyleBackColor = true;
             // 
-            // panel9
+            // txtNuevaMarca
             // 
-            this.panel9.Controls.Add(this.flowLayoutPanel2);
-            this.panel9.Controls.Add(this.txtNuevaCategoria);
-            this.panel9.Controls.Add(this.lblNuevaCategoria);
-            this.panel9.Controls.Add(this.panel10);
-            this.panel9.Location = new System.Drawing.Point(2596, 194);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(609, 500);
-            this.panel9.TabIndex = 54;
+            this.txtNuevaMarca.Location = new System.Drawing.Point(265, 160);
+            this.txtNuevaMarca.Name = "txtNuevaMarca";
+            this.txtNuevaMarca.Size = new System.Drawing.Size(228, 26);
+            this.txtNuevaMarca.TabIndex = 41;
+            // 
+            // lblNuevaMarca
+            // 
+            this.lblNuevaMarca.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNuevaMarca.Location = new System.Drawing.Point(110, 161);
+            this.lblNuevaMarca.Name = "lblNuevaMarca";
+            this.lblNuevaMarca.Size = new System.Drawing.Size(139, 25);
+            this.lblNuevaMarca.TabIndex = 40;
+            this.lblNuevaMarca.Text = "Nueva Marca:";
+            // 
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.SlateBlue;
+            this.panel8.Controls.Add(this.lblAgregarMarca);
+            this.panel8.Controls.Add(this.label9);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel8.Location = new System.Drawing.Point(0, 0);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(609, 102);
+            this.panel8.TabIndex = 39;
+            // 
+            // lblAgregarMarca
+            // 
+            this.lblAgregarMarca.AutoSize = true;
+            this.lblAgregarMarca.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline);
+            this.lblAgregarMarca.ForeColor = System.Drawing.Color.White;
+            this.lblAgregarMarca.Location = new System.Drawing.Point(131, 25);
+            this.lblAgregarMarca.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblAgregarMarca.Name = "lblAgregarMarca";
+            this.lblAgregarMarca.Size = new System.Drawing.Size(347, 48);
+            this.lblAgregarMarca.TabIndex = 2;
+            this.lblAgregarMarca.Text = "AGREGAR MARCA";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Stencil", 20.25F, System.Drawing.FontStyle.Underline);
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(663, 25);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(406, 48);
+            this.label9.TabIndex = 1;
+            this.label9.Text = "AGREGAR ARTÍCULO";
+            // 
+            // panelAgregarCategoria
+            // 
+            this.panelAgregarCategoria.Controls.Add(this.flowLayoutPanel2);
+            this.panelAgregarCategoria.Controls.Add(this.txtNuevaCategoria);
+            this.panelAgregarCategoria.Controls.Add(this.lblNuevaCategoria);
+            this.panelAgregarCategoria.Controls.Add(this.panel10);
+            this.panelAgregarCategoria.Location = new System.Drawing.Point(2596, 194);
+            this.panelAgregarCategoria.Name = "panelAgregarCategoria";
+            this.panelAgregarCategoria.Size = new System.Drawing.Size(609, 500);
+            this.panelAgregarCategoria.TabIndex = 54;
             // 
             // flowLayoutPanel2
             // 
@@ -616,7 +614,6 @@
             this.label11.Size = new System.Drawing.Size(430, 48);
             this.label11.TabIndex = 2;
             this.label11.Text = "AGREGAR CATEGORIA";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label12
             // 
@@ -635,8 +632,8 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(3233, 842);
-            this.Controls.Add(this.panel9);
-            this.Controls.Add(this.panel7);
+            this.Controls.Add(this.panelAgregarCategoria);
+            this.Controls.Add(this.panelAgregarMarca);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -652,13 +649,13 @@
             this.panel2.PerformLayout();
             this.flowLayoutPanel3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.AgregariconoPc)).EndInit();
-            this.panel7.ResumeLayout(false);
-            this.panel7.PerformLayout();
+            this.panelAgregarMarca.ResumeLayout(false);
+            this.panelAgregarMarca.PerformLayout();
+            this.flowLayoutPanel1.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            this.flowLayoutPanel1.ResumeLayout(false);
-            this.panel9.ResumeLayout(false);
-            this.panel9.PerformLayout();
+            this.panelAgregarCategoria.ResumeLayout(false);
+            this.panelAgregarCategoria.PerformLayout();
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
@@ -695,7 +692,7 @@
         private System.Windows.Forms.Button btnvolver;
         private System.Windows.Forms.Button btnAgregarMarca;
         private System.Windows.Forms.Button btnNuevaCategoria;
-        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Panel panelAgregarMarca;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Label lblAgregarMarca;
         private System.Windows.Forms.Label label9;
@@ -704,7 +701,7 @@
         private System.Windows.Forms.Button btnRegresar;
         private System.Windows.Forms.TextBox txtNuevaMarca;
         private System.Windows.Forms.Label lblNuevaMarca;
-        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panelAgregarCategoria;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
