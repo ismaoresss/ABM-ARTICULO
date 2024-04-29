@@ -31,7 +31,7 @@ namespace TP2_WinForm.VentanaFormulario
         public object ConfigurationManager { get; private set; }
 
         private void AgregarArtículos_Load(object sender, EventArgs e)
-        {   
+        {
             MarcasNegocio negocioMarcas = new MarcasNegocio();
             cbomarca.DataSource = negocioMarcas.listarMarcas();
             cbomarca.ValueMember = "IdMarca";
@@ -101,7 +101,7 @@ namespace TP2_WinForm.VentanaFormulario
                     MessageBox.Show("Ingresar sólo números en el precio por favor");
                     return;
                 }
-                
+
 
                 //if (archivo != null && !(txturlimagen.Text.ToUpper().Contains("HTTP")))
 
@@ -130,7 +130,7 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void btnvolver_Click(object sender, EventArgs e)
         {
-            Close();    
+            Close();
         }
 
         private void txtcodarticulo_Leave(object sender, EventArgs e)
@@ -179,16 +179,16 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void AgregariconoPc_Click(object sender, EventArgs e)
         {
-            
+
         }
 
 
         private void btnRegresar_Click(object sender, EventArgs e)
         {
-          //  panelAgregarMarca.Visible = false;
+             panelAgregarMarca.Visible = false;
         }
 
-        private void btnConfirmar_Click(object sender, EventArgs e)
+        private void btnConfirmarMarca_Click(object sender, EventArgs e)
         {
             Marcas marcas = new Marcas();
             MarcasNegocio negocio = new MarcasNegocio();
@@ -270,7 +270,7 @@ namespace TP2_WinForm.VentanaFormulario
 
         }
 
-
     }
 }
+
 

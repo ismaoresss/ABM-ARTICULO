@@ -13,7 +13,7 @@ namespace Negocio
         public List<Marcas> listarMarcas()
         {
             List<Marcas> lista = new List<Marcas>();
-           
+
 
             try
             {
@@ -37,14 +37,14 @@ namespace Negocio
             }
             finally
             {
-                datos.CerrarConexion(); 
+                datos.CerrarConexion();
             }
 
         }
 
-        public void agregarMarca (Marcas Marca)
+        public void agregarMarca(Marcas Marca)
         {
-          
+
             try
             {
                 datos.SetearConsulta("insert into MARCAS VALUES ('" + Marca.Descripcion + "')");

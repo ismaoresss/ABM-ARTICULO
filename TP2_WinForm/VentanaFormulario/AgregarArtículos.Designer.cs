@@ -59,7 +59,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.panelAgregarMarca = new System.Windows.Forms.Panel();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.btnConfirmar = new System.Windows.Forms.Button();
+            this.btnConfirmarMarca = new System.Windows.Forms.Button();
             this.btnRegresar = new System.Windows.Forms.Button();
             this.txtNuevaMarca = new System.Windows.Forms.TextBox();
             this.lblNuevaMarca = new System.Windows.Forms.Label();
@@ -68,7 +68,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.panelAgregarCategoria = new System.Windows.Forms.Panel();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnConfirmarCategoria = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.txtNuevaCategoria = new System.Windows.Forms.TextBox();
             this.lblNuevaCategoria = new System.Windows.Forms.Label();
@@ -146,10 +146,11 @@
             this.btnNuevaCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNuevaCategoria.Location = new System.Drawing.Point(555, 219);
             this.btnNuevaCategoria.Name = "btnNuevaCategoria";
-            this.btnNuevaCategoria.Size = new System.Drawing.Size(192, 37);
+            this.btnNuevaCategoria.Size = new System.Drawing.Size(226, 37);
             this.btnNuevaCategoria.TabIndex = 54;
             this.btnNuevaCategoria.Text = "Agregar Categoria";
             this.btnNuevaCategoria.UseVisualStyleBackColor = true;
+            this.btnNuevaCategoria.Click += new System.EventHandler(this.btnNuevaCategoria_Click);
             // 
             // btnAgregarMarca
             // 
@@ -258,7 +259,6 @@
             this.txtprecio.Size = new System.Drawing.Size(184, 19);
             this.txtprecio.TabIndex = 47;
             this.txtprecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtprecio_KeyPress);
-
             // 
             // cbomarca
             // 
@@ -433,7 +433,7 @@
             // flowLayoutPanel1
             // 
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.Controls.Add(this.btnConfirmar);
+            this.flowLayoutPanel1.Controls.Add(this.btnConfirmarMarca);
             this.flowLayoutPanel1.Controls.Add(this.btnRegresar);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(162, 326);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -441,20 +441,21 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(316, 95);
             this.flowLayoutPanel1.TabIndex = 53;
             // 
-            // btnConfirmar
+            // btnConfirmarMarca
             // 
-            this.btnConfirmar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirmar.BackgroundImage")));
-            this.btnConfirmar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnConfirmar.FlatAppearance.BorderSize = 0;
-            this.btnConfirmar.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.btnConfirmar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.btnConfirmar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnConfirmar.Location = new System.Drawing.Point(4, 5);
-            this.btnConfirmar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnConfirmar.Name = "btnConfirmar";
-            this.btnConfirmar.Size = new System.Drawing.Size(167, 80);
-            this.btnConfirmar.TabIndex = 0;
-            this.btnConfirmar.UseVisualStyleBackColor = true;
+            this.btnConfirmarMarca.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirmarMarca.BackgroundImage")));
+            this.btnConfirmarMarca.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnConfirmarMarca.FlatAppearance.BorderSize = 0;
+            this.btnConfirmarMarca.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnConfirmarMarca.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnConfirmarMarca.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmarMarca.Location = new System.Drawing.Point(4, 5);
+            this.btnConfirmarMarca.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnConfirmarMarca.Name = "btnConfirmarMarca";
+            this.btnConfirmarMarca.Size = new System.Drawing.Size(167, 80);
+            this.btnConfirmarMarca.TabIndex = 0;
+            this.btnConfirmarMarca.UseVisualStyleBackColor = true;
+            this.btnConfirmarMarca.Click += new System.EventHandler(this.btnConfirmarMarca_Click);
             // 
             // btnRegresar
             // 
@@ -537,7 +538,7 @@
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel2.Controls.Add(this.button1);
+            this.flowLayoutPanel2.Controls.Add(this.btnConfirmarCategoria);
             this.flowLayoutPanel2.Controls.Add(this.button2);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(162, 326);
             this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -545,20 +546,21 @@
             this.flowLayoutPanel2.Size = new System.Drawing.Size(316, 95);
             this.flowLayoutPanel2.TabIndex = 53;
             // 
-            // button1
+            // btnConfirmarCategoria
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(4, 5);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(167, 80);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnConfirmarCategoria.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnConfirmarCategoria.BackgroundImage")));
+            this.btnConfirmarCategoria.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnConfirmarCategoria.FlatAppearance.BorderSize = 0;
+            this.btnConfirmarCategoria.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.btnConfirmarCategoria.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.btnConfirmarCategoria.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnConfirmarCategoria.Location = new System.Drawing.Point(4, 5);
+            this.btnConfirmarCategoria.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.btnConfirmarCategoria.Name = "btnConfirmarCategoria";
+            this.btnConfirmarCategoria.Size = new System.Drawing.Size(167, 80);
+            this.btnConfirmarCategoria.TabIndex = 0;
+            this.btnConfirmarCategoria.UseVisualStyleBackColor = true;
+            this.btnConfirmarCategoria.Click += new System.EventHandler(this.btnConfirmarCategoria_Click);
             // 
             // button2
             // 
@@ -697,13 +699,13 @@
         private System.Windows.Forms.Label lblAgregarMarca;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.Button btnConfirmar;
+        private System.Windows.Forms.Button btnConfirmarMarca;
         private System.Windows.Forms.Button btnRegresar;
         private System.Windows.Forms.TextBox txtNuevaMarca;
         private System.Windows.Forms.Label lblNuevaMarca;
         private System.Windows.Forms.Panel panelAgregarCategoria;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnConfirmarCategoria;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.TextBox txtNuevaCategoria;
         private System.Windows.Forms.Label lblNuevaCategoria;
