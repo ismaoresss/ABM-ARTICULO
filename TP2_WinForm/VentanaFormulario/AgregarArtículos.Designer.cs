@@ -70,9 +70,9 @@
             this.btnConfirmarCategoria = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.txtNuevaCategoria = new System.Windows.Forms.TextBox();
-            this.lblNuevaCategoria = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
+            this.lblNuevaCategoria = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panelAgregarArticulo.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
@@ -568,15 +568,6 @@
             this.txtNuevaCategoria.Size = new System.Drawing.Size(228, 26);
             this.txtNuevaCategoria.TabIndex = 41;
             // 
-            // lblNuevaCategoria
-            // 
-            this.lblNuevaCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNuevaCategoria.Location = new System.Drawing.Point(65, 161);
-            this.lblNuevaCategoria.Name = "lblNuevaCategoria";
-            this.lblNuevaCategoria.Size = new System.Drawing.Size(175, 42);
-            this.lblNuevaCategoria.TabIndex = 40;
-            this.lblNuevaCategoria.Text = "Nueva Categoria:";
-            // 
             // panel10
             // 
             this.panel10.BackColor = System.Drawing.Color.SlateBlue;
@@ -601,11 +592,20 @@
             this.label11.TabIndex = 2;
             this.label11.Text = "AGREGAR CATEGORIA";
             // 
+            // lblNuevaCategoria
+            // 
+            this.lblNuevaCategoria.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNuevaCategoria.Location = new System.Drawing.Point(65, 161);
+            this.lblNuevaCategoria.Name = "lblNuevaCategoria";
+            this.lblNuevaCategoria.Size = new System.Drawing.Size(175, 42);
+            this.lblNuevaCategoria.TabIndex = 40;
+            this.lblNuevaCategoria.Text = "Nueva Categoria:";
+            // 
             // AgregarArtículos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1527, 1079);
+            this.ClientSize = new System.Drawing.Size(1527, 673);
             this.Controls.Add(this.panelAgregarCategoria);
             this.Controls.Add(this.panelAgregarArticulo);
             this.Controls.Add(this.panel1);

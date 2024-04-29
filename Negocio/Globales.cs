@@ -65,6 +65,5 @@ namespace Negocio
             listado.Columns[0].Visible = false;
             listado.Columns[5].Visible = false;
         }
-
     }
 }

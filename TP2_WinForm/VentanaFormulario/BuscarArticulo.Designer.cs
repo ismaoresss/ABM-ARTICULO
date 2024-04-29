@@ -101,7 +101,7 @@
             this.lbl_Buscar.AutoSize = true;
             this.lbl_Buscar.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_Buscar.ForeColor = System.Drawing.Color.White;
-            this.lbl_Buscar.Location = new System.Drawing.Point(195, 22);
+            this.lbl_Buscar.Location = new System.Drawing.Point(163, 22);
             this.lbl_Buscar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_Buscar.Name = "lbl_Buscar";
             this.lbl_Buscar.Size = new System.Drawing.Size(214, 31);
@@ -119,9 +119,9 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1});
-            this.menuStrip1.Location = new System.Drawing.Point(140, 20);
+            this.menuStrip1.Location = new System.Drawing.Point(101, 5);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(51, 48);
+            this.menuStrip1.Size = new System.Drawing.Size(58, 61);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -135,12 +135,13 @@
             // 
             this.txt_buscar.BackColor = System.Drawing.Color.MediumPurple;
             this.txt_buscar.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txt_buscar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_buscar.ForeColor = System.Drawing.Color.White;
-            this.txt_buscar.Location = new System.Drawing.Point(410, 20);
+            this.txt_buscar.Location = new System.Drawing.Point(391, 20);
             this.txt_buscar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.txt_buscar.Multiline = true;
             this.txt_buscar.Name = "txt_buscar";
-            this.txt_buscar.Size = new System.Drawing.Size(496, 32);
+            this.txt_buscar.Size = new System.Drawing.Size(515, 32);
             this.txt_buscar.TabIndex = 1;
             this.txt_buscar.TextChanged += new System.EventHandler(this.txt_buscar_TextChanged);
             // 

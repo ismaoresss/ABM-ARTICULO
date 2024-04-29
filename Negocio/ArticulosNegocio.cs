@@ -21,7 +21,6 @@ namespace TP2_WinForm.Negocio
         {
             conexion= new SqlConnection("server= .\\SQLEXPRESS; database=CATALOGO_P3_DB; integrated security=true");
             comando= new SqlCommand("");
-
         }
         public List<Articulos> ListarArticulos()
         {

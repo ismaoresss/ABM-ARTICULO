@@ -142,5 +142,15 @@ namespace TP2_WinForm.VentanaFormulario
                 MessageBox.Show("Complete todos los campos mi estimado/a");
             }
         }
+
+        private void txtPrecio_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPrecio_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            Globales.decimales(txtPrecio, e);
+        }
     }
 }
