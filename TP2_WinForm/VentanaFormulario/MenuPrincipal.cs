@@ -122,20 +122,19 @@ namespace TP2_WinForm.VentanaFormulario
             ventana.ShowDialog();
         }
 
-        /*    private void MenuPrincipal_Load(object sender, EventArgs e)
-          {
-              //Cargar la lista de articulos
-              cargarArticulosEnMenuPrincipal();
-          }
+        private void LinkedinPedroQuiros_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.linkedin.com/in/pedroquiros/");
+        }
 
-          public void cargarArticulosEnMenuPrincipal()
-          {
-              ArticulosNegocio negocio = new ArticulosNegocio();
-              ListaArticulos = negocio.ListarArticulos();
-              dgvListaArt.DataSource = ListaArticulos;
-              Globales.DiseñoDtv(ref dgvListaArt);
-              Globales.OcultarColumnas(ref dgvListaArt);
-          }
-       */
+        private void LinkedInFacundoPino_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.linkedin.com/in/facundopino/");
+        }
+
+        private void LinkedInIsmaelOreste_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.linkedin.com/in/ismael-oreste-8b116a254");
+        }
     }
 }

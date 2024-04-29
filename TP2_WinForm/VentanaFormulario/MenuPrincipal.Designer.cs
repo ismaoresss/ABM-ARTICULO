@@ -30,28 +30,12 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.tsbAgregar = new System.Windows.Forms.ToolStripButton();
+            this.LinkedinPedroQuiros = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbListar = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbBuscar = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbModificar = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbDetallar = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbEliminar = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator6 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbImagenes = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator7 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbAlbum = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator8 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbContacto = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator9 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbYouTube = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator10 = new System.Windows.Forms.ToolStripSeparator();
-            this.tsbInstagram = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.LinkedInFacundoPino = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton4 = new System.Windows.Forms.ToolStripSeparator();
+            this.LinkedInIsmaelOreste = new System.Windows.Forms.ToolStripButton();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.tsmArticulos = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmAgregarArticulo = new System.Windows.Forms.ToolStripMenuItem();
@@ -73,188 +57,60 @@
             // 
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsbAgregar,
+            this.LinkedinPedroQuiros,
             this.toolStripSeparator1,
-            this.tsbListar,
-            this.toolStripSeparator2,
-            this.tsbBuscar,
-            this.toolStripSeparator3,
-            this.tsbModificar,
-            this.toolStripSeparator4,
-            this.tsbDetallar,
-            this.toolStripSeparator5,
-            this.tsbEliminar,
-            this.toolStripSeparator6,
-            this.tsbImagenes,
-            this.toolStripSeparator7,
-            this.tsbAlbum,
-            this.toolStripSeparator8,
-            this.tsbContacto,
-            this.toolStripSeparator9,
-            this.tsbYouTube,
-            this.toolStripSeparator10,
-            this.tsbInstagram,
-            this.toolStripSeparator11});
-            this.toolStrip1.Location = new System.Drawing.Point(0, 34);
+            this.toolStripLabel1,
+            this.LinkedInFacundoPino,
+            this.toolStripButton4,
+            this.LinkedInIsmaelOreste});
+            this.toolStrip1.Location = new System.Drawing.Point(0, 36);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
-            this.toolStrip1.Size = new System.Drawing.Size(1353, 29);
+            this.toolStrip1.Size = new System.Drawing.Size(1353, 38);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
-            // tsbAgregar
+            // LinkedinPedroQuiros
             // 
-            this.tsbAgregar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbAgregar.Image = ((System.Drawing.Image)(resources.GetObject("tsbAgregar.Image")));
-            this.tsbAgregar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbAgregar.Name = "tsbAgregar";
-            this.tsbAgregar.Size = new System.Drawing.Size(34, 24);
-            this.tsbAgregar.Text = "Agregar Artículo";
+            this.LinkedinPedroQuiros.Image = ((System.Drawing.Image)(resources.GetObject("LinkedinPedroQuiros.Image")));
+            this.LinkedinPedroQuiros.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.LinkedinPedroQuiros.Name = "LinkedinPedroQuiros";
+            this.LinkedinPedroQuiros.Size = new System.Drawing.Size(140, 33);
+            this.LinkedinPedroQuiros.Text = "Pedro Quirós";
+            this.LinkedinPedroQuiros.Click += new System.EventHandler(this.LinkedinPedroQuiros_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 29);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 38);
             // 
-            // tsbListar
+            // toolStripLabel1
             // 
-            this.tsbListar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbListar.Image = ((System.Drawing.Image)(resources.GetObject("tsbListar.Image")));
-            this.tsbListar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbListar.Name = "tsbListar";
-            this.tsbListar.Size = new System.Drawing.Size(34, 24);
-            this.tsbListar.Text = "Listar Artículos";
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(0, 33);
             // 
-            // toolStripSeparator2
+            // LinkedInFacundoPino
             // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 29);
+            this.LinkedInFacundoPino.Image = ((System.Drawing.Image)(resources.GetObject("LinkedInFacundoPino.Image")));
+            this.LinkedInFacundoPino.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.LinkedInFacundoPino.Name = "LinkedInFacundoPino";
+            this.LinkedInFacundoPino.Size = new System.Drawing.Size(143, 33);
+            this.LinkedInFacundoPino.Text = "Facundo Pino";
+            this.LinkedInFacundoPino.Click += new System.EventHandler(this.LinkedInFacundoPino_Click);
             // 
-            // tsbBuscar
+            // toolStripButton4
             // 
-            this.tsbBuscar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbBuscar.Image = ((System.Drawing.Image)(resources.GetObject("tsbBuscar.Image")));
-            this.tsbBuscar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbBuscar.Name = "tsbBuscar";
-            this.tsbBuscar.Size = new System.Drawing.Size(34, 24);
-            this.tsbBuscar.Text = "Buscar Artículo";
+            this.toolStripButton4.Name = "toolStripButton4";
+            this.toolStripButton4.Size = new System.Drawing.Size(6, 38);
             // 
-            // toolStripSeparator3
+            // LinkedInIsmaelOreste
             // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 29);
-            // 
-            // tsbModificar
-            // 
-            this.tsbModificar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbModificar.Image = ((System.Drawing.Image)(resources.GetObject("tsbModificar.Image")));
-            this.tsbModificar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbModificar.Name = "tsbModificar";
-            this.tsbModificar.Size = new System.Drawing.Size(34, 24);
-            this.tsbModificar.Text = "Modificar Artículo";
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 29);
-            // 
-            // tsbDetallar
-            // 
-            this.tsbDetallar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbDetallar.Image = ((System.Drawing.Image)(resources.GetObject("tsbDetallar.Image")));
-            this.tsbDetallar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbDetallar.Name = "tsbDetallar";
-            this.tsbDetallar.Size = new System.Drawing.Size(34, 24);
-            this.tsbDetallar.Text = "Detallar Artículo";
-            // 
-            // toolStripSeparator5
-            // 
-            this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 29);
-            // 
-            // tsbEliminar
-            // 
-            this.tsbEliminar.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbEliminar.Image = ((System.Drawing.Image)(resources.GetObject("tsbEliminar.Image")));
-            this.tsbEliminar.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbEliminar.Name = "tsbEliminar";
-            this.tsbEliminar.Size = new System.Drawing.Size(34, 24);
-            this.tsbEliminar.Text = "Eliminar Artículo";
-            // 
-            // toolStripSeparator6
-            // 
-            this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 29);
-            // 
-            // tsbImagenes
-            // 
-            this.tsbImagenes.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbImagenes.Image = ((System.Drawing.Image)(resources.GetObject("tsbImagenes.Image")));
-            this.tsbImagenes.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbImagenes.Name = "tsbImagenes";
-            this.tsbImagenes.Size = new System.Drawing.Size(34, 24);
-            this.tsbImagenes.Text = "Agregar Imagen";
-            // 
-            // toolStripSeparator7
-            // 
-            this.toolStripSeparator7.Name = "toolStripSeparator7";
-            this.toolStripSeparator7.Size = new System.Drawing.Size(6, 29);
-            // 
-            // tsbAlbum
-            // 
-            this.tsbAlbum.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbAlbum.Image = ((System.Drawing.Image)(resources.GetObject("tsbAlbum.Image")));
-            this.tsbAlbum.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbAlbum.Name = "tsbAlbum";
-            this.tsbAlbum.Size = new System.Drawing.Size(34, 24);
-            this.tsbAlbum.Text = "Album de Imágenes";
-            // 
-            // toolStripSeparator8
-            // 
-            this.toolStripSeparator8.Name = "toolStripSeparator8";
-            this.toolStripSeparator8.Size = new System.Drawing.Size(6, 29);
-            // 
-            // tsbContacto
-            // 
-            this.tsbContacto.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbContacto.Image = ((System.Drawing.Image)(resources.GetObject("tsbContacto.Image")));
-            this.tsbContacto.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbContacto.Name = "tsbContacto";
-            this.tsbContacto.Size = new System.Drawing.Size(34, 24);
-            this.tsbContacto.Text = "Contacto";
-            // 
-            // toolStripSeparator9
-            // 
-            this.toolStripSeparator9.Name = "toolStripSeparator9";
-            this.toolStripSeparator9.Size = new System.Drawing.Size(6, 29);
-            // 
-            // tsbYouTube
-            // 
-            this.tsbYouTube.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbYouTube.Image = ((System.Drawing.Image)(resources.GetObject("tsbYouTube.Image")));
-            this.tsbYouTube.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbYouTube.Name = "tsbYouTube";
-            this.tsbYouTube.Size = new System.Drawing.Size(34, 24);
-            this.tsbYouTube.Text = "YouTube";
-            // 
-            // toolStripSeparator10
-            // 
-            this.toolStripSeparator10.Name = "toolStripSeparator10";
-            this.toolStripSeparator10.Size = new System.Drawing.Size(6, 29);
-            // 
-            // tsbInstagram
-            // 
-            this.tsbInstagram.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.tsbInstagram.Image = ((System.Drawing.Image)(resources.GetObject("tsbInstagram.Image")));
-            this.tsbInstagram.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.tsbInstagram.Name = "tsbInstagram";
-            this.tsbInstagram.Size = new System.Drawing.Size(34, 24);
-            this.tsbInstagram.Text = "Instagram";
-            // 
-            // toolStripSeparator11
-            // 
-            this.toolStripSeparator11.Name = "toolStripSeparator11";
-            this.toolStripSeparator11.Size = new System.Drawing.Size(6, 29);
+            this.LinkedInIsmaelOreste.Image = ((System.Drawing.Image)(resources.GetObject("LinkedInIsmaelOreste.Image")));
+            this.LinkedInIsmaelOreste.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.LinkedInIsmaelOreste.Name = "LinkedInIsmaelOreste";
+            this.LinkedInIsmaelOreste.Size = new System.Drawing.Size(144, 33);
+            this.LinkedInIsmaelOreste.Text = "Ismael Oreste";
+            this.LinkedInIsmaelOreste.Click += new System.EventHandler(this.LinkedInIsmaelOreste_Click);
             // 
             // menuStrip2
             // 
@@ -266,7 +122,7 @@
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Padding = new System.Windows.Forms.Padding(6, 3, 0, 3);
-            this.menuStrip2.Size = new System.Drawing.Size(1353, 34);
+            this.menuStrip2.Size = new System.Drawing.Size(1353, 36);
             this.menuStrip2.TabIndex = 5;
             this.menuStrip2.Text = "menuStrip2";
             // 
@@ -281,7 +137,7 @@
             this.tsmEliminarArticulo});
             this.tsmArticulos.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmArticulos.Name = "tsmArticulos";
-            this.tsmArticulos.Size = new System.Drawing.Size(125, 28);
+            this.tsmArticulos.Size = new System.Drawing.Size(125, 30);
             this.tsmArticulos.Text = "Artículos";
             // 
             // tsmAgregarArticulo
@@ -330,7 +186,7 @@
             // 
             this.tsmContacto.Font = new System.Drawing.Font("Cascadia Mono", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tsmContacto.Name = "tsmContacto";
-            this.tsmContacto.Size = new System.Drawing.Size(114, 28);
+            this.tsmContacto.Size = new System.Drawing.Size(114, 30);
             this.tsmContacto.Text = "Contacto";
             this.tsmContacto.Click += new System.EventHandler(this.tsmContacto_Click);
             // 
@@ -385,28 +241,6 @@
         #endregion
 
         private System.Windows.Forms.ToolStrip toolStrip1;
-        private System.Windows.Forms.ToolStripButton tsbAgregar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
-        private System.Windows.Forms.ToolStripButton tsbListar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator2;
-        private System.Windows.Forms.ToolStripButton tsbBuscar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
-        private System.Windows.Forms.ToolStripButton tsbModificar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator4;
-        private System.Windows.Forms.ToolStripButton tsbDetallar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator5;
-        private System.Windows.Forms.ToolStripButton tsbEliminar;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator6;
-        private System.Windows.Forms.ToolStripButton tsbImagenes;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator7;
-        private System.Windows.Forms.ToolStripButton tsbAlbum;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator8;
-        private System.Windows.Forms.ToolStripButton tsbContacto;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator9;
-        private System.Windows.Forms.ToolStripButton tsbYouTube;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator10;
-        private System.Windows.Forms.ToolStripButton tsbInstagram;
-        private System.Windows.Forms.ToolStripSeparator toolStripSeparator11;
         private System.Windows.Forms.MenuStrip menuStrip2;
         private System.Windows.Forms.ToolStripMenuItem tsmArticulos;
         private System.Windows.Forms.ToolStripMenuItem tsmAgregarArticulo;
@@ -418,5 +252,11 @@
         private System.Windows.Forms.ToolStripMenuItem tsmContacto;
         private System.Windows.Forms.PictureBox pcUTN;
         private System.Windows.Forms.PictureBox picPortada;
+        private System.Windows.Forms.ToolStripButton LinkedinPedroQuiros;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
+        private System.Windows.Forms.ToolStripButton LinkedInFacundoPino;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripSeparator toolStripButton4;
+        private System.Windows.Forms.ToolStripButton LinkedInIsmaelOreste;
     }
 }

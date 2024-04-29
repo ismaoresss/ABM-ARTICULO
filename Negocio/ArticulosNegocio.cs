@@ -31,7 +31,7 @@ namespace TP2_WinForm.Negocio
             try
             {
                 datos.SetearConsulta("SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS ArticuloDescripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, A.Precio, I.ImagenUrl FROM ARTICULOS A LEFT JOIN MARCAS M ON A.IdMarca = M.Id LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo");
-                //datos.SetearConsulta("SELECT A.Id, A.Codigo, A.Nombre, A.Descripcion AS ArticuloDescripcion, M.Descripcion AS Marca, C.Descripcion AS Categoria, A.Precio, I.ImagenUrl, M.Id AS IdMarcas, C.Id AS IdCategorias FROM ARTICULOS A LEFT JOIN MARCAS M ON A.IdMarca = M.Id LEFT JOIN CATEGORIAS C ON A.IdCategoria = C.Id LEFT JOIN IMAGENES I ON A.Id = I.IdArticulo");
+               
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())
@@ -118,21 +118,6 @@ namespace TP2_WinForm.Negocio
             }
         }
 
-        //public int BuscarID(string codigo)
-        //{
-        //    int id = 0;
-        //    AccesoDatos accesoDatos = new AccesoDatos();
-        //    accesoDatos.SetearConsulta("select id from articulos where codigo = @codigo");
-        //    accesoDatos.SeterParametros("@codigo", codigo);
-        //    accesoDatos.ejecutarLectura();
-
-        //    while (accesoDatos.Lector.Read())
-        //    {
-        //        id = (int)accesoDatos.Lector["Id"];
-        //        return id;
-        //    }
-        //    return id;
-        //}
 
         public void ModificarArticulo(Articulos articulo)
         {
@@ -145,8 +130,7 @@ namespace TP2_WinForm.Negocio
                 datos.SeterParametros("@codarticulo", articulo.CodArticulo);
                 datos.SeterParametros("@nombre", articulo.Nombre);
                 datos.SeterParametros("@descripcion", articulo.Descripcion);
-                //datos.SeterParametros("@idmarca", articulo.Marcas.IdMarca);
-                //datos.SeterParametros("@idcategoria", articulo.Categorias.IdCategoria);
+          
                 datos.SeterParametros("@precio", articulo.Precio);
                 datos.SeterParametros("@id", articulo.IdArticulo);
                 

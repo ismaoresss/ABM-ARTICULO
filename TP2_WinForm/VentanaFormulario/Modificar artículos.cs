@@ -87,8 +87,6 @@ namespace TP2_WinForm.VentanaFormulario
                 cargarImagen(articulo.Imagen);
                 txtImagen.Text = articulo.Imagen.ToString();
                 
-                //cboMarca.SelectedValue = articulo.Marcas.IdMarca;
-                //cboCategoria.SelectedValue = articulo.Categorias.IdCategoria;
                 cboMarca.SelectedText = articulo.Marcas.Descripcion;
                 cboCategoria.SelectedText = articulo.Categorias.Descripcion;
             }
@@ -117,26 +115,32 @@ namespace TP2_WinForm.VentanaFormulario
 
             try
             {
+
                 articulo.Nombre = txtNombre.Text;
                 articulo.Descripcion = txtDescripcion.Text;
-                articulo.Marcas = (Marcas) cboMarca.SelectedItem;
-                articulo.Categorias = (Categorias) cboCategoria.SelectedItem;
+                articulo.Marcas = (Marcas)cboMarca.SelectedItem;
+                articulo.Categorias = (Categorias)cboCategoria.SelectedItem;
                 articulo.Precio = decimal.Parse(txtPrecio.Text);
                 articulo.Imagen = txtImagen.Text;
 
-                articulosNegocio.ModificarArticulo(articulo);
-                articulosNegocio.ModificarMarca(articulo);
-                articulosNegocio.ModificarImagen(articulo);
-                articulosNegocio.ModificarCategoria(articulo);
+                if (articulo.CodArticulo != "" && articulo.Nombre != "" && articulo.Descripcion != "" && txtPrecio.Text != "")
+                {
+                    articulosNegocio.ModificarArticulo(articulo);
+                    articulosNegocio.ModificarMarca(articulo);
+                    articulosNegocio.ModificarImagen(articulo);
+                    articulosNegocio.ModificarCategoria(articulo);
 
-                MessageBox.Show("Modificado exitosamente :)");
+                    MessageBox.Show("Modificado exitosamente :)");
+                }
+                else
+                {
+                    MessageBox.Show("Complete todos los campos mi estimado/a");
+                }
             }
             catch (Exception ex)
             {
-
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("Complete todos los campos mi estimado/a");
             }
-
         }
     }
 }

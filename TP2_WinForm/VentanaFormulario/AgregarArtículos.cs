@@ -32,6 +32,9 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void AgregarArtículos_Load(object sender, EventArgs e)
         {
+            panelAgregarMarca.Visible = false;
+            panelAgregarCategoria.Visible = false;
+            
             MarcasNegocio negocioMarcas = new MarcasNegocio();
             cbomarca.DataSource = negocioMarcas.listarMarcas();
             cbomarca.ValueMember = "IdMarca";
@@ -102,26 +105,16 @@ namespace TP2_WinForm.VentanaFormulario
                     return;
                 }
 
-
-                //if (archivo != null && !(txturlimagen.Text.ToUpper().Contains("HTTP")))
-
-                //    File.Copy(archivo.FileName, ConfigurationManager.AppSetting["Acceso rápido"] + archivo.SafeFileName);
-
-
                 nuevoManager.AgregarArticulo(nuevoArticulo);
                 imagenes.AgregarImagen(nuevoArticulo);
                 MessageBox.Show("Artículo agregado exitosamente");
-
-
             }
             catch (Exception ex)
             {
-
                 MessageBox.Show(ex.ToString());
             }
             finally
             {
-
                 //Actualiza el listado de articulos con los nuevos articulos
                 ListadoArticulos listado = new ListadoArticulos();
                 listado.cargarArticulosEnListado();
@@ -155,7 +148,6 @@ namespace TP2_WinForm.VentanaFormulario
                 return;
             }
         }
-
 
         private void txturlimagen_Leave(object sender, EventArgs e)
         {
@@ -224,9 +216,14 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void btnAgregarMarca_Click(object sender, EventArgs e)
         {
-            panelAgregarMarca.Visible = true;
-            panelAgregarCategoria.Visible = false;
+            MostrarPanelNuevaMarca();
+        }
 
+        private void MostrarPanelNuevaMarca()
+        {
+            panelAgregarMarca.Visible = true;
+            panelAgregarMarca.Dock = DockStyle.Fill;
+            panelAgregarMarca.BringToFront();
         }
 
         private void btnConfirmarCategoria_Click(object sender, EventArgs e)
@@ -261,12 +258,25 @@ namespace TP2_WinForm.VentanaFormulario
             {
                 MessageBox.Show(ex.ToString());
             }
+            finally
+            {
+
+                //Actualiza el listado de articulos con los nuevos articulos
+                ListadoArticulos listado = new ListadoArticulos();
+                listado.cargarArticulosEnListado();
+            }
         }
 
         private void btnNuevaCategoria_Click(object sender, EventArgs e)
         {
-            panelAgregarMarca.Visible = false;
+            MostrarPanelNuevaCategoria();
+
+        }
+        private void MostrarPanelNuevaCategoria()
+        {
             panelAgregarCategoria.Visible = true;
+            panelAgregarCategoria.Dock = DockStyle.Fill;
+            panelAgregarCategoria.BringToFront();
 
         }
 

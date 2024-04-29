@@ -88,16 +88,6 @@ namespace TP2_WinForm.VentanaFormulario
             dgvArticulos.Columns["IdArticulo"].Visible = false;
             dgvArticulos.Columns["Imagen"].Visible = false;
 
-
-
-          
-        
-         
-        
-
-
-
-
         }
 
     }
