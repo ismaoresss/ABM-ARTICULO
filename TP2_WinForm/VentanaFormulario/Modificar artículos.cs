@@ -109,39 +109,46 @@ namespace TP2_WinForm.VentanaFormulario
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
-
             ArticulosNegocio articulosNegocio = new ArticulosNegocio();
             Articulos articulo = new Articulos();
-            articulo = (Articulos)dgvArticulos.CurrentRow.DataBoundItem;                
 
-
-            try
+            if(dgvArticulos.CurrentRow != null)
             {
 
-                articulo.Nombre = txtNombre.Text;
-                articulo.Descripcion = txtDescripcion.Text;
-                articulo.Marcas = (Marcas)cboMarca.SelectedItem;
-                articulo.Categorias = (Categorias)cboCategoria.SelectedItem;
-                articulo.Precio = decimal.Parse(txtPrecio.Text);
-                articulo.Imagen = txtImagen.Text;
+             articulo = (Articulos)dgvArticulos.CurrentRow.DataBoundItem;
 
-                if (articulo.CodArticulo != "" && articulo.Nombre != "" && articulo.Descripcion != "" && txtPrecio.Text != "")
-                {
-                    articulosNegocio.ModificarArticulo(articulo);
-                    articulosNegocio.ModificarMarca(articulo);
-                    articulosNegocio.ModificarImagen(articulo);
-                    articulosNegocio.ModificarCategoria(articulo);
+             try
+             {
 
-                    MessageBox.Show("Modificado exitosamente :)");
-                }
-                else
-                {
-                    MessageBox.Show("Complete todos los campos mi estimado/a");
-                }
+                 articulo.Nombre = txtNombre.Text;
+                 articulo.Descripcion = txtDescripcion.Text;
+                 articulo.Marcas = (Marcas)cboMarca.SelectedItem;
+                 articulo.Categorias = (Categorias)cboCategoria.SelectedItem;
+                 articulo.Precio = decimal.Parse(txtPrecio.Text);
+                 articulo.Imagen = txtImagen.Text;
+
+                 if (articulo.CodArticulo != "" && articulo.Nombre != "" && articulo.Descripcion != "" && txtPrecio.Text != "")
+                 {
+                     articulosNegocio.ModificarArticulo(articulo);
+                     articulosNegocio.ModificarMarca(articulo);
+                     articulosNegocio.ModificarImagen(articulo);
+                     articulosNegocio.ModificarCategoria(articulo);
+
+                     MessageBox.Show("Modificado exitosamente :)");
+                 }
+                 else
+                 {
+                     MessageBox.Show("Complete todos los campos mi estimado/a");
+                 }
+             }
+             catch (Exception ex)
+             {
+                 MessageBox.Show("Complete todos los campos mi estimado/a");
+             }
             }
-            catch (Exception ex)
+            else
             {
-                MessageBox.Show("Complete todos los campos mi estimado/a");
+                MessageBox.Show("Porfavor seleccione una fila");
             }
         }
 
